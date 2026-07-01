@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: efct-api
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - RATE_LIMIT_MAX_REQUESTS=100
+      - CACHE_MAX_SIZE=1000
+      - SEARCH_CACHE_SIZE=500
+      - SUGGEST_CACHE_SIZE=500
+      - CORS_ORIGIN=*
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - efct-network
+
+networks:
+  efct-network:
+    driver: bridge

@@ -1,0 +1,238 @@
+{
+  "summary": {
+    "total_processed": 381,
+    "total_cleaned": 374,
+    "total_removed": 7,
+    "total_corrected": 27,
+    "total_fixes_applied": 28
+  },
+  "removed_entries": [
+    {
+      "reason": "Invalid or unfixable food_name",
+      "food_code": "120002",
+      "food_name": "Beer (5% v/v alcohol) Bira"
+    },
+    {
+      "reason": "Invalid or unfixable food_name",
+      "food_code": "120008",
+      "food_name": "Gin (47.9% v/v alcohol) Gin"
+    },
+    {
+      "reason": "Invalid or unfixable food_name",
+      "food_code": "120025",
+      "food_name": "Wine, red (11.02% v/v alcohol) Keye wein"
+    },
+    {
+      "reason": "Invalid or unfixable food_name",
+      "food_code": "120027",
+      "food_name": "Wine, rose (11.8% v/v alcohol) Rose wein"
+    },
+    {
+      "reason": "Invalid or unfixable food_name",
+      "food_code": "120026",
+      "food_name": "Wine, white (11.7% v/v alcohol) Nech wein"
+    },
+    {
+      "reason": "Invalid or unfixable food_name",
+      "food_code": "160008",
+      "food_name": "Soup from flaked oats with water, milk and honey Ye’aja shorba be’mar"
+    },
+    {
+      "reason": "Invalid or unfixable food_name",
+      "food_code": "160007",
+      "food_name": "Soup from flaked oats with water, milk, sugar and salt Ye’aja shorba be’sequar"
+    }
+  ],
+  "corrected_entries": [
+    {
+      "food_code": "010195",
+      "food_name": "Bread, unleavened, from white maize flour",
+      "fixes": [
+        "food_name cleaned"
+      ]
+    },
+    {
+      "food_code": "020028",
+      "food_name": "Potato, Irish, peeled, baked (without salt or fat) Teleto yetetebese dinch",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "020021",
+      "food_name": "Sweet potato, white/pale",
+      "fixes": [
+        "food_name cleaned"
+      ]
+    },
+    {
+      "food_code": "030081",
+      "food_name": "Soybean, whole, dry, roasted (without salt or fat) Yetekola akuri ater",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070071",
+      "food_name": "Beef, kidney, grilled (without salt or fat) Yetetebese ye'bere kulalit",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070074",
+      "food_name": "Beef, liver, grilled (without salt or fat) Yetetebese ye'bere gubet",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070075",
+      "food_name": "Beef, sausage, grilled (without salt or fat) Yetetebese qualima",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070080",
+      "food_name": "Beef, tripe, grilled (without salt or fat) Yetetebese ye'bere tripe",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070089",
+      "food_name": "Calf (veal), kidney, grilled (without salt or fat) Yetetebese ye'tija kulalit",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070092",
+      "food_name": "Calf (veal), liver, grilled (without salt or fat) Yetetebese ye'tija gubet",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070083",
+      "food_name": "Calf (veal), meat, lean, grilled (without salt or fat) Yetetebese ye'tija siga",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070095",
+      "food_name": "Calf (veal), tripe, grilled (without salt or fat) Yetetebese ye'tija tripe",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070100",
+      "food_name": "Camel meat, fresh, grilled (without salt or fat) Yetetebese ye'gimel siga",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070118",
+      "food_name": "Goat meat, fresh, lean, roasted (without salt or fat) Yetetebese keye ye'fiyel siga",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070112",
+      "food_name": "Goat, kidney, grilled (without salt or fat) Yetetebese ye'fiyel kulalit",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070115",
+      "food_name": "Goat, liver, grilled (without salt or fat) Yetetebese ye'fiyel gubet",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070123",
+      "food_name": "Goat, tripe, grilled (without salt or fat) Yetetebese ye'fiyel tripe",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070138",
+      "food_name": "Sheep (mutton), kidney, grilled (without salt or fat) Yetetebese ye'begi kulalit",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070141",
+      "food_name": "Sheep (mutton), liver, grilled (without salt or fat) Yetetebese ye'begi gubet",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "070146",
+      "food_name": "Sheep (mutton), tripe, grilled (without",
+      "fixes": [
+        "food_name cleaned",
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "090016",
+      "food_name": "Carp, fresh, fillet, grilled (without salt or fat) Yetetebese ye'dabe feleto",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "090019",
+      "food_name": "Catfish, fresh, wild, fillet, grilled (without salt or fat) Yetetebese ye'ambaza feleto",
+      "fixes": [
+        "food_name_amharic was corrupted, extracted fresh"
+      ]
+    },
+    {
+      "food_code": "120022",
+      "food_name": "Vermouth, dry (17.8% v/v alcohol) Vermouth",
+      "fixes": [
+        "food_name cleaned"
+      ]
+    },
+    {
+      "food_code": "120023",
+      "food_name": "Vermouth, sweet (13% v/v alcohol) Vermouth",
+      "fixes": [
+        "food_name cleaned"
+      ]
+    },
+    {
+      "food_code": "120028",
+      "food_name": "Vodka or whisky (37.1% v/v alcohol) Vodka/whisky",
+      "fixes": [
+        "food_name cleaned"
+      ]
+    },
+    {
+      "food_code": "120024",
+      "food_name": "Water, tap Water",
+      "fixes": [
+        "food_name_amharic trailing English removed"
+      ]
+    },
+    {
+      "food_code": "170004",
+      "food_name": "Pasta (boiled)",
+      "fixes": [
+        "food_name cleaned"
+      ]
+    }
+  ]
+}

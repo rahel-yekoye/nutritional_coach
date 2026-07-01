@@ -1,0 +1,25 @@
+# Render.com deployment configuration
+services:
+  - type: web
+    name: ethiopian-food-api
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: CACHE_MAX_SIZE
+        value: 1000
+      - key: SEARCH_CACHE_SIZE
+        value: 500
+      - key: SUGGEST_CACHE_SIZE
+        value: 500
+      - key: RATE_LIMIT_MAX_REQUESTS
+        value: 100
+      - key: CORS_ORIGIN
+        value: '*'

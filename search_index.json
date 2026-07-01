@@ -1,0 +1,7004 @@
+[
+  {
+    "food_code": "010001",
+    "food_name": "Amaranthus",
+    "food_name_original": "Amaranthus, seed, dry, raw Ye'amaranthus fire, ti're",
+    "food_name_amharic": "Ye'amaranthus fire, ti're",
+    "normalized_amharic": "ye'amaranthus fire, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "amaranthus",
+      "cereals & grains",
+      "fire",
+      "honey",
+      "ye'amaranthus"
+    ],
+    "energy_kcal": 357,
+    "protein_g": 14.8,
+    "fat_g": 6.9,
+    "carbs_g": 55.6,
+    "fiber_g": 6.8
+  },
+  {
+    "food_code": "010007",
+    "food_name": "Barley",
+    "food_name_original": "Barley, pearled, dry, raw Yetefetege gebs, ti're",
+    "food_name_amharic": "Yetefetege gebs, ti're",
+    "normalized_amharic": "yetefetege gebs, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "barley",
+      "cereals & grains"
+    ],
+    "energy_kcal": 329,
+    "protein_g": 8.9,
+    "fat_g": 2.1,
+    "carbs_g": 61.9,
+    "fiber_g": 13.7
+  },
+  {
+    "food_code": "010016",
+    "food_name": "Barley",
+    "food_name_original": "Barley, black, whole grain, flour Yaltefetege tikur gebs duket",
+    "food_name_amharic": "Yaltefetege tikur gebs duket",
+    "normalized_amharic": "yaltefetege tikur gebs duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "barley",
+      "cereals & grains",
+      "duket"
+    ],
+    "energy_kcal": 350,
+    "protein_g": 9.3,
+    "fat_g": 1.7,
+    "carbs_g": 69,
+    "fiber_g": 10.6
+  },
+  {
+    "food_code": "010010",
+    "food_name": "Barley",
+    "food_name_original": "Barley, pearled, black, dry, raw Yetefetege tikur gebs, ti're",
+    "food_name_amharic": "Yetefetege tikur gebs, ti're",
+    "normalized_amharic": "yetefetege tikur gebs, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "barley",
+      "cereals & grains"
+    ],
+    "energy_kcal": 326,
+    "protein_g": 8.7,
+    "fat_g": 2,
+    "carbs_g": 61.6,
+    "fiber_g": 13.2
+  },
+  {
+    "food_code": "010011",
+    "food_name": "Barley",
+    "food_name_original": "Barley, pearled, white, dry, raw Yetefetege nech gebs, ti're",
+    "food_name_amharic": "Yetefetege nech gebs, ti're",
+    "normalized_amharic": "yetefetege nech gebs, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "barley",
+      "cereals & grains"
+    ],
+    "energy_kcal": 333,
+    "protein_g": 9.1,
+    "fat_g": 2.1,
+    "carbs_g": 62.3,
+    "fiber_g": 14.1
+  },
+  {
+    "food_code": "010013",
+    "food_name": "Barley",
+    "food_name_original": "Barley, split, black, dry, raw Yetekeka tikur gebs, ti're",
+    "food_name_amharic": "Yetekeka tikur gebs, ti're",
+    "normalized_amharic": "yetekeka tikur gebs, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "barley",
+      "cereals & grains"
+    ],
+    "energy_kcal": 356,
+    "protein_g": 9.5,
+    "fat_g": 1.6,
+    "carbs_g": 71.2,
+    "fiber_g": 9.4
+  },
+  {
+    "food_code": "010012",
+    "food_name": "Barley",
+    "food_name_original": "Barley, split, dry, raw Yetekeka gebs, ti're",
+    "food_name_amharic": "Yetekeka gebs, ti're",
+    "normalized_amharic": "yetekeka gebs, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "barley",
+      "cereals & grains"
+    ],
+    "energy_kcal": 351,
+    "protein_g": 8.5,
+    "fat_g": 1.8,
+    "carbs_g": 70.7,
+    "fiber_g": 9.3
+  },
+  {
+    "food_code": "010014",
+    "food_name": "Barley",
+    "food_name_original": "Barley, split, white, dry, raw Yetekeka nech gebs, ti're",
+    "food_name_amharic": "Yetekeka nech gebs, ti're",
+    "normalized_amharic": "yetekeka nech gebs, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "barley",
+      "cereals & grains"
+    ],
+    "energy_kcal": 346,
+    "protein_g": 7.6,
+    "fat_g": 1.9,
+    "carbs_g": 70.2,
+    "fiber_g": 9.1
+  },
+  {
+    "food_code": "010017",
+    "food_name": "Barley",
+    "food_name_original": "Barley, white, whole grain, flour Yaltefetege nech gebs duket",
+    "food_name_amharic": "Yaltefetege nech gebs duket",
+    "normalized_amharic": "yaltefetege nech gebs duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "barley",
+      "cereals & grains",
+      "duket"
+    ],
+    "energy_kcal": 347,
+    "protein_g": 7.9,
+    "fat_g": 2,
+    "carbs_g": 69.1,
+    "fiber_g": 10.4
+  },
+  {
+    "food_code": "010015",
+    "food_name": "Barley",
+    "food_name_original": "Barley, whole grain, flour Yaltefetege gebs duket",
+    "food_name_amharic": "Yaltefetege gebs duket",
+    "normalized_amharic": "yaltefetege gebs duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "barley",
+      "cereals & grains",
+      "duket"
+    ],
+    "energy_kcal": 348,
+    "protein_g": 10,
+    "fat_g": 1.9,
+    "carbs_g": 67.5,
+    "fiber_g": 10.5
+  },
+  {
+    "food_code": "010009",
+    "food_name": "Barley",
+    "food_name_original": "Barley, whole grain, hulled, dry, raw Yaltefetege gebs, ti're",
+    "food_name_amharic": "Yaltefetege gebs, ti're",
+    "normalized_amharic": "yaltefetege gebs, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "barley",
+      "cereals & grains"
+    ],
+    "energy_kcal": 323,
+    "protein_g": 10.9,
+    "fat_g": 1.8,
+    "carbs_g": 58.3,
+    "fiber_g": 15.3
+  },
+  {
+    "food_code": "010025",
+    "food_name": "Biscuit",
+    "food_name_original": "Biscuit, sweet, soft sandwich Sandwich biscuit",
+    "food_name_amharic": "Biscuit, sweet, soft sandwich Sandwich biscuit",
+    "normalized_amharic": "biscuit, sweet, soft sandwich sandwich biscuit",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "biscuit",
+      "cereals & grains"
+    ],
+    "energy_kcal": 473,
+    "protein_g": 7.9,
+    "fat_g": 18.1,
+    "carbs_g": 68.8,
+    "fiber_g": 1.8
+  },
+  {
+    "food_code": "010026",
+    "food_name": "Biscuits",
+    "food_name_original": "Biscuits, sweet, white wheat, cracker Derek biscuit",
+    "food_name_amharic": "Derek biscuit",
+    "normalized_amharic": "derek biscuit",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "biscuit",
+      "biscuits",
+      "cereals & grains",
+      "derek"
+    ],
+    "energy_kcal": 470,
+    "protein_g": 7.2,
+    "fat_g": 16.7,
+    "carbs_g": 71.5,
+    "fiber_g": 2
+  },
+  {
+    "food_code": "010046",
+    "food_name": "Bread",
+    "food_name_original": "Bread, maize (corn) Ye'bekolo qita",
+    "food_name_amharic": "Ye'bekolo qita",
+    "normalized_amharic": "ye'bekolo qita",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "qita",
+      "ye'bekolo"
+    ],
+    "energy_kcal": 207,
+    "protein_g": 4.8,
+    "fat_g": 2,
+    "carbs_g": 40.9,
+    "fiber_g": 3.2
+  },
+  {
+    "food_code": "010188",
+    "food_name": "Bread",
+    "food_name_original": "Bread, unleavened, from brown teff flour with salt Ye'keye teff qita",
+    "food_name_amharic": "Ye'keye teff qita",
+    "normalized_amharic": "ye'keye teff qita",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "qita",
+      "teff",
+      "ye'keye"
+    ],
+    "energy_kcal": 250,
+    "protein_g": 7.5,
+    "fat_g": 2,
+    "carbs_g": 47.2,
+    "fiber_g": 6.6
+  },
+  {
+    "food_code": "010195",
+    "food_name": "Bread",
+    "food_name_original": "Bread, unleavened, from white maize flour",
+    "food_name_amharic": "Ye’nech bekolo qita",
+    "normalized_amharic": "ye’nech bekolo qita",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "qita",
+      "ye’nech"
+    ],
+    "energy_kcal": 252,
+    "protein_g": 5.4,
+    "fat_g": 3.6,
+    "carbs_g": 46.4,
+    "fiber_g": 6.6
+  },
+  {
+    "food_code": "010131",
+    "food_name": "Bread",
+    "food_name_original": "Bread, wheat, whole grain Yaltefetege sinde dabo",
+    "food_name_amharic": "Yaltefetege sinde dabo",
+    "normalized_amharic": "yaltefetege sinde dabo",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "dabo"
+    ],
+    "energy_kcal": 202,
+    "protein_g": 10,
+    "fat_g": 2,
+    "carbs_g": 33.3,
+    "fiber_g": 5.3
+  },
+  {
+    "food_code": "010028",
+    "food_name": "Emmer wheat",
+    "food_name_original": "Emmer wheat, whole grain, dry, raw Yaltefetege aja, ti're",
+    "food_name_amharic": "Yaltefetege aja, ti're",
+    "normalized_amharic": "yaltefetege aja, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "aja",
+      "cereals & grains",
+      "emmer",
+      "wheat"
+    ],
+    "energy_kcal": 349,
+    "protein_g": 11.3,
+    "fat_g": 2.5,
+    "carbs_g": 66.8,
+    "fiber_g": 7.2
+  },
+  {
+    "food_code": "010030",
+    "food_name": "Emmer wheat",
+    "food_name_original": "Emmer wheat, whole grain, flour, raw Yaltefetege aja duket",
+    "food_name_amharic": "Yaltefetege aja duket",
+    "normalized_amharic": "yaltefetege aja duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "aja",
+      "cereals & grains",
+      "duket",
+      "emmer",
+      "wheat"
+    ],
+    "energy_kcal": 349,
+    "protein_g": 11.3,
+    "fat_g": 2.5,
+    "carbs_g": 66.8,
+    "fiber_g": 7.2
+  },
+  {
+    "food_code": "010024",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, barley, white Ye'nech gebs enjera",
+    "food_name_amharic": "Ye'nech gebs enjera",
+    "normalized_amharic": "ye'nech gebs enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "enjera",
+      "ye'nech"
+    ],
+    "energy_kcal": 158,
+    "protein_g": 4.8,
+    "fat_g": 1.2,
+    "carbs_g": 28.6,
+    "fiber_g": 6
+  },
+  {
+    "food_code": "010052",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, maize (corn), white Ye'nech bekolo enjera",
+    "food_name_amharic": "Ye'nech bekolo enjera",
+    "normalized_amharic": "ye'nech bekolo enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "enjera",
+      "ye'nech"
+    ],
+    "energy_kcal": 161,
+    "protein_g": 3.1,
+    "fat_g": 1.9,
+    "carbs_g": 30.9,
+    "fiber_g": 3.9
+  },
+  {
+    "food_code": "010068",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, millet, white Ye'nech zengada enjera",
+    "food_name_amharic": "Ye'nech zengada enjera",
+    "normalized_amharic": "ye'nech zengada enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "enjera",
+      "ye'nech"
+    ],
+    "energy_kcal": 150,
+    "protein_g": 3.6,
+    "fat_g": 1.6,
+    "carbs_g": 28,
+    "fiber_g": 4.6
+  },
+  {
+    "food_code": "010090",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, sorghum, mixed Ye'dibilik mashila enjera",
+    "food_name_amharic": "Ye'dibilik mashila enjera",
+    "normalized_amharic": "ye'dibilik mashila enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "enjera",
+      "ye'dibilik"
+    ],
+    "energy_kcal": 155,
+    "protein_g": 4,
+    "fat_g": 1.4,
+    "carbs_g": 29.4,
+    "fiber_g": 4.3
+  },
+  {
+    "food_code": "010091",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, sorghum, red Ye'keye mashila enjera",
+    "food_name_amharic": "Ye'keye mashila enjera",
+    "normalized_amharic": "ye'keye mashila enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "enjera",
+      "ye'keye"
+    ],
+    "energy_kcal": 150,
+    "protein_g": 3.9,
+    "fat_g": 1.3,
+    "carbs_g": 28.1,
+    "fiber_g": 4.7
+  },
+  {
+    "food_code": "010092",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, sorghum, white Ye'nech mashila enjera",
+    "food_name_amharic": "Ye'nech mashila enjera",
+    "normalized_amharic": "ye'nech mashila enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "enjera",
+      "ye'nech"
+    ],
+    "energy_kcal": 160,
+    "protein_g": 4,
+    "fat_g": 1.5,
+    "carbs_g": 30.7,
+    "fiber_g": 3.9
+  },
+  {
+    "food_code": "010110",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, teff, brown Ye'keye teff enjera",
+    "food_name_amharic": "teff, brown Ye'keye teff enjera",
+    "normalized_amharic": "teff, brown ye'keye teff enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "enjera",
+      "teff",
+      "ye'keye"
+    ],
+    "energy_kcal": 153,
+    "protein_g": 4.4,
+    "fat_g": 1.3,
+    "carbs_g": 28.9,
+    "fiber_g": 4.1
+  },
+  {
+    "food_code": "010109",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, teff, mixed Ye'dibilik teff enjera",
+    "food_name_amharic": "teff, mixed Ye'dibilik teff enjera",
+    "normalized_amharic": "teff, mixed ye'dibilik teff enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "enjera",
+      "teff",
+      "ye'dibilik"
+    ],
+    "energy_kcal": 152,
+    "protein_g": 4.2,
+    "fat_g": 1.3,
+    "carbs_g": 29.1,
+    "fiber_g": 3.8
+  },
+  {
+    "food_code": "010112",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, teff, unfermented Aflegna enjera",
+    "food_name_amharic": "teff, unfermented Aflegna enjera",
+    "normalized_amharic": "teff, unfermented aflegna enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "aflegna",
+      "bread",
+      "cereals & grains",
+      "enjera",
+      "teff"
+    ],
+    "energy_kcal": 172,
+    "protein_g": 4.4,
+    "fat_g": 0.9,
+    "carbs_g": 34.5,
+    "fiber_g": 4.4
+  },
+  {
+    "food_code": "010111",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, teff, white Ye'nech teff enjera",
+    "food_name_amharic": "teff, white Ye'nech teff enjera",
+    "normalized_amharic": "teff, white ye'nech teff enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "enjera",
+      "teff",
+      "ye'nech"
+    ],
+    "energy_kcal": 150,
+    "protein_g": 4.4,
+    "fat_g": 1.2,
+    "carbs_g": 28.4,
+    "fiber_g": 3.8
+  },
+  {
+    "food_code": "010113",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, teff, white, dried Ye'nech teff enjera dirkosh",
+    "food_name_amharic": "Ye'nech teff enjera dirkosh",
+    "normalized_amharic": "ye'nech teff enjera dirkosh",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "dirkosh",
+      "enjera",
+      "teff",
+      "ye'nech"
+    ],
+    "energy_kcal": 352,
+    "protein_g": 9.9,
+    "fat_g": 2.8,
+    "carbs_g": 69.9,
+    "fiber_g": 3.8
+  },
+  {
+    "food_code": "010138",
+    "food_name": "Enjera",
+    "food_name_original": "Enjera, wheat, white, whole grain Yaltefetege nech sinde enjera",
+    "food_name_amharic": "Yaltefetege nech sinde enjera",
+    "normalized_amharic": "yaltefetege nech sinde enjera",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bread",
+      "cereals & grains",
+      "enjera"
+    ],
+    "energy_kcal": 166,
+    "protein_g": 4,
+    "fat_g": 2.1,
+    "carbs_g": 30.4,
+    "fiber_g": 4.6
+  },
+  {
+    "food_code": "010032",
+    "food_name": "Maize (corn)",
+    "food_name_original": "Maize (corn), on cob, grains, fresh, raw Ye'bekolo eshet",
+    "food_name_amharic": "Ye'bekolo eshet",
+    "normalized_amharic": "ye'bekolo eshet",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "corn",
+      "maize",
+      "ye'bekolo"
+    ],
+    "energy_kcal": 199,
+    "protein_g": 5.5,
+    "fat_g": 2.2,
+    "carbs_g": 36.5,
+    "fiber_g": 5.3
+  },
+  {
+    "food_code": "010033",
+    "food_name": "Maize (corn)",
+    "food_name_original": "Maize (corn), white, on cob, grains, fresh, raw Ye'nech bekolo eshet",
+    "food_name_amharic": "Ye'nech bekolo eshet",
+    "normalized_amharic": "ye'nech bekolo eshet",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "corn",
+      "maize",
+      "ye'nech"
+    ],
+    "energy_kcal": 173,
+    "protein_g": 4.9,
+    "fat_g": 1.7,
+    "carbs_g": 32.4,
+    "fiber_g": 4.6
+  },
+  {
+    "food_code": "010036",
+    "food_name": "Maize (corn)",
+    "food_name_original": "Maize (corn), white, whole grain, dry, raw Yaltefetege nech bekolo, ti're",
+    "food_name_amharic": "Yaltefetege nech bekolo, ti're",
+    "normalized_amharic": "yaltefetege nech bekolo, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "corn",
+      "maize"
+    ],
+    "energy_kcal": 350,
+    "protein_g": 7.4,
+    "fat_g": 4.9,
+    "carbs_g": 64.3,
+    "fiber_g": 9.2
+  },
+  {
+    "food_code": "010042",
+    "food_name": "Maize (corn)",
+    "food_name_original": "Maize (corn), white, whole grain, flour, raw Yaltefetege nech bekolo duket",
+    "food_name_amharic": "Yaltefetege nech bekolo duket",
+    "normalized_amharic": "yaltefetege nech bekolo duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "corn",
+      "duket",
+      "maize"
+    ],
+    "energy_kcal": 350,
+    "protein_g": 7.4,
+    "fat_g": 4.9,
+    "carbs_g": 64.3,
+    "fiber_g": 9.2
+  },
+  {
+    "food_code": "010035",
+    "food_name": "Maize (corn)",
+    "food_name_original": "Maize (corn), whole grain, dry, raw Yaltefetege bokolo, ti're",
+    "food_name_amharic": "Yaltefetege bokolo, ti're",
+    "normalized_amharic": "yaltefetege bokolo, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bokolo",
+      "cereals & grains",
+      "corn",
+      "maize"
+    ],
+    "energy_kcal": 353,
+    "protein_g": 8.1,
+    "fat_g": 4.7,
+    "carbs_g": 64.9,
+    "fiber_g": 9.3
+  },
+  {
+    "food_code": "010041",
+    "food_name": "Maize (corn)",
+    "food_name_original": "Maize (corn), whole grain, flour, raw Yeltefetege bekolo duket",
+    "food_name_amharic": "Yeltefetege bekolo duket",
+    "normalized_amharic": "yeltefetege bekolo duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "corn",
+      "duket",
+      "maize",
+      "yeltefetege"
+    ],
+    "energy_kcal": 353,
+    "protein_g": 8.1,
+    "fat_g": 4.7,
+    "carbs_g": 64.9,
+    "fiber_g": 9.3
+  },
+  {
+    "food_code": "010034",
+    "food_name": "Maize (corn)",
+    "food_name_original": "Maize (corn), yellow, on cob, grains, fresh, raw Ye'bicha bokolo eshet",
+    "food_name_amharic": "Ye'bicha bokolo eshet",
+    "normalized_amharic": "ye'bicha bokolo eshet",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "bokolo",
+      "cereals & grains",
+      "corn",
+      "maize",
+      "ye'bicha"
+    ],
+    "energy_kcal": 223,
+    "protein_g": 6.1,
+    "fat_g": 2.8,
+    "carbs_g": 40,
+    "fiber_g": 6.5
+  },
+  {
+    "food_code": "010037",
+    "food_name": "Maize (corn)",
+    "food_name_original": "Maize (corn), yellow, whole grain, dry, raw Yaltefete bicha bekolo, ti're",
+    "food_name_amharic": "Yaltefete bicha bekolo, ti're",
+    "normalized_amharic": "yaltefete bicha bekolo, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "corn",
+      "maize",
+      "yaltefete"
+    ],
+    "energy_kcal": 357,
+    "protein_g": 8.8,
+    "fat_g": 4.6,
+    "carbs_g": 65.5,
+    "fiber_g": 9.4
+  },
+  {
+    "food_code": "010044",
+    "food_name": "Maize (corn)",
+    "food_name_original": "Maize (corn), yellow, whole grain, flour, raw Yaltefetege bicha bekolo duket",
+    "food_name_amharic": "Yaltefetege bicha bekolo duket",
+    "normalized_amharic": "yaltefetege bicha bekolo duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "corn",
+      "duket",
+      "maize"
+    ],
+    "energy_kcal": 357,
+    "protein_g": 8.8,
+    "fat_g": 4.6,
+    "carbs_g": 65.5,
+    "fiber_g": 9.4
+  },
+  {
+    "food_code": "010059",
+    "food_name": "Millet",
+    "food_name_original": "Millet, finger, red, whole grain, dry, raw Yaltefetege keye zengada, ti're",
+    "food_name_amharic": "Yaltefetege keye zengada, ti're",
+    "normalized_amharic": "yaltefetege keye zengada, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "millet"
+    ],
+    "energy_kcal": 319,
+    "protein_g": 6.7,
+    "fat_g": 1.4,
+    "carbs_g": 64.4,
+    "fiber_g": 11
+  },
+  {
+    "food_code": "010057",
+    "food_name": "Millet",
+    "food_name_original": "Millet, finger, white, whole grain, dry, raw Yaltefetege nech zengada, ti're",
+    "food_name_amharic": "Yaltefetege nech zengada, ti're",
+    "normalized_amharic": "yaltefetege nech zengada, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "millet"
+    ],
+    "energy_kcal": 322,
+    "protein_g": 5.6,
+    "fat_g": 1.7,
+    "carbs_g": 66.1,
+    "fiber_g": 10
+  },
+  {
+    "food_code": "010061",
+    "food_name": "Millet",
+    "food_name_original": "Millet, finger, white, whole grain, flour, raw Yaltefetege nech mashila duket",
+    "food_name_amharic": "Yaltefetege nech mashila duket",
+    "normalized_amharic": "yaltefetege nech mashila duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "duket",
+      "millet"
+    ],
+    "energy_kcal": 322,
+    "protein_g": 5.6,
+    "fat_g": 1.7,
+    "carbs_g": 66.1,
+    "fiber_g": 10
+  },
+  {
+    "food_code": "010056",
+    "food_name": "Millet",
+    "food_name_original": "Millet, finger, whole grain, dry, raw Yaltefetege zengada, ti're",
+    "food_name_amharic": "Yaltefetege zengada, ti're",
+    "normalized_amharic": "yaltefetege zengada, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "millet"
+    ],
+    "energy_kcal": 320,
+    "protein_g": 6.2,
+    "fat_g": 1.5,
+    "carbs_g": 65.2,
+    "fiber_g": 10.5
+  },
+  {
+    "food_code": "010060",
+    "food_name": "Millet",
+    "food_name_original": "Millet, finger, whole grain, flour, raw Yaltefetege mashila duket",
+    "food_name_amharic": "Yaltefetege mashila duket",
+    "normalized_amharic": "yaltefetege mashila duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "duket",
+      "millet"
+    ],
+    "energy_kcal": 320,
+    "protein_g": 6.2,
+    "fat_g": 1.5,
+    "carbs_g": 65.2,
+    "fiber_g": 10.5
+  },
+  {
+    "food_code": "010071",
+    "food_name": "Oats",
+    "food_name_original": "Oats, rolled, raw Yebesele aja",
+    "food_name_amharic": "Yebesele aja",
+    "normalized_amharic": "yebesele aja",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "aja",
+      "cereals & grains",
+      "oats",
+      "yebesele"
+    ],
+    "energy_kcal": 374,
+    "protein_g": 12.1,
+    "fat_g": 7.7,
+    "carbs_g": 59.3,
+    "fiber_g": 9.5
+  },
+  {
+    "food_code": "010072",
+    "food_name": "Oats",
+    "food_name_original": "Oats, whole grain, flour, raw Yaltefetege aja duket",
+    "food_name_amharic": "Yaltefetege aja duket",
+    "normalized_amharic": "yaltefetege aja duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "aja",
+      "cereals & grains",
+      "duket",
+      "oats"
+    ],
+    "energy_kcal": 379,
+    "protein_g": 14.2,
+    "fat_g": 7.7,
+    "carbs_g": 58.5,
+    "fiber_g": 9.4
+  },
+  {
+    "food_code": "010218",
+    "food_name": "Pasta",
+    "food_name_original": "Pasta, boiled, with tomato sauce (with salt) Pasta be'timatim sego",
+    "food_name_amharic": "boiled, with tomato sauce  Pasta be'timatim sego",
+    "normalized_amharic": "boiled, with tomato sauce  pasta be'timatim sego",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "be'timatim",
+      "cereals & grains",
+      "pasta",
+      "sauce",
+      "sego",
+      "tomato"
+    ],
+    "energy_kcal": 230,
+    "protein_g": 3.4,
+    "fat_g": 14.2,
+    "carbs_g": 21.2,
+    "fiber_g": 2.1
+  },
+  {
+    "food_code": "010220",
+    "food_name": "Pasta",
+    "food_name_original": "Pasta, boiled, with vegetable sauce (with salt) Pasta be'atikilt",
+    "food_name_amharic": "boiled, with vegetable sauce  Pasta be'atikilt",
+    "normalized_amharic": "boiled, with vegetable sauce  pasta be'atikilt",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "be'atikilt",
+      "cereals & grains",
+      "pasta",
+      "sauce",
+      "vegetable"
+    ],
+    "energy_kcal": 130,
+    "protein_g": 3,
+    "fat_g": 5.2,
+    "carbs_g": 16.7,
+    "fiber_g": 2.3
+  },
+  {
+    "food_code": "010055",
+    "food_name": "Popcorn",
+    "food_name_original": "Popcorn, oil popped, salted  Fendisha",
+    "food_name_amharic": "Fendisha",
+    "normalized_amharic": "fendisha",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "fendisha",
+      "maize",
+      "popcorn"
+    ],
+    "energy_kcal": 498,
+    "protein_g": 9,
+    "fat_g": 28.1,
+    "carbs_g": 47.2,
+    "fiber_g": 10
+  },
+  {
+    "food_code": "010076",
+    "food_name": "Quinoa",
+    "food_name_original": "Quinoa, red, seed, raw Ye'key quinoa fire, ti're",
+    "food_name_amharic": "Ye'key quinoa fire, ti're",
+    "normalized_amharic": "ye'key quinoa fire, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "fire",
+      "quinoa",
+      "ye'key"
+    ],
+    "energy_kcal": 329,
+    "protein_g": 15,
+    "fat_g": 6.5,
+    "carbs_g": 46.1,
+    "fiber_g": 13
+  },
+  {
+    "food_code": "010075",
+    "food_name": "Quinoa",
+    "food_name_original": "Quinoa, white, seed, raw Quinoa, fire, ti're",
+    "food_name_amharic": "fire, ti're",
+    "normalized_amharic": "fire, ti're",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "fire",
+      "quinoa"
+    ],
+    "energy_kcal": 335,
+    "protein_g": 14.4,
+    "fat_g": 5.9,
+    "carbs_g": 51,
+    "fiber_g": 9.9
+  },
+  {
+    "food_code": "010077",
+    "food_name": "Rice",
+    "food_name_original": "Rice, brown (whole grain), raw Yaltefetege ruz",
+    "food_name_amharic": "Yaltefetege ruz",
+    "normalized_amharic": "yaltefetege ruz",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "rice",
+      "ruz"
+    ],
+    "energy_kcal": 357,
+    "protein_g": 9.1,
+    "fat_g": 2.9,
+    "carbs_g": 71.5,
+    "fiber_g": 4.4
+  },
+  {
+    "food_code": "010079",
+    "food_name": "Sorghum",
+    "food_name_original": "Sorghum, mixed, whole grain, dry, raw Yaltefetege dibilik mashila",
+    "food_name_amharic": "Yaltefetege dibilik mashila",
+    "normalized_amharic": "yaltefetege dibilik mashila",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "sorghum"
+    ],
+    "energy_kcal": 338,
+    "protein_g": 7.9,
+    "fat_g": 2.9,
+    "carbs_g": 64.9,
+    "fiber_g": 10.3
+  },
+  {
+    "food_code": "010085",
+    "food_name": "Sorghum",
+    "food_name_original": "Sorghum, red, decorticated, flour, raw Yetefetege keye mashila",
+    "food_name_amharic": "Yetefetege keye mashila",
+    "normalized_amharic": "yetefetege keye mashila",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "sorghum"
+    ],
+    "energy_kcal": 335,
+    "protein_g": 8.8,
+    "fat_g": 2.8,
+    "carbs_g": 64.1,
+    "fiber_g": 9.6
+  },
+  {
+    "food_code": "010080",
+    "food_name": "Sorghum",
+    "food_name_original": "Sorghum, red, whole grain, dry, raw Yaltefetege keye mashila",
+    "food_name_amharic": "Yaltefetege keye mashila",
+    "normalized_amharic": "yaltefetege keye mashila",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "sorghum"
+    ],
+    "energy_kcal": 339,
+    "protein_g": 7.8,
+    "fat_g": 2.8,
+    "carbs_g": 65.8,
+    "fiber_g": 9.6
+  },
+  {
+    "food_code": "010084",
+    "food_name": "Sorghum",
+    "food_name_original": "Sorghum, white, decorticated, flour, raw Yetefetege nech mashila",
+    "food_name_amharic": "Yetefetege nech mashila",
+    "normalized_amharic": "yetefetege nech mashila",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "sorghum"
+    ],
+    "energy_kcal": 345,
+    "protein_g": 9.4,
+    "fat_g": 2.9,
+    "carbs_g": 66.7,
+    "fiber_g": 7.6
+  },
+  {
+    "food_code": "010081",
+    "food_name": "Sorghum",
+    "food_name_original": "Sorghum, white, whole grain, dry, raw Yaltefetege nech mashila",
+    "food_name_amharic": "Yaltefetege nech mashila",
+    "normalized_amharic": "yaltefetege nech mashila",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "sorghum"
+    ],
+    "energy_kcal": 337,
+    "protein_g": 8.1,
+    "fat_g": 2.9,
+    "carbs_g": 64.1,
+    "fiber_g": 11
+  },
+  {
+    "food_code": "010104",
+    "food_name": "Teff",
+    "food_name_original": "Teff, brown, whole grain, flour, raw Ye'keye teff duket",
+    "food_name_amharic": "Ye'keye teff duket",
+    "normalized_amharic": "ye'keye teff duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "duket",
+      "teff",
+      "ye'keye"
+    ],
+    "energy_kcal": 337,
+    "protein_g": 10.2,
+    "fat_g": 2.7,
+    "carbs_g": 63.6,
+    "fiber_g": 9
+  },
+  {
+    "food_code": "010105",
+    "food_name": "Teff",
+    "food_name_original": "Teff, white, whole grain, flour, raw Ye'nech teff duket",
+    "food_name_amharic": "Ye'nech teff duket",
+    "normalized_amharic": "ye'nech teff duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "duket",
+      "teff",
+      "ye'nech"
+    ],
+    "energy_kcal": 336,
+    "protein_g": 8.9,
+    "fat_g": 2.5,
+    "carbs_g": 65.3,
+    "fiber_g": 8.5
+  },
+  {
+    "food_code": "010103",
+    "food_name": "Teff",
+    "food_name_original": "Teff, whole grain, flour, raw Ye'teff duket",
+    "food_name_amharic": "Ye'teff duket",
+    "normalized_amharic": "ye'teff duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "duket",
+      "teff",
+      "ye'teff"
+    ],
+    "energy_kcal": 341,
+    "protein_g": 10.4,
+    "fat_g": 2.7,
+    "carbs_g": 64.6,
+    "fiber_g": 8
+  },
+  {
+    "food_code": "010124",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, black, split, dry, raw Yetekeka tikur sinde",
+    "food_name_amharic": "Yetekeka tikur sinde",
+    "normalized_amharic": "yetekeka tikur sinde",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "wheat"
+    ],
+    "energy_kcal": 338,
+    "protein_g": 9.7,
+    "fat_g": 1.2,
+    "carbs_g": 65.7,
+    "fiber_g": 12.4
+  },
+  {
+    "food_code": "010121",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, black, whole grain, dry, raw Yaltefetege tikur sinde",
+    "food_name_amharic": "Yaltefetege tikur sinde",
+    "normalized_amharic": "yaltefetege tikur sinde",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "wheat"
+    ],
+    "energy_kcal": 334,
+    "protein_g": 10,
+    "fat_g": 1.9,
+    "carbs_g": 63.6,
+    "fiber_g": 11.5
+  },
+  {
+    "food_code": "010127",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, black, whole grain, flour, raw Yaltefetege tikur sinde duket",
+    "food_name_amharic": "Yaltefetege tikur sinde duket",
+    "normalized_amharic": "yaltefetege tikur sinde duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "duket",
+      "wheat"
+    ],
+    "energy_kcal": 334,
+    "protein_g": 10,
+    "fat_g": 1.9,
+    "carbs_g": 63.6,
+    "fiber_g": 11.5
+  },
+  {
+    "food_code": "010119",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, bran, raw Ye'sinde geleba",
+    "food_name_amharic": "Ye'sinde geleba",
+    "normalized_amharic": "ye'sinde geleba",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "geleba",
+      "wheat",
+      "ye'sinde"
+    ],
+    "energy_kcal": 279,
+    "protein_g": 15.1,
+    "fat_g": 4.6,
+    "carbs_g": 24.1,
+    "fiber_g": 40.8
+  },
+  {
+    "food_code": "010123",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, mixed, split, dry, raw Yetekeka dibilik sinde",
+    "food_name_amharic": "Yetekeka dibilik sinde",
+    "normalized_amharic": "yetekeka dibilik sinde",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "wheat"
+    ],
+    "energy_kcal": 335,
+    "protein_g": 10.4,
+    "fat_g": 1.5,
+    "carbs_g": 63.9,
+    "fiber_g": 12.3
+  },
+  {
+    "food_code": "010120",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, mixed, whole grain, dry, raw Yaltefetege dibilik sinde",
+    "food_name_amharic": "Yaltefetege dibilik sinde",
+    "normalized_amharic": "yaltefetege dibilik sinde",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "wheat"
+    ],
+    "energy_kcal": 333,
+    "protein_g": 9.4,
+    "fat_g": 2.1,
+    "carbs_g": 63.3,
+    "fiber_g": 11.8
+  },
+  {
+    "food_code": "010126",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, mixed, whole grain, flour, raw Yaltefetege dibilik sinde duket",
+    "food_name_amharic": "Yaltefetege dibilik sinde duket",
+    "normalized_amharic": "yaltefetege dibilik sinde duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "duket",
+      "wheat"
+    ],
+    "energy_kcal": 333,
+    "protein_g": 9.4,
+    "fat_g": 2.1,
+    "carbs_g": 63.3,
+    "fiber_g": 11.8
+  },
+  {
+    "food_code": "010130",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, white, refined, flour, raw Yetefetege nech sinde",
+    "food_name_amharic": "Yetefetege nech sinde",
+    "normalized_amharic": "yetefetege nech sinde",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "wheat"
+    ],
+    "energy_kcal": 343,
+    "protein_g": 9.2,
+    "fat_g": 1.5,
+    "carbs_g": 71.4,
+    "fiber_g": 3.8
+  },
+  {
+    "food_code": "010125",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, white, split, dry, raw Yetekeka nech sinde",
+    "food_name_amharic": "Yetekeka nech sinde",
+    "normalized_amharic": "yetekeka nech sinde",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "wheat"
+    ],
+    "energy_kcal": 340,
+    "protein_g": 11.3,
+    "fat_g": 1.8,
+    "carbs_g": 63.5,
+    "fiber_g": 12.5
+  },
+  {
+    "food_code": "010122",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, white, whole grain, dry, raw Yaltefetege nech sinde",
+    "food_name_amharic": "Yaltefetege nech sinde",
+    "normalized_amharic": "yaltefetege nech sinde",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "wheat"
+    ],
+    "energy_kcal": 330,
+    "protein_g": 9.4,
+    "fat_g": 2.1,
+    "carbs_g": 62.5,
+    "fiber_g": 12.1
+  },
+  {
+    "food_code": "010128",
+    "food_name": "Wheat",
+    "food_name_original": "Wheat, white, whole grain, flour, raw Yaltefetege nech sinde duket",
+    "food_name_amharic": "Yaltefetege nech sinde duket",
+    "normalized_amharic": "yaltefetege nech sinde duket",
+    "category": "Cereals & Grains",
+    "keywords": [
+      "cereals & grains",
+      "duket",
+      "wheat"
+    ],
+    "energy_kcal": 330,
+    "protein_g": 9.4,
+    "fat_g": 2.1,
+    "carbs_g": 62.5,
+    "fiber_g": 12.1
+  },
+  {
+    "food_code": "020047",
+    "food_name": "Anchote stew with onion",
+    "food_name_original": "Anchote stew with onion, oil, spices and salt Anchote wot",
+    "food_name_amharic": "with onion, oil, spices and salt Anchote wot",
+    "normalized_amharic": "with onion, oil, spices and salt anchote wot",
+    "category": "Tubers & Roots",
+    "keywords": [
+      "anchote",
+      "onion",
+      "spices",
+      "stew",
+      "tubers & roots",
+      "wot"
+    ],
+    "energy_kcal": 102,
+    "protein_g": 1,
+    "fat_g": 5.9,
+    "carbs_g": 10.9,
+    "fiber_g": 0.9
+  },
+  {
+    "food_code": "020013",
+    "food_name": "Anchote",
+    "food_name_original": "Anchote, white, tuber, peeled, raw Yetelate anchote, ti're",
+    "food_name_amharic": "Yetelate anchote, ti're",
+    "normalized_amharic": "yetelate anchote, ti're",
+    "category": "Tubers & Roots",
+    "keywords": [
+      "anchote",
+      "tubers & roots"
+    ],
+    "energy_kcal": 72,
+    "protein_g": 1.3,
+    "fat_g": 0.1,
+    "carbs_g": 16.1,
+    "fiber_g": 0.8
+  },
+  {
+    "food_code": "020043",
+    "food_name": "Bread from fermented false banana with oil and salt Kocho",
+    "food_name_original": "Bread from fermented false banana with oil and salt Kocho",
+    "food_name_amharic": "Kocho",
+    "normalized_amharic": "kocho",
+    "category": "Tubers & Roots",
+    "keywords": [
+      "banana",
+      "bread",
+      "false",
+      "kocho",
+      "tubers & roots"
+    ],
+    "energy_kcal": 195,
+    "protein_g": 0.9,
+    "fat_g": 5.9,
+    "carbs_g": 33.3,
+    "fiber_g": 2.6
+  },
+  {
+    "food_code": "020003",
+    "food_name": "Cassava",
+    "food_name_original": "Cassava, flour, homemade, raw  Ye'cassava duket",
+    "food_name_amharic": "Ye'cassava duket",
+    "normalized_amharic": "ye'cassava duket",
+    "category": "Tubers & Roots",
+    "keywords": [
+      "cassava",
+      "duket",
+      "tubers & roots",
+      "ye'cassava"
+    ],
+    "energy_kcal": 350,
+    "protein_g": 1.6,
+    "fat_g": 1,
+    "carbs_g": 81.3,
+    "fiber_g": 4.5
+  },
+  {
+    "food_code": "020001",
+    "food_name": "Cassava",
+    "food_name_original": "Cassava, tuber, white flesh, peeled, raw Ye'telate cassava, ti're",
+    "food_name_amharic": "Ye'telate cassava, ti're",
+    "normalized_amharic": "ye'telate cassava, ti're",
+    "category": "Tubers & Roots",
+    "keywords": [
+      "cassava",
+      "tubers & roots",
+      "ye'telate"
+    ],
+    "energy_kcal": 139,
+    "protein_g": 1.7,
+    "fat_g": 0.3,
+    "carbs_g": 30,
+    "fiber_g": 4.6
+  },
+  {
+    "food_code": "020009",
+    "food_name": "False banana",
+    "food_name_original": "False banana, fermented (kocho), raw Kocho, ti're",
+    "food_name_amharic": "fermented (kocho), raw Kocho, ti're",
+    "normalized_amharic": "fermented (kocho), raw kocho, ti're",
+    "category": "Tubers & Roots",
+    "keywords": [
+      "banana",
+      "false",
+      "kocho",
+      "tubers & roots"
+    ],
+    "energy_kcal": 169,
+    "protein_g": 1,
+    "fat_g": 0.2,
+    "carbs_g": 39.1,
+    "fiber_g": 3.1
+  },
+  {
+    "food_code": "020007",
+    "food_name": "False banana",
+    "food_name_original": "False banana, tuber, dough, raw Bulla, ti're",
+    "food_name_amharic": "tuber, dough, raw Bulla, ti're",
+    "normalized_amharic": "tuber, dough, raw bulla, ti're",
+    "category": "Tubers & Roots",
+    "keywords": [
+      "banana",
+      "bulla",
+      "dough",
+      "false",
+      "tubers & roots"
+    ],
+    "energy_kcal": 208,
+    "protein_g": 0.4,
+    "fat_g": 0.1,
+    "carbs_g": 51,
+    "fiber_g": 0.7
+  },
+  {
+    "food_code": "020028",
+    "food_name": "Potato",
+    "food_name_original": "Potato, Irish, peeled, baked (without salt or fat) Teleto yetetebese dinch",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Tubers & Roots",
+    "keywords": [
+      "potato",
+      "tubers & roots"
+    ],
+    "energy_kcal": 96,
+    "protein_g": 2.4,
+    "fat_g": 0,
+    "carbs_g": 21,
+    "fiber_g": 1
+  },
+  {
+    "food_code": "020021",
+    "food_name": "Sweet potato",
+    "food_name_original": "Sweet potato, white/pale",
+    "food_name_amharic": "dinch, ti're",
+    "normalized_amharic": "dinch, ti're",
+    "category": "Tubers & Roots",
+    "keywords": [
+      "potato",
+      "sweet potato",
+      "tubers & roots"
+    ],
+    "energy_kcal": 544,
+    "protein_g": 1.9,
+    "fat_g": 0.3,
+    "carbs_g": 27.7,
+    "fiber_g": 3.9
+  },
+  {
+    "food_code": "030002",
+    "food_name": "Broad beans",
+    "food_name_original": "Broad beans, seed, whole, dry, raw Bakela, yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "bean",
+      "beans",
+      "broad",
+      "legumes & pulses"
+    ],
+    "energy_kcal": 308,
+    "protein_g": 26.6,
+    "fat_g": 1.4,
+    "carbs_g": 37,
+    "fiber_g": 20.6
+  },
+  {
+    "food_code": "030008",
+    "food_name": "Chickpeas",
+    "food_name_original": "Chickpeas, kabuli, seed, whole, dry, raw Nech shimbra, yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "chickpea",
+      "chickpeas",
+      "legumes & pulses",
+      "pea"
+    ],
+    "energy_kcal": 347,
+    "protein_g": 18.4,
+    "fat_g": 5.6,
+    "carbs_g": 48.8,
+    "fiber_g": 13.7
+  },
+  {
+    "food_code": "030009",
+    "food_name": "Chickpeas",
+    "food_name_original": "Chickpeas, seed, split, seed coat removed, dry, raw Ye'shimbra kik",
+    "food_name_amharic": "Ye'shimbra kik",
+    "normalized_amharic": "ye'shimbra kik",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "chickpea",
+      "chickpeas",
+      "kik",
+      "legumes & pulses",
+      "pea",
+      "ye'shimbra"
+    ],
+    "energy_kcal": 343,
+    "protein_g": 23.2,
+    "fat_g": 5.2,
+    "carbs_g": 43.7,
+    "fiber_g": 13.9
+  },
+  {
+    "food_code": "030006",
+    "food_name": "Chickpeas",
+    "food_name_original": "Chickpeas, seed, whole, fresh, raw Ye'shimbra eshet",
+    "food_name_amharic": "Ye'shimbra eshet",
+    "normalized_amharic": "ye'shimbra eshet",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "chickpea",
+      "chickpeas",
+      "legumes & pulses",
+      "pea",
+      "ye'shimbra"
+    ],
+    "energy_kcal": 120,
+    "protein_g": 7,
+    "fat_g": 1.9,
+    "carbs_g": 15.6,
+    "fiber_g": 6.6
+  },
+  {
+    "food_code": "030084",
+    "food_name": "Field peas",
+    "food_name_original": "Field peas, boiled and roasted, without salt Ater endushdush",
+    "food_name_amharic": "Field peas, boiled and roasted, without salt Ater endushdush",
+    "normalized_amharic": "field peas, boiled and roasted, without salt ater endushdush",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "endushdush",
+      "field",
+      "legumes & pulses",
+      "pea",
+      "peas"
+    ],
+    "energy_kcal": 171,
+    "protein_g": 11.4,
+    "fat_g": 1.1,
+    "carbs_g": 22.7,
+    "fiber_g": 12.2
+  },
+  {
+    "food_code": "030021",
+    "food_name": "Field peas",
+    "food_name_original": "Field peas, seed, split, seed coat removed, dry, raw Ye'ater kik",
+    "food_name_amharic": "Ye'ater kik",
+    "normalized_amharic": "ye'ater kik",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "field",
+      "kik",
+      "legumes & pulses",
+      "pea",
+      "peas",
+      "ye'ater"
+    ],
+    "energy_kcal": 329,
+    "protein_g": 26.9,
+    "fat_g": 1.7,
+    "carbs_g": 45.8,
+    "fiber_g": 11.6
+  },
+  {
+    "food_code": "030020",
+    "food_name": "Field peas",
+    "food_name_original": "Field peas, seed, whole, dry, raw Ater, difin, yedereke, ti're",
+    "food_name_amharic": "difin, yedereke, ti're",
+    "normalized_amharic": "difin, yedereke, ti're",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "difin",
+      "field",
+      "legumes & pulses",
+      "pea",
+      "peas"
+    ],
+    "energy_kcal": 316,
+    "protein_g": 21.1,
+    "fat_g": 2.1,
+    "carbs_g": 42,
+    "fiber_g": 22.5
+  },
+  {
+    "food_code": "030019",
+    "food_name": "Field peas",
+    "food_name_original": "Field peas, seed, whole, fresh, raw Ye'ater eshet",
+    "food_name_amharic": "Ye'ater eshet",
+    "normalized_amharic": "ye'ater eshet",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "field",
+      "legumes & pulses",
+      "pea",
+      "peas",
+      "ye'ater"
+    ],
+    "energy_kcal": 119,
+    "protein_g": 5.1,
+    "fat_g": 0.3,
+    "carbs_g": 18.8,
+    "fiber_g": 10.3
+  },
+  {
+    "food_code": "030025",
+    "food_name": "Haricot (white) bean",
+    "food_name_original": "Haricot (white) bean, seed, whole, dry, raw Nech boloke, yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "bean",
+      "haricot",
+      "legumes & pulses"
+    ],
+    "energy_kcal": 316,
+    "protein_g": 21.5,
+    "fat_g": 1.8,
+    "carbs_g": 43.8,
+    "fiber_g": 18.9
+  },
+  {
+    "food_code": "030029",
+    "food_name": "Kidney bean",
+    "food_name_original": "Kidney bean, red, seed, whole, dry, raw Adenguare, yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "bean",
+      "kidney",
+      "legumes & pulses"
+    ],
+    "energy_kcal": 308,
+    "protein_g": 23.3,
+    "fat_g": 1.4,
+    "carbs_g": 39.6,
+    "fiber_g": 21.7
+  },
+  {
+    "food_code": "030028",
+    "food_name": "Kidney bean",
+    "food_name_original": "Kidney bean, red, seed, whole, fresh, raw Ye'adenguare eshet",
+    "food_name_amharic": "Ye'adenguare eshet",
+    "normalized_amharic": "ye'adenguare eshet",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "bean",
+      "kidney",
+      "legumes & pulses",
+      "ye'adenguare"
+    ],
+    "energy_kcal": 131,
+    "protein_g": 12.8,
+    "fat_g": 0.4,
+    "carbs_g": 14.6,
+    "fiber_g": 9.1
+  },
+  {
+    "food_code": "030033",
+    "food_name": "Lentil",
+    "food_name_original": "Lentil, split, seed coat removed, dry, raw Misir kik, yedereke, ti're",
+    "food_name_amharic": "kik, yedereke, ti're",
+    "normalized_amharic": "kik, yedereke, ti're",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "kik",
+      "legumes & pulses",
+      "lentil"
+    ],
+    "energy_kcal": 333,
+    "protein_g": 28.8,
+    "fat_g": 1.8,
+    "carbs_g": 45.2,
+    "fiber_g": 10.4
+  },
+  {
+    "food_code": "030073",
+    "food_name": "Lentil",
+    "food_name_original": "Lentil, whole, dry, boiled, drained (without salt) Yetekekele difin misir",
+    "food_name_amharic": "Yetekekele difin misir",
+    "normalized_amharic": "yetekekele difin misir",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "difin",
+      "legumes & pulses",
+      "lentil"
+    ],
+    "energy_kcal": 118,
+    "protein_g": 9.8,
+    "fat_g": 0.6,
+    "carbs_g": 15.1,
+    "fiber_g": 6.2
+  },
+  {
+    "food_code": "030077",
+    "food_name": "Lupine",
+    "food_name_original": "Lupine, whole, dry, boiled, drained (without salt) Yetekekele gibto",
+    "food_name_amharic": "Yetekekele gibto",
+    "normalized_amharic": "yetekekele gibto",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "gibto",
+      "legumes & pulses",
+      "lupine"
+    ],
+    "energy_kcal": 140,
+    "protein_g": 14.4,
+    "fat_g": 3.9,
+    "carbs_g": 4.3,
+    "fiber_g": 15.2
+  },
+  {
+    "food_code": "030035",
+    "food_name": "Lupine",
+    "food_name_original": "Lupine, whole, dry, raw Gibtto, yedereke, ti're",
+    "food_name_amharic": "Gibtto, yedereke, ti're",
+    "normalized_amharic": "gibtto, yedereke, ti're",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "gibtto",
+      "legumes & pulses",
+      "lupine"
+    ],
+    "energy_kcal": 326,
+    "protein_g": 33.6,
+    "fat_g": 9,
+    "carbs_g": 10.1,
+    "fiber_g": 35.3
+  },
+  {
+    "food_code": "030039",
+    "food_name": "Soybean",
+    "food_name_original": "Soybean, flour, full fat, raw Ye'akuriater duket",
+    "food_name_amharic": "full fat, raw Ye'akuriater duket",
+    "normalized_amharic": "full fat, raw ye'akuriater duket",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "bean",
+      "duket",
+      "fat",
+      "full",
+      "legumes & pulses",
+      "soybean",
+      "ye'akuriater"
+    ],
+    "energy_kcal": 436,
+    "protein_g": 38.4,
+    "fat_g": 21.9,
+    "carbs_g": 14.1,
+    "fiber_g": 14.1
+  },
+  {
+    "food_code": "030036",
+    "food_name": "Soybean",
+    "food_name_original": "Soybean, fresh, raw Ye'akuriater, eshet",
+    "food_name_amharic": "Ye'akuriater, eshet",
+    "normalized_amharic": "ye'akuriater, eshet",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "bean",
+      "legumes & pulses",
+      "soybean",
+      "ye'akuriater"
+    ],
+    "energy_kcal": 128,
+    "protein_g": 11.7,
+    "fat_g": 6.2,
+    "carbs_g": 3.8,
+    "fiber_g": 5
+  },
+  {
+    "food_code": "030040",
+    "food_name": "Soybean",
+    "food_name_original": "Soybean, tempeh Ye'akuriater tempeh",
+    "food_name_amharic": "tempeh Ye'akuriater tempeh",
+    "normalized_amharic": "tempeh ye'akuriater tempeh",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "bean",
+      "legumes & pulses",
+      "soybean",
+      "tempeh",
+      "ye'akuriater"
+    ],
+    "energy_kcal": 206,
+    "protein_g": 18.5,
+    "fat_g": 10.8,
+    "carbs_g": 8.1,
+    "fiber_g": 1.3
+  },
+  {
+    "food_code": "030037",
+    "food_name": "Soybean",
+    "food_name_original": "Soybean, whole, dry, raw Akuriater, yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "bean",
+      "legumes & pulses",
+      "soybean"
+    ],
+    "energy_kcal": 402,
+    "protein_g": 35.2,
+    "fat_g": 20.25,
+    "carbs_g": 9.5,
+    "fiber_g": 23.9
+  },
+  {
+    "food_code": "030081",
+    "food_name": "Soybean",
+    "food_name_original": "Soybean, whole, dry, roasted (without salt or fat) Yetekola akuri ater",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "bean",
+      "legumes & pulses",
+      "soybean"
+    ],
+    "energy_kcal": 428,
+    "protein_g": 37.5,
+    "fat_g": 20.7,
+    "carbs_g": 10.1,
+    "fiber_g": 25.4
+  },
+  {
+    "food_code": "030041",
+    "food_name": "Sword bean",
+    "food_name_original": "Sword bean, whole, dry, raw Sword bean, yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "bean",
+      "legumes & pulses",
+      "sword"
+    ],
+    "energy_kcal": 332,
+    "protein_g": 27.2,
+    "fat_g": 4.2,
+    "carbs_g": 38.6,
+    "fiber_g": 15.6
+  },
+  {
+    "food_code": "030042",
+    "food_name": "Tofu Tofu",
+    "food_name_original": "Tofu Tofu",
+    "food_name_amharic": "Tofu",
+    "normalized_amharic": "tofu",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "legumes & pulses",
+      "tofu"
+    ],
+    "energy_kcal": 139,
+    "protein_g": 13.4,
+    "fat_g": 8.3,
+    "carbs_g": 0.8,
+    "fiber_g": 3.5
+  },
+  {
+    "food_code": "030043",
+    "food_name": "Vetch (grass pea)",
+    "food_name_original": "Vetch (grass pea), whole, dry, raw Guaya, yedereke, ti're",
+    "food_name_amharic": "Guaya, yedereke, ti're",
+    "normalized_amharic": "guaya, yedereke, ti're",
+    "category": "Legumes & Pulses",
+    "keywords": [
+      "grass",
+      "guaya",
+      "legumes & pulses",
+      "pea",
+      "vetch"
+    ],
+    "energy_kcal": 314,
+    "protein_g": 26.1,
+    "fat_g": 1.1,
+    "carbs_g": 40.5,
+    "fiber_g": 19.1
+  },
+  {
+    "food_code": "040034",
+    "food_name": "Beetroot",
+    "food_name_original": "Beetroot, peeled, boiled, drained (without salt) Yetekekele keysir",
+    "food_name_amharic": "Yetekekele keysir",
+    "normalized_amharic": "yetekekele keysir",
+    "category": "Vegetables",
+    "keywords": [
+      "beetroot",
+      "keysir",
+      "vegetables"
+    ],
+    "energy_kcal": 44,
+    "protein_g": 2.2,
+    "fat_g": 0.1,
+    "carbs_g": 7,
+    "fiber_g": 3.3
+  },
+  {
+    "food_code": "040002",
+    "food_name": "Beetroot",
+    "food_name_original": "Beetroot, peeled, raw Yetelate keysir, ti're",
+    "food_name_amharic": "Yetelate keysir, ti're",
+    "normalized_amharic": "yetelate keysir, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "beetroot",
+      "keysir",
+      "vegetables"
+    ],
+    "energy_kcal": 44,
+    "protein_g": 2.2,
+    "fat_g": 0.1,
+    "carbs_g": 6.9,
+    "fiber_g": 3.3
+  },
+  {
+    "food_code": "040033",
+    "food_name": "Broccoli",
+    "food_name_original": "Broccoli, tops and stems, fresh, raw Broccoli, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "broccoli",
+      "vegetables"
+    ],
+    "energy_kcal": 34,
+    "protein_g": 3.3,
+    "fat_g": 0.3,
+    "carbs_g": 2.7,
+    "fiber_g": 3.7
+  },
+  {
+    "food_code": "040040",
+    "food_name": "Cabbage",
+    "food_name_original": "Cabbage, white, boiled, drained (without salt) Yetekekele tikil gomen",
+    "food_name_amharic": "Yetekekele tikil gomen",
+    "normalized_amharic": "yetekekele tikil gomen",
+    "category": "Vegetables",
+    "keywords": [
+      "tikil",
+      "vegetables"
+    ],
+    "energy_kcal": 28,
+    "protein_g": 1.2,
+    "fat_g": 0.1,
+    "carbs_g": 4.4,
+    "fiber_g": 2.4
+  },
+  {
+    "food_code": "040003",
+    "food_name": "Cabbage",
+    "food_name_original": "Cabbage, white, raw Tikil gomen, ti're",
+    "food_name_amharic": "Tikil gomen, ti're",
+    "normalized_amharic": "tikil gomen, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "tikil",
+      "vegetables"
+    ],
+    "energy_kcal": 27,
+    "protein_g": 1.1,
+    "fat_g": 0.1,
+    "carbs_g": 4.3,
+    "fiber_g": 2.3
+  },
+  {
+    "food_code": "040043",
+    "food_name": "Carrot",
+    "food_name_original": "Carrot, peeled, boiled, drained (without salt) Teleto yetekekele carot",
+    "food_name_amharic": "Teleto yetekekele carot",
+    "normalized_amharic": "teleto yetekekele carot",
+    "category": "Vegetables",
+    "keywords": [
+      "carrot",
+      "teleto",
+      "vegetables"
+    ],
+    "energy_kcal": 35,
+    "protein_g": 1.7,
+    "fat_g": 0.4,
+    "carbs_g": 4.5,
+    "fiber_g": 3.4
+  },
+  {
+    "food_code": "040004",
+    "food_name": "Carrot",
+    "food_name_original": "Carrot, peeled, raw Yetelate carot, ti're",
+    "food_name_amharic": "Yetelate carot, ti're",
+    "normalized_amharic": "yetelate carot, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "carrot",
+      "vegetables"
+    ],
+    "energy_kcal": 33,
+    "protein_g": 1.6,
+    "fat_g": 0.4,
+    "carbs_g": 4.2,
+    "fiber_g": 3.2
+  },
+  {
+    "food_code": "040005",
+    "food_name": "Cauliflower",
+    "food_name_original": "Cauliflower, top and stems, raw Abeba gomen, ti're",
+    "food_name_amharic": "gomen, ti're",
+    "normalized_amharic": "gomen, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "cauliflower",
+      "vegetables"
+    ],
+    "energy_kcal": 22,
+    "protein_g": 2.7,
+    "fat_g": 0.2,
+    "carbs_g": 0.4,
+    "fiber_g": 3.7
+  },
+  {
+    "food_code": "040048",
+    "food_name": "Celery",
+    "food_name_original": "Celery, leaves, boiled, drained (without salt) Yetekekele ye'shorba kitel",
+    "food_name_amharic": "Yetekekele ye'shorba kitel",
+    "normalized_amharic": "yetekekele ye'shorba kitel",
+    "category": "Vegetables",
+    "keywords": [
+      "celery",
+      "kitel",
+      "vegetables",
+      "ye'shorba"
+    ],
+    "energy_kcal": 38,
+    "protein_g": 3.1,
+    "fat_g": 0.5,
+    "carbs_g": 3.5,
+    "fiber_g": 3.8
+  },
+  {
+    "food_code": "040006",
+    "food_name": "Celery",
+    "food_name_original": "Celery, leaves, raw Ye'shorba kitel, ti're",
+    "food_name_amharic": "Ye'shorba kitel, ti're",
+    "normalized_amharic": "ye'shorba kitel, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "celery",
+      "kitel",
+      "vegetables",
+      "ye'shorba"
+    ],
+    "energy_kcal": 40,
+    "protein_g": 3.3,
+    "fat_g": 0.5,
+    "carbs_g": 3.7,
+    "fiber_g": 3.9
+  },
+  {
+    "food_code": "040007",
+    "food_name": "Cucumber",
+    "food_name_original": "Cucumber, raw Cucumber, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "cucumber",
+      "vegetables"
+    ],
+    "energy_kcal": 8,
+    "protein_g": 0.6,
+    "fat_g": 0.1,
+    "carbs_g": 0.1,
+    "fiber_g": 2.1
+  },
+  {
+    "food_code": "040052",
+    "food_name": "Eggplant",
+    "food_name_original": "Eggplant, fruit, boiled, drained (without salt) Yetekekele deberjan",
+    "food_name_amharic": "Yetekekele deberjan",
+    "normalized_amharic": "yetekekele deberjan",
+    "category": "Vegetables",
+    "keywords": [
+      "deberjan",
+      "egg",
+      "eggplant",
+      "vegetables"
+    ],
+    "energy_kcal": 29,
+    "protein_g": 1.3,
+    "fat_g": 0.3,
+    "carbs_g": 3,
+    "fiber_g": 4.3
+  },
+  {
+    "food_code": "040012",
+    "food_name": "Eggplant",
+    "food_name_original": "Eggplant, fruit, raw Deberjan, ti're",
+    "food_name_amharic": "Deberjan, ti're",
+    "normalized_amharic": "deberjan, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "deberjan",
+      "egg",
+      "eggplant",
+      "vegetables"
+    ],
+    "energy_kcal": 27,
+    "protein_g": 1.2,
+    "fat_g": 0.3,
+    "carbs_g": 2.8,
+    "fiber_g": 4
+  },
+  {
+    "food_code": "040008",
+    "food_name": "Ethiopian Kale",
+    "food_name_original": "Ethiopian Kale, leaves, raw Ye'habesha gomen, ti're",
+    "food_name_amharic": "Ye'habesha gomen, ti're",
+    "normalized_amharic": "ye'habesha gomen, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "ethiopian",
+      "kale",
+      "vegetables",
+      "ye'habesha"
+    ],
+    "energy_kcal": 38,
+    "protein_g": 4.2,
+    "fat_g": 0.3,
+    "carbs_g": 2.1,
+    "fiber_g": 4.6
+  },
+  {
+    "food_code": "040009",
+    "food_name": "Garlic",
+    "food_name_original": "Garlic, fresh, raw Nech shinkurt, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "garlic",
+      "vegetables"
+    ],
+    "energy_kcal": 131,
+    "protein_g": 6.5,
+    "fat_g": 0.3,
+    "carbs_g": 23.1,
+    "fiber_g": 5.2
+  },
+  {
+    "food_code": "040011",
+    "food_name": "Ginger",
+    "food_name_original": "Ginger, root, peeled, fresh, raw Yetelate zingibel, ti're",
+    "food_name_amharic": "Yetelate zingibel, ti're",
+    "normalized_amharic": "yetelate zingibel, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "ginger",
+      "vegetables",
+      "zingibel"
+    ],
+    "energy_kcal": 88,
+    "protein_g": 2.6,
+    "fat_g": 1.2,
+    "carbs_g": 13,
+    "fiber_g": 7.6
+  },
+  {
+    "food_code": "040070",
+    "food_name": "Green beans",
+    "food_name_original": "Green beans, fresh, boiled, drained (without salt) Yetekekele foseliya",
+    "food_name_amharic": "Yetekekele foseliya",
+    "normalized_amharic": "yetekekele foseliya",
+    "category": "Vegetables",
+    "keywords": [
+      "bean",
+      "beans",
+      "foseliya",
+      "vegetables"
+    ],
+    "energy_kcal": 40,
+    "protein_g": 2.2,
+    "fat_g": 0.3,
+    "carbs_g": 5.5,
+    "fiber_g": 3
+  },
+  {
+    "food_code": "040026",
+    "food_name": "Green beans",
+    "food_name_original": "Green beans, fresh, raw Foseliya, ti're",
+    "food_name_amharic": "Foseliya, ti're",
+    "normalized_amharic": "foseliya, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "bean",
+      "beans",
+      "foseliya",
+      "vegetables"
+    ],
+    "energy_kcal": 37,
+    "protein_g": 2,
+    "fat_g": 0.3,
+    "carbs_g": 5.1,
+    "fiber_g": 2.8
+  },
+  {
+    "food_code": "040013",
+    "food_name": "Green onion",
+    "food_name_original": "Green onion, bulb and stem, fresh, raw Baro shinkurt, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "onion",
+      "vegetables"
+    ],
+    "energy_kcal": 34,
+    "protein_g": 2.2,
+    "fat_g": 0.2,
+    "carbs_g": 5,
+    "fiber_g": 1.9
+  },
+  {
+    "food_code": "040014",
+    "food_name": "Leek",
+    "food_name_original": "Leek, bulb and stem, raw Baro shinkurt, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "leek",
+      "vegetables"
+    ],
+    "energy_kcal": 52,
+    "protein_g": 1.9,
+    "fat_g": 0.6,
+    "carbs_g": 8.3,
+    "fiber_g": 3.1
+  },
+  {
+    "food_code": "040015",
+    "food_name": "Lettuce",
+    "food_name_original": "Lettuce, raw Ye'selata kitel, ti're",
+    "food_name_amharic": "Ye'selata kitel, ti're",
+    "normalized_amharic": "ye'selata kitel, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "kitel",
+      "lettuce",
+      "vegetables",
+      "ye'selata"
+    ],
+    "energy_kcal": 13,
+    "protein_g": 1,
+    "fat_g": 0.2,
+    "carbs_g": 1,
+    "fiber_g": 1.8
+  },
+  {
+    "food_code": "040016",
+    "food_name": "Moringa",
+    "food_name_original": "Moringa, leaves, raw Ye'moringa kitel, ti're",
+    "food_name_amharic": "Ye'moringa kitel, ti're",
+    "normalized_amharic": "ye'moringa kitel, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "kitel",
+      "moringa",
+      "vegetables",
+      "ye'moringa"
+    ],
+    "energy_kcal": 78,
+    "protein_g": 7,
+    "fat_g": 0.8,
+    "carbs_g": 7.4,
+    "fiber_g": 6.9
+  },
+  {
+    "food_code": "040017",
+    "food_name": "Mushrooms",
+    "food_name_original": "Mushrooms, oyster, stem and cap, raw Mushroom, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "mushrooms",
+      "vegetables"
+    ],
+    "energy_kcal": 44,
+    "protein_g": 4.3,
+    "fat_g": 0.4,
+    "carbs_g": 4.5,
+    "fiber_g": 2.3
+  },
+  {
+    "food_code": "040032",
+    "food_name": "Mustard",
+    "food_name_original": "Mustard, leaves, fresh, raw Ye'senafich kitel, ti're",
+    "food_name_amharic": "Ye'senafich kitel, ti're",
+    "normalized_amharic": "ye'senafich kitel, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "kitel",
+      "mustard",
+      "vegetables",
+      "ye'senafich"
+    ],
+    "energy_kcal": 36,
+    "protein_g": 3.5,
+    "fat_g": 0.5,
+    "carbs_g": 2.4,
+    "fiber_g": 3.9
+  },
+  {
+    "food_code": "040061",
+    "food_name": "Okra",
+    "food_name_original": "Okra, boiled, as part of recipe (without salt) Yetekekele okra kenewuhaw",
+    "food_name_amharic": "Yetekekele okra kenewuhaw",
+    "normalized_amharic": "yetekekele okra kenewuhaw",
+    "category": "Vegetables",
+    "keywords": [
+      "okra",
+      "vegetables"
+    ],
+    "energy_kcal": 35,
+    "protein_g": 2.3,
+    "fat_g": 0.2,
+    "carbs_g": 4.1,
+    "fiber_g": 3.7
+  },
+  {
+    "food_code": "040060",
+    "food_name": "Okra",
+    "food_name_original": "Okra, boiled, drained (without salt) Yetekekele okra",
+    "food_name_amharic": "Yetekekele okra",
+    "normalized_amharic": "yetekekele okra",
+    "category": "Vegetables",
+    "keywords": [
+      "okra",
+      "vegetables"
+    ],
+    "energy_kcal": 35,
+    "protein_g": 2.3,
+    "fat_g": 0.2,
+    "carbs_g": 4.1,
+    "fiber_g": 3.7
+  },
+  {
+    "food_code": "040019",
+    "food_name": "Okra",
+    "food_name_original": "Okra, raw Okra, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "okra",
+      "vegetables"
+    ],
+    "energy_kcal": 38,
+    "protein_g": 2.5,
+    "fat_g": 0.2,
+    "carbs_g": 4.5,
+    "fiber_g": 4.1
+  },
+  {
+    "food_code": "040058",
+    "food_name": "Onion",
+    "food_name_original": "Onion, peeled, boiled, drained (without salt) Yetekekele keye shinkurt",
+    "food_name_amharic": "Yetekekele keye shinkurt",
+    "normalized_amharic": "yetekekele keye shinkurt",
+    "category": "Vegetables",
+    "keywords": [
+      "onion",
+      "vegetables"
+    ],
+    "energy_kcal": 45,
+    "protein_g": 1.3,
+    "fat_g": 0.3,
+    "carbs_g": 7.7,
+    "fiber_g": 3
+  },
+  {
+    "food_code": "040018",
+    "food_name": "Onion",
+    "food_name_original": "Onion, peeled, raw Keye shinkurt, yetelate, ti're",
+    "food_name_amharic": "Keye shinkurt, yetelate, ti're",
+    "normalized_amharic": "keye shinkurt, yetelate, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "onion",
+      "vegetables"
+    ],
+    "energy_kcal": 37,
+    "protein_g": 1.1,
+    "fat_g": 0.2,
+    "carbs_g": 6.3,
+    "fiber_g": 2.5
+  },
+  {
+    "food_code": "040022",
+    "food_name": "Pepper",
+    "food_name_original": "Pepper, sweet, green, fresh, raw Kariya, ti're",
+    "food_name_amharic": "Kariya, ti're",
+    "normalized_amharic": "kariya, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "pepper",
+      "vegetables"
+    ],
+    "energy_kcal": 42,
+    "protein_g": 1.9,
+    "fat_g": 0.5,
+    "carbs_g": 6.2,
+    "fiber_g": 2.4
+  },
+  {
+    "food_code": "040021",
+    "food_name": "Pepper",
+    "food_name_original": "Pepper, sweet, red, fresh, raw Keye kariya, ti're",
+    "food_name_amharic": "Keye kariya, ti're",
+    "normalized_amharic": "keye kariya, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "pepper",
+      "vegetables"
+    ],
+    "energy_kcal": 28,
+    "protein_g": 2,
+    "fat_g": 0.8,
+    "carbs_g": 7,
+    "fiber_g": 2.5
+  },
+  {
+    "food_code": "040065",
+    "food_name": "Pumpkin",
+    "food_name_original": "Pumpkin, flesh, boiled, as part of a recipe (without salt) Yetekekele dubba kenewuhaw",
+    "food_name_amharic": "Yetekekele dubba kenewuhaw",
+    "normalized_amharic": "yetekekele dubba kenewuhaw",
+    "category": "Vegetables",
+    "keywords": [
+      "pumpkin",
+      "vegetables"
+    ],
+    "energy_kcal": 41,
+    "protein_g": 1.4,
+    "fat_g": 0.2,
+    "carbs_g": 7.1,
+    "fiber_g": 2.6
+  },
+  {
+    "food_code": "040064",
+    "food_name": "Pumpkin",
+    "food_name_original": "Pumpkin, flesh, boiled, drained (without salt) Yetekekele dubba",
+    "food_name_amharic": "Yetekekele dubba",
+    "normalized_amharic": "yetekekele dubba",
+    "category": "Vegetables",
+    "keywords": [
+      "pumpkin",
+      "vegetables"
+    ],
+    "energy_kcal": 41,
+    "protein_g": 1.4,
+    "fat_g": 0.2,
+    "carbs_g": 7.1,
+    "fiber_g": 2.6
+  },
+  {
+    "food_code": "040024",
+    "food_name": "Pumpkin",
+    "food_name_original": "Pumpkin, flesh, raw Dubba, ti're",
+    "food_name_amharic": "Dubba, ti're",
+    "normalized_amharic": "dubba, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "pumpkin",
+      "vegetables"
+    ],
+    "energy_kcal": 38,
+    "protein_g": 1.3,
+    "fat_g": 0.2,
+    "carbs_g": 6.6,
+    "fiber_g": 2.4
+  },
+  {
+    "food_code": "040010",
+    "food_name": "Pumpkin",
+    "food_name_original": "Pumpkin, leaves, fresh, raw Ye'dubba kitel, ti're",
+    "food_name_amharic": "Ye'dubba kitel, ti're",
+    "normalized_amharic": "ye'dubba kitel, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "kitel",
+      "pumpkin",
+      "vegetables",
+      "ye'dubba"
+    ],
+    "energy_kcal": 37,
+    "protein_g": 4.2,
+    "fat_g": 0.7,
+    "carbs_g": 2.3,
+    "fiber_g": 2.3
+  },
+  {
+    "food_code": "040025",
+    "food_name": "Raddish",
+    "food_name_original": "Raddish, raw Fijil, ti're",
+    "food_name_amharic": "Fijil, ti're",
+    "normalized_amharic": "fijil, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "fijil",
+      "raddish",
+      "vegetables"
+    ],
+    "energy_kcal": 17,
+    "protein_g": 1.1,
+    "fat_g": 0.1,
+    "carbs_g": 1.6,
+    "fiber_g": 2.7
+  },
+  {
+    "food_code": "040083",
+    "food_name": "Salad from tomato",
+    "food_name_original": "Salad from tomato, onion, oil, green pepper and salt Timatim kurit",
+    "food_name_amharic": "Timatim kurit",
+    "normalized_amharic": "timatim kurit",
+    "category": "Vegetables",
+    "keywords": [
+      "kurit",
+      "salad",
+      "tomato",
+      "vegetables"
+    ],
+    "energy_kcal": 108,
+    "protein_g": 1.1,
+    "fat_g": 9.4,
+    "carbs_g": 4.1,
+    "fiber_g": 1.5
+  },
+  {
+    "food_code": "040074",
+    "food_name": "Spinach",
+    "food_name_original": "Spinach, leaves, boiled, as part of recipe (without salt) Yetekekele spinach kenewuhaw",
+    "food_name_amharic": "Yetekekele spinach kenewuhaw",
+    "normalized_amharic": "yetekekele spinach kenewuhaw",
+    "category": "Vegetables",
+    "keywords": [
+      "spinach",
+      "vegetables"
+    ],
+    "energy_kcal": 49,
+    "protein_g": 5.9,
+    "fat_g": 0.4,
+    "carbs_g": 4,
+    "fiber_g": 2.8
+  },
+  {
+    "food_code": "040073",
+    "food_name": "Spinach",
+    "food_name_original": "Spinach, leaves, boiled, drained (without salt) Yetekekele spinach",
+    "food_name_amharic": "Yetekekele spinach",
+    "normalized_amharic": "yetekekele spinach",
+    "category": "Vegetables",
+    "keywords": [
+      "spinach",
+      "vegetables"
+    ],
+    "energy_kcal": 49,
+    "protein_g": 5.9,
+    "fat_g": 0.4,
+    "carbs_g": 4,
+    "fiber_g": 2.8
+  },
+  {
+    "food_code": "040027",
+    "food_name": "Spinach",
+    "food_name_original": "Spinach, leaves, raw Spinach, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "spinach",
+      "vegetables"
+    ],
+    "energy_kcal": 47,
+    "protein_g": 5.6,
+    "fat_g": 0.4,
+    "carbs_g": 3.8,
+    "fiber_g": 2.7
+  },
+  {
+    "food_code": "040068",
+    "food_name": "Squash",
+    "food_name_original": "Squash, fresh, boiled, as part of a recipe (without salt) Yetekekele squash kenewuhaw",
+    "food_name_amharic": "Yetekekele squash kenewuhaw",
+    "normalized_amharic": "yetekekele squash kenewuhaw",
+    "category": "Vegetables",
+    "keywords": [
+      "squash",
+      "vegetables"
+    ],
+    "energy_kcal": 24,
+    "protein_g": 1.4,
+    "fat_g": 0.1,
+    "carbs_g": 3.7,
+    "fiber_g": 1.1
+  },
+  {
+    "food_code": "040067",
+    "food_name": "Squash",
+    "food_name_original": "Squash, fresh, boiled, drained (without salt) Yetekekele squash",
+    "food_name_amharic": "Yetekekele squash",
+    "normalized_amharic": "yetekekele squash",
+    "category": "Vegetables",
+    "keywords": [
+      "squash",
+      "vegetables"
+    ],
+    "energy_kcal": 24,
+    "protein_g": 1.4,
+    "fat_g": 0.1,
+    "carbs_g": 3.7,
+    "fiber_g": 1.1
+  },
+  {
+    "food_code": "040028",
+    "food_name": "Squash",
+    "food_name_original": "Squash, fresh, raw Squash, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "squash",
+      "vegetables"
+    ],
+    "energy_kcal": 22,
+    "protein_g": 1.3,
+    "fat_g": 0.1,
+    "carbs_g": 3.4,
+    "fiber_g": 1
+  },
+  {
+    "food_code": "040076",
+    "food_name": "Swiss chard",
+    "food_name_original": "Swiss chard, leaves, boiled, drained (without salt) Yetekekele kosta",
+    "food_name_amharic": "Yetekekele kosta",
+    "normalized_amharic": "yetekekele kosta",
+    "category": "Vegetables",
+    "keywords": [
+      "chard",
+      "kosta",
+      "swiss",
+      "vegetables"
+    ],
+    "energy_kcal": 21,
+    "protein_g": 2.4,
+    "fat_g": 0.2,
+    "carbs_g": 0.5,
+    "fiber_g": 4
+  },
+  {
+    "food_code": "040029",
+    "food_name": "Swiss chard",
+    "food_name_original": "Swiss chard, leaves, raw Kosta, ti're",
+    "food_name_amharic": "Kosta, ti're",
+    "normalized_amharic": "kosta, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "chard",
+      "kosta",
+      "swiss",
+      "vegetables"
+    ],
+    "energy_kcal": 19,
+    "protein_g": 2.2,
+    "fat_g": 0.2,
+    "carbs_g": 0.4,
+    "fiber_g": 3.6
+  },
+  {
+    "food_code": "040031",
+    "food_name": "Tomato",
+    "food_name_original": "Tomato, paste, canned Timatim, dilih, yetashege",
+    "food_name_amharic": "Timatim, dilih, yetashege",
+    "normalized_amharic": "timatim, dilih, yetashege",
+    "category": "Vegetables",
+    "keywords": [
+      "tomato",
+      "vegetables"
+    ],
+    "energy_kcal": 142,
+    "protein_g": 4.3,
+    "fat_g": 3.8,
+    "carbs_g": 19.7,
+    "fiber_g": 5.7
+  },
+  {
+    "food_code": "040030",
+    "food_name": "Tomato",
+    "food_name_original": "Tomato, red, ripe, raw Timatim, ti're",
+    "food_name_amharic": "Timatim, ti're",
+    "normalized_amharic": "timatim, ti're",
+    "category": "Vegetables",
+    "keywords": [
+      "tomato",
+      "vegetables"
+    ],
+    "energy_kcal": 26,
+    "protein_g": 1.3,
+    "fat_g": 0.3,
+    "carbs_g": 3.9,
+    "fiber_g": 1.4
+  },
+  {
+    "food_code": "040078",
+    "food_name": "Tomato",
+    "food_name_original": "Tomato, ripe, boiled, drained (without salt) Yetekekele timatim",
+    "food_name_amharic": "Yetekekele timatim",
+    "normalized_amharic": "yetekekele timatim",
+    "category": "Vegetables",
+    "keywords": [
+      "tomato",
+      "vegetables"
+    ],
+    "energy_kcal": 33,
+    "protein_g": 1.6,
+    "fat_g": 0.3,
+    "carbs_g": 5,
+    "fiber_g": 1.8
+  },
+  {
+    "food_code": "050010",
+    "food_name": "Date",
+    "food_name_original": "Date, dry, mature, raw Temir",
+    "food_name_amharic": "Temir",
+    "normalized_amharic": "temir",
+    "category": "Fruits",
+    "keywords": [
+      "date",
+      "fruits"
+    ],
+    "energy_kcal": 312,
+    "protein_g": 2.4,
+    "fat_g": 0.5,
+    "carbs_g": 70.3,
+    "fiber_g": 8.4
+  },
+  {
+    "food_code": "050011",
+    "food_name": "Fig",
+    "food_name_original": "Fig, fresh, raw Sholla",
+    "food_name_amharic": "Fig, fresh, raw Sholla",
+    "normalized_amharic": "fig, fresh, raw sholla",
+    "category": "Fruits",
+    "keywords": [
+      "fig",
+      "fruits",
+      "sholla"
+    ],
+    "energy_kcal": 41,
+    "protein_g": 0.8,
+    "fat_g": 0.3,
+    "carbs_g": 7.8,
+    "fiber_g": 2.3
+  },
+  {
+    "food_code": "050014",
+    "food_name": "Grapefruit",
+    "food_name_original": "Grapefruit, fresh, white, raw Grapefruit",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "grapefruit"
+    ],
+    "energy_kcal": 38,
+    "protein_g": 0.6,
+    "fat_g": 0.1,
+    "carbs_g": 7.8,
+    "fiber_g": 1.6
+  },
+  {
+    "food_code": "050013",
+    "food_name": "Grapes",
+    "food_name_original": "Grapes, fresh, green, raw Ye'wein fire",
+    "food_name_amharic": "Ye'wein fire",
+    "normalized_amharic": "ye'wein fire",
+    "category": "Fruits",
+    "keywords": [
+      "fire",
+      "fruits",
+      "grapes",
+      "ye'wein"
+    ],
+    "energy_kcal": 42,
+    "protein_g": 0.6,
+    "fat_g": 0.3,
+    "carbs_g": 8.2,
+    "fiber_g": 2
+  },
+  {
+    "food_code": "050015",
+    "food_name": "Guava",
+    "food_name_original": "Guava, fresh, raw Zeytun",
+    "food_name_amharic": "Guava, fresh, raw Zeytun",
+    "normalized_amharic": "guava, fresh, raw zeytun",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "guava",
+      "zeytun"
+    ],
+    "energy_kcal": 56,
+    "protein_g": 0.9,
+    "fat_g": 1,
+    "carbs_g": 7.9,
+    "fiber_g": 5.7
+  },
+  {
+    "food_code": "050017",
+    "food_name": "Lemon",
+    "food_name_original": "Lemon, fresh, juice, raw Ye'lomi chimaki",
+    "food_name_amharic": "Ye'lomi chimaki",
+    "normalized_amharic": "ye'lomi chimaki",
+    "category": "Fruits",
+    "keywords": [
+      "chimaki",
+      "fruits",
+      "lemon",
+      "ye'lomi"
+    ],
+    "energy_kcal": 36,
+    "protein_g": 0.4,
+    "fat_g": 0.1,
+    "carbs_g": 8.4,
+    "fiber_g": 0.1
+  },
+  {
+    "food_code": "050004",
+    "food_name": "Lemon",
+    "food_name_original": "Lemon, fresh, pulp (flesh), raw Lomi",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "lemon"
+    ],
+    "energy_kcal": 44,
+    "protein_g": 0.6,
+    "fat_g": 0.9,
+    "carbs_g": 7,
+    "fiber_g": 2.5
+  },
+  {
+    "food_code": "050018",
+    "food_name": "Lime",
+    "food_name_original": "Lime, fresh, juice, raw Ye'habesha lomi chimaki",
+    "food_name_amharic": "Ye'habesha lomi chimaki",
+    "normalized_amharic": "ye'habesha lomi chimaki",
+    "category": "Fruits",
+    "keywords": [
+      "chimaki",
+      "fruits",
+      "lime",
+      "ye'habesha"
+    ],
+    "energy_kcal": 37,
+    "protein_g": 0.7,
+    "fat_g": 0.1,
+    "carbs_g": 8.3,
+    "fiber_g": 0.2
+  },
+  {
+    "food_code": "050008",
+    "food_name": "Lime",
+    "food_name_original": "Lime, fresh, pulp (flesh), raw Ye'habesha lomi",
+    "food_name_amharic": "Ye'habesha lomi",
+    "normalized_amharic": "ye'habesha lomi",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "lime",
+      "ye'habesha"
+    ],
+    "energy_kcal": 42,
+    "protein_g": 0.6,
+    "fat_g": 0.2,
+    "carbs_g": 8.3,
+    "fiber_g": 2.1
+  },
+  {
+    "food_code": "050016",
+    "food_name": "Mango",
+    "food_name_original": "Mango, fresh, ripe, orange pulp (flesh), raw Mango, bicha",
+    "food_name_amharic": "bicha",
+    "normalized_amharic": "bicha",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "mango"
+    ],
+    "energy_kcal": 70,
+    "protein_g": 0.5,
+    "fat_g": 0.1,
+    "carbs_g": 16,
+    "fiber_g": 1.5
+  },
+  {
+    "food_code": "050022",
+    "food_name": "Melon",
+    "food_name_original": "Melon, cantaloupe, fresh, raw Melon",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "melon"
+    ],
+    "energy_kcal": 39,
+    "protein_g": 0.8,
+    "fat_g": 0.1,
+    "carbs_g": 8.2,
+    "fiber_g": 0.8
+  },
+  {
+    "food_code": "050023",
+    "food_name": "Orange",
+    "food_name_original": "Orange, juice, fresh Ye'birtukan chimaki",
+    "food_name_amharic": "Ye'birtukan chimaki",
+    "normalized_amharic": "ye'birtukan chimaki",
+    "category": "Fruits",
+    "keywords": [
+      "chimaki",
+      "fruits",
+      "orange",
+      "ye'birtukan"
+    ],
+    "energy_kcal": 44,
+    "protein_g": 0.7,
+    "fat_g": 0.1,
+    "carbs_g": 10,
+    "fiber_g": 0.2
+  },
+  {
+    "food_code": "050012",
+    "food_name": "Orange",
+    "food_name_original": "Orange, pulp, raw Birtukan",
+    "food_name_amharic": "Birtukan",
+    "normalized_amharic": "birtukan",
+    "category": "Fruits",
+    "keywords": [
+      "birtukan",
+      "fruits",
+      "orange"
+    ],
+    "energy_kcal": 43,
+    "protein_g": 0.9,
+    "fat_g": 0.4,
+    "carbs_g": 7.3,
+    "fiber_g": 3.1
+  },
+  {
+    "food_code": "050025",
+    "food_name": "Papaya",
+    "food_name_original": "Papaya, ripe, fresh, raw Papaya",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "papaya"
+    ],
+    "energy_kcal": 31,
+    "protein_g": 0.7,
+    "fat_g": 0.1,
+    "carbs_g": 5.7,
+    "fiber_g": 2.1
+  },
+  {
+    "food_code": "050027",
+    "food_name": "Peach",
+    "food_name_original": "Peach, fresh, raw Kok",
+    "food_name_amharic": "Kok",
+    "normalized_amharic": "kok",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "kok",
+      "pea",
+      "peach"
+    ],
+    "energy_kcal": 72,
+    "protein_g": 0.9,
+    "fat_g": 0.7,
+    "carbs_g": 14.5,
+    "fiber_g": 2.1
+  },
+  {
+    "food_code": "050028",
+    "food_name": "Pear",
+    "food_name_original": "Pear, with peel, fresh, raw Pear",
+    "food_name_amharic": "with peel, fresh, raw Pear",
+    "normalized_amharic": "with peel, fresh, raw pear",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "pea",
+      "pear",
+      "peel"
+    ],
+    "energy_kcal": 48,
+    "protein_g": 0.4,
+    "fat_g": 0.2,
+    "carbs_g": 9.1,
+    "fiber_g": 4
+  },
+  {
+    "food_code": "050029",
+    "food_name": "Pineapple",
+    "food_name_original": "Pineapple, fresh, raw Ananas",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "pineapple"
+    ],
+    "energy_kcal": 50,
+    "protein_g": 0.5,
+    "fat_g": 0.1,
+    "carbs_g": 11,
+    "fiber_g": 1.6
+  },
+  {
+    "food_code": "050030",
+    "food_name": "Plum",
+    "food_name_original": "Plum, fresh, raw Preme",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "plum"
+    ],
+    "energy_kcal": 51,
+    "protein_g": 0.7,
+    "fat_g": 0.1,
+    "carbs_g": 10.7,
+    "fiber_g": 2.1
+  },
+  {
+    "food_code": "050031",
+    "food_name": "Pomegranate",
+    "food_name_original": "Pomegranate, fresh, raw Roman",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "pomegranate"
+    ],
+    "energy_kcal": 108,
+    "protein_g": 2.1,
+    "fat_g": 0.4,
+    "carbs_g": 21,
+    "fiber_g": 5.8
+  },
+  {
+    "food_code": "050034",
+    "food_name": "Prickly pear",
+    "food_name_original": "Prickly pear, fruit, fresh, raw Beles",
+    "food_name_amharic": "Beles",
+    "normalized_amharic": "beles",
+    "category": "Fruits",
+    "keywords": [
+      "beles",
+      "fruits",
+      "pea",
+      "pear",
+      "prickly"
+    ],
+    "energy_kcal": 68,
+    "protein_g": 1,
+    "fat_g": 0.8,
+    "carbs_g": 12,
+    "fiber_g": 4.6
+  },
+  {
+    "food_code": "050032",
+    "food_name": "Tamarind",
+    "food_name_original": "Tamarind, fruit, ripe, dried Roka",
+    "food_name_amharic": "Tamarind, fruit, ripe, dried Roka",
+    "normalized_amharic": "tamarind, fruit, ripe, dried roka",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "honey",
+      "ripe",
+      "roka",
+      "tamarind"
+    ],
+    "energy_kcal": 332,
+    "protein_g": 4,
+    "fat_g": 1.1,
+    "carbs_g": 73.6,
+    "fiber_g": 5.9
+  },
+  {
+    "food_code": "050033",
+    "food_name": "Tangerine",
+    "food_name_original": "Tangerine, juice, fresh, raw Ye'menderin chimaki",
+    "food_name_amharic": "Ye'menderin chimaki",
+    "normalized_amharic": "ye'menderin chimaki",
+    "category": "Fruits",
+    "keywords": [
+      "chimaki",
+      "fruits",
+      "tangerine",
+      "ye'menderin"
+    ],
+    "energy_kcal": 46,
+    "protein_g": 0.6,
+    "fat_g": 0.2,
+    "carbs_g": 10.3,
+    "fiber_g": 0.2
+  },
+  {
+    "food_code": "050021",
+    "food_name": "Tangerine",
+    "food_name_original": "Tangerine, pulp (flesh), fresh, raw Menderin",
+    "food_name_amharic": "Tangerine, pulp , fresh, raw Menderin",
+    "normalized_amharic": "tangerine, pulp , fresh, raw menderin",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "menderin",
+      "tangerine"
+    ],
+    "energy_kcal": 63,
+    "protein_g": 1,
+    "fat_g": 0.4,
+    "carbs_g": 13.1,
+    "fiber_g": 1.5
+  },
+  {
+    "food_code": "050035",
+    "food_name": "Watermelon",
+    "food_name_original": "Watermelon, fresh, raw Habab",
+    "food_name_amharic": "Watermelon, fresh, raw Habab",
+    "normalized_amharic": "watermelon, fresh, raw habab",
+    "category": "Fruits",
+    "keywords": [
+      "fruits",
+      "habab",
+      "pea",
+      "watermelon"
+    ],
+    "energy_kcal": 26,
+    "protein_g": 0.6,
+    "fat_g": 0.1,
+    "carbs_g": 5.3,
+    "fiber_g": 0.9
+  },
+  {
+    "food_code": "060006",
+    "food_name": "Groundnut (peanut)",
+    "food_name_original": "Groundnut (peanut), butter, with salt Ye'lewz kibe be'chew",
+    "food_name_amharic": "Ye'lewz kibe be'chew",
+    "normalized_amharic": "ye'lewz kibe be'chew",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "be'chew",
+      "groundnut",
+      "kibe",
+      "nut",
+      "pea",
+      "peanut",
+      "seeds & nuts",
+      "ye'lewz"
+    ],
+    "energy_kcal": 632,
+    "protein_g": 25.4,
+    "fat_g": 52.2,
+    "carbs_g": 10.8,
+    "fiber_g": 8.8
+  },
+  {
+    "food_code": "060004",
+    "food_name": "Groundnut (peanut)",
+    "food_name_original": "Groundnut (peanut), fresh, raw Ye'lewz (ocholoni) eshet",
+    "food_name_amharic": "Ye'lewz (ocholoni) eshet",
+    "normalized_amharic": "ye'lewz (ocholoni) eshet",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "groundnut",
+      "nut",
+      "ocholoni",
+      "pea",
+      "peanut",
+      "seeds & nuts",
+      "ye'lewz"
+    ],
+    "energy_kcal": 307,
+    "protein_g": 12,
+    "fat_g": 24.2,
+    "carbs_g": 8.4,
+    "fiber_g": 4
+  },
+  {
+    "food_code": "060005",
+    "food_name": "Groundnut (peanut)",
+    "food_name_original": "Groundnut (peanut), dry, raw Lewz (ocholoni), yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "groundnut",
+      "nut",
+      "pea",
+      "peanut",
+      "seeds & nuts"
+    ],
+    "energy_kcal": 583,
+    "protein_g": 23.8,
+    "fat_g": 45.9,
+    "carbs_g": 14.5,
+    "fiber_g": 8.3
+  },
+  {
+    "food_code": "060008",
+    "food_name": "Linseed",
+    "food_name_original": "Linseed, whole, dried, raw Telba, yedereke, ti're",
+    "food_name_amharic": "Telba, yedereke, ti're",
+    "normalized_amharic": "telba, yedereke, ti're",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "linseed",
+      "seeds & nuts"
+    ],
+    "energy_kcal": 473,
+    "protein_g": 16.7,
+    "fat_g": 33.2,
+    "carbs_g": 13.9,
+    "fiber_g": 25.8
+  },
+  {
+    "food_code": "060023",
+    "food_name": "Linseed",
+    "food_name_original": "Linseed, whole, dried, roasted Yetekola teleba",
+    "food_name_amharic": "Yetekola teleba",
+    "normalized_amharic": "yetekola teleba",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "linseed",
+      "seeds & nuts",
+      "teleba",
+      "yetekola"
+    ],
+    "energy_kcal": 503,
+    "protein_g": 17.8,
+    "fat_g": 35.3,
+    "carbs_g": 14.8,
+    "fiber_g": 27.5
+  },
+  {
+    "food_code": "060010",
+    "food_name": "Mustard",
+    "food_name_original": "Mustard, seed, brown, raw Senafich, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "mustard",
+      "seeds & nuts"
+    ],
+    "energy_kcal": 453,
+    "protein_g": 22.7,
+    "fat_g": 25.5,
+    "carbs_g": 26.2,
+    "fiber_g": 14.1
+  },
+  {
+    "food_code": "060011",
+    "food_name": "Niger seed",
+    "food_name_original": "Niger seed, black, whole, dried, raw Nug, yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "niger",
+      "seeds & nuts"
+    ],
+    "energy_kcal": 481,
+    "protein_g": 16.1,
+    "fat_g": 37.5,
+    "carbs_g": 6.1,
+    "fiber_g": 27.3
+  },
+  {
+    "food_code": "060014",
+    "food_name": "Niger seed",
+    "food_name_original": "Niger seed, black, whole, roasted Nug, yetekola",
+    "food_name_amharic": "yetekola",
+    "normalized_amharic": "yetekola",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "niger",
+      "seeds & nuts",
+      "yetekola"
+    ],
+    "energy_kcal": 510,
+    "protein_g": 17.3,
+    "fat_g": 40.2,
+    "carbs_g": 5.8,
+    "fiber_g": 28.3
+  },
+  {
+    "food_code": "060017",
+    "food_name": "Pumpkin seed",
+    "food_name_original": "Pumpkin seed, kernel, dried, raw Ye'dubba fire, yedereke, ti're",
+    "food_name_amharic": "Ye'dubba fire, yedereke, ti're",
+    "normalized_amharic": "ye'dubba fire, yedereke, ti're",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "fire",
+      "pumpkin",
+      "seeds & nuts",
+      "ye'dubba"
+    ],
+    "energy_kcal": 559,
+    "protein_g": 24.3,
+    "fat_g": 44.2,
+    "carbs_g": 13,
+    "fiber_g": 5.8
+  },
+  {
+    "food_code": "060018",
+    "food_name": "Safflower seed",
+    "food_name_original": "Safflower seed, whole, dried, raw Suf, yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "safflower",
+      "seeds & nuts"
+    ],
+    "energy_kcal": 460,
+    "protein_g": 11.2,
+    "fat_g": 25.1,
+    "carbs_g": 40.6,
+    "fiber_g": 13.1
+  },
+  {
+    "food_code": "060022",
+    "food_name": "Sesame seed",
+    "food_name_original": "Sesame seed, kernel, raw Selit, ti're",
+    "food_name_amharic": "kernel, raw Selit, ti're",
+    "normalized_amharic": "kernel, raw selit, ti're",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "seeds & nuts",
+      "sesame"
+    ],
+    "energy_kcal": 621,
+    "protein_g": 23.3,
+    "fat_g": 54.8,
+    "carbs_g": 3.4,
+    "fiber_g": 10.7
+  },
+  {
+    "food_code": "060024",
+    "food_name": "Sesame seed",
+    "food_name_original": "Sesame seed, kernel, roasted Yetekola selit",
+    "food_name_amharic": "kernel, roasted Yetekola selit",
+    "normalized_amharic": "kernel, roasted yetekola selit",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "seeds & nuts",
+      "sesame",
+      "yetekola"
+    ],
+    "energy_kcal": 647,
+    "protein_g": 24.3,
+    "fat_g": 57.1,
+    "carbs_g": 3.5,
+    "fiber_g": 11.2
+  },
+  {
+    "food_code": "060021",
+    "food_name": "Sesame seed",
+    "food_name_original": "Sesame seed, whole, dried, raw Selit, yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "seeds & nuts",
+      "sesame"
+    ],
+    "energy_kcal": 596,
+    "protein_g": 18.6,
+    "fat_g": 52,
+    "carbs_g": 6.2,
+    "fiber_g": 14.4
+  },
+  {
+    "food_code": "060012",
+    "food_name": "Sesame seed",
+    "food_name_original": "Sesame seed, whole, dry roasted Selit, yedereke, yetekola",
+    "food_name_amharic": "yedereke, yetekola",
+    "normalized_amharic": "yedereke, yetekola",
+    "category": "Seeds & Nuts",
+    "keywords": [
+      "seeds & nuts",
+      "sesame",
+      "yetekola"
+    ],
+    "energy_kcal": 615,
+    "protein_g": 18,
+    "fat_g": 56.1,
+    "carbs_g": 1.2,
+    "fiber_g": 16.7
+  },
+  {
+    "food_code": "070005",
+    "food_name": "Beef",
+    "food_name_original": "Beef, brain, raw Ye'bere angol, ti're",
+    "food_name_amharic": "Ye'bere angol, ti're",
+    "normalized_amharic": "ye'bere angol, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "angol",
+      "beef",
+      "meat & poultry",
+      "ye'bere"
+    ],
+    "energy_kcal": 124,
+    "protein_g": 9.5,
+    "fat_g": 8.6,
+    "carbs_g": 2.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070066",
+    "food_name": "Beef",
+    "food_name_original": "Beef, heart, boiled, drained (without salt) Yetekekele ye'bere libe",
+    "food_name_amharic": "Yetekekele ye'bere libe",
+    "normalized_amharic": "yetekekele ye'bere libe",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "libe",
+      "meat & poultry",
+      "ye'bere"
+    ],
+    "energy_kcal": 208,
+    "protein_g": 27.3,
+    "fat_g": 10.3,
+    "carbs_g": 1.6,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070006",
+    "food_name": "Beef",
+    "food_name_original": "Beef, heart, raw Ye'bere libe, ti're",
+    "food_name_amharic": "Ye'bere libe, ti're",
+    "normalized_amharic": "ye'bere libe, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "libe",
+      "meat & poultry",
+      "ye'bere"
+    ],
+    "energy_kcal": 127,
+    "protein_g": 16.6,
+    "fat_g": 6.3,
+    "carbs_g": 1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070069",
+    "food_name": "Beef",
+    "food_name_original": "Beef, kidney, boiled, drained (without salt) Yetekekele ye'bere kulalit",
+    "food_name_amharic": "Yetekekele ye'bere kulalit",
+    "normalized_amharic": "yetekekele ye'bere kulalit",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "kulalit",
+      "meat & poultry",
+      "ye'bere"
+    ],
+    "energy_kcal": 231,
+    "protein_g": 28.8,
+    "fat_g": 8.4,
+    "carbs_g": 10.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070071",
+    "food_name": "Beef",
+    "food_name_original": "Beef, kidney, grilled (without salt or fat) Yetetebese ye'bere kulalit",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "meat & poultry"
+    ],
+    "energy_kcal": 184,
+    "protein_g": 27.4,
+    "fat_g": 4,
+    "carbs_g": 9.6,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070072",
+    "food_name": "Beef",
+    "food_name_original": "Beef, liver, boiled, drained (without salt) Yetekekele ye'bere gubet",
+    "food_name_amharic": "Yetekekele ye'bere gubet",
+    "normalized_amharic": "yetekekele ye'bere gubet",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "gubet",
+      "meat & poultry",
+      "ye'bere"
+    ],
+    "energy_kcal": 190,
+    "protein_g": 32.3,
+    "fat_g": 6.4,
+    "carbs_g": 0.9,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070074",
+    "food_name": "Beef",
+    "food_name_original": "Beef, liver, grilled (without salt or fat) Yetetebese ye'bere gubet",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "meat & poultry"
+    ],
+    "energy_kcal": 127,
+    "protein_g": 26,
+    "fat_g": 2.3,
+    "carbs_g": 0.7,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070002",
+    "food_name": "Beef",
+    "food_name_original": "Beef, meat, assorted parts, lean, fresh, raw Ye'bere siga, keye, ti're",
+    "food_name_amharic": "Ye'bere siga, keye, ti're",
+    "normalized_amharic": "ye'bere siga, keye, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "meat & poultry",
+      "siga",
+      "ye'bere"
+    ],
+    "energy_kcal": 111,
+    "protein_g": 19.8,
+    "fat_g": 3.6,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070004",
+    "food_name": "Beef",
+    "food_name_original": "Beef, meat, with spiced chili powder, dried, raw Ye'bere siga, quanta, ti're",
+    "food_name_amharic": "Ye'bere siga, quanta, ti're",
+    "normalized_amharic": "ye'bere siga, quanta, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "meat & poultry",
+      "quanta",
+      "siga",
+      "ye'bere"
+    ],
+    "energy_kcal": 387,
+    "protein_g": 70.4,
+    "fat_g": 11.7,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070075",
+    "food_name": "Beef",
+    "food_name_original": "Beef, sausage, grilled (without salt or fat) Yetetebese qualima",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "meat & poultry"
+    ],
+    "energy_kcal": 280,
+    "protein_g": 16,
+    "fat_g": 17.4,
+    "carbs_g": 13.9,
+    "fiber_g": 2
+  },
+  {
+    "food_code": "070076",
+    "food_name": "Beef",
+    "food_name_original": "Beef, tongue, boiled, drained (without salt) Yetekekele ye'bere milas",
+    "food_name_amharic": "Yetekekele ye'bere milas",
+    "normalized_amharic": "yetekekele ye'bere milas",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "meat & poultry",
+      "milas",
+      "ye'bere"
+    ],
+    "energy_kcal": 277,
+    "protein_g": 18.4,
+    "fat_g": 21,
+    "carbs_g": 3.5,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070087",
+    "food_name": "Beef",
+    "food_name_original": "Beef, tripe, boiled, drained (without salt) Yetekekele ye'bere tripe",
+    "food_name_amharic": "Yetekekele ye'bere tripe",
+    "normalized_amharic": "yetekekele ye'bere tripe",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "meat & poultry",
+      "tripe",
+      "ye'bere"
+    ],
+    "energy_kcal": 131,
+    "protein_g": 16.9,
+    "fat_g": 5.6,
+    "carbs_g": 3.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070080",
+    "food_name": "Beef",
+    "food_name_original": "Beef, tripe, grilled (without salt or fat) Yetetebese ye'bere tripe",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "beef",
+      "meat & poultry"
+    ],
+    "energy_kcal": 131,
+    "protein_g": 16.9,
+    "fat_g": 5.6,
+    "carbs_g": 3.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070014",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), brain, raw Ye'tija angol, ti're",
+    "food_name_amharic": "Ye'tija angol, ti're",
+    "normalized_amharic": "ye'tija angol, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "angol",
+      "calf",
+      "meat & poultry",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 135,
+    "protein_g": 10.4,
+    "fat_g": 8.1,
+    "carbs_g": 5.2,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070084",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), heart, boiled, drained (without salt) Yetekekele ye'tija libe",
+    "food_name_amharic": "Yetekekele ye'tija libe",
+    "normalized_amharic": "yetekekele ye'tija libe",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "libe",
+      "meat & poultry",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 247,
+    "protein_g": 24.8,
+    "fat_g": 15.9,
+    "carbs_g": 1.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070015",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), heart, raw Ye'tija lib, ti're",
+    "food_name_amharic": "Ye'tija lib, ti're",
+    "normalized_amharic": "ye'tija lib, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "lib",
+      "meat & poultry",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 151,
+    "protein_g": 15.1,
+    "fat_g": 9.7,
+    "carbs_g": 0.8,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070088",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), kidney, boiled, drained (without salt) Yetekekele ye'tija kulalit",
+    "food_name_amharic": "Yetekekele ye'tija kulalit",
+    "normalized_amharic": "yetekekele ye'tija kulalit",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "kulalit",
+      "meat & poultry",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 162,
+    "protein_g": 26.1,
+    "fat_g": 4.9,
+    "carbs_g": 3.2,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070089",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), kidney, grilled (without salt or fat) Yetetebese ye'tija kulalit",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "meat & poultry",
+      "veal"
+    ],
+    "energy_kcal": 154,
+    "protein_g": 24.9,
+    "fat_g": 4.7,
+    "carbs_g": 3.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070016",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), kidney, raw Ye'tija kulalit, ti're",
+    "food_name_amharic": "kidney, raw Ye'tija kulalit, ti're",
+    "normalized_amharic": "kidney, raw ye'tija kulalit, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "kidney",
+      "kulalit",
+      "meat & poultry",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 99,
+    "protein_g": 15.9,
+    "fat_g": 3,
+    "carbs_g": 2,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070090",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), liver, boiled, drained (without salt) Yetekekele ye'tija gubet",
+    "food_name_amharic": "Yetekekele ye'tija gubet",
+    "normalized_amharic": "yetekekele ye'tija gubet",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "gubet",
+      "meat & poultry",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 197,
+    "protein_g": 32.6,
+    "fat_g": 6.4,
+    "carbs_g": 2.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070092",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), liver, grilled (without salt or fat) Yetetebese ye'tija gubet",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "meat & poultry",
+      "veal"
+    ],
+    "energy_kcal": 158,
+    "protein_g": 26.2,
+    "fat_g": 5.1,
+    "carbs_g": 1.8,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070017",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), liver, raw Ye'tija gubet, ti're",
+    "food_name_amharic": "Ye'tija gubet, ti're",
+    "normalized_amharic": "ye'tija gubet, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "gubet",
+      "meat & poultry",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 130,
+    "protein_g": 21.5,
+    "fat_g": 4.2,
+    "carbs_g": 1.5,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070081",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), meat, lean, boiled, drained (without salt) Yetekekele ye'tija siga",
+    "food_name_amharic": "Yetekekele ye'tija siga",
+    "normalized_amharic": "yetekekele ye'tija siga",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "meat & poultry",
+      "siga",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 145,
+    "protein_g": 31.1,
+    "fat_g": 2.3,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070083",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), meat, lean, grilled (without salt or fat) Yetetebese ye'tija siga",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "meat & poultry",
+      "veal"
+    ],
+    "energy_kcal": 127,
+    "protein_g": 27.3,
+    "fat_g": 2,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070058",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), meat, lean, raw Ye'tija siga, keye, ti're",
+    "food_name_amharic": "Ye'tija siga, keye, ti're",
+    "normalized_amharic": "ye'tija siga, keye, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "meat & poultry",
+      "siga",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 96,
+    "protein_g": 20.5,
+    "fat_g": 1.5,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070096",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), tongue, boiled, drained (without salt) Yetekekele ye'tija milas",
+    "food_name_amharic": "Yetekekele ye'tija milas",
+    "normalized_amharic": "yetekekele ye'tija milas",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "meat & poultry",
+      "milas",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 185,
+    "protein_g": 23.6,
+    "fat_g": 9.4,
+    "carbs_g": 1.6,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070019",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), tongue, raw Ye'tija melase, ti're",
+    "food_name_amharic": "tongue, raw Ye'tija melase, ti're",
+    "normalized_amharic": "tongue, raw ye'tija melase, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "meat & poultry",
+      "melase",
+      "tongue",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 145,
+    "protein_g": 18.4,
+    "fat_g": 7.3,
+    "carbs_g": 1.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070093",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), tripe, boiled, drained (without salt) Yetekekele ye'tija tripe",
+    "food_name_amharic": "Yetekekele ye'tija tripe",
+    "normalized_amharic": "yetekekele ye'tija tripe",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "meat & poultry",
+      "tripe",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 130,
+    "protein_g": 21.8,
+    "fat_g": 3.9,
+    "carbs_g": 1.7,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070095",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), tripe, grilled (without salt or fat) Yetetebese ye'tija tripe",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "meat & poultry",
+      "veal"
+    ],
+    "energy_kcal": 130,
+    "protein_g": 21.8,
+    "fat_g": 3.9,
+    "carbs_g": 1.7,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070018",
+    "food_name": "Calf (veal)",
+    "food_name_original": "Calf (veal), tripe, raw Ye'tija tripe, ti're",
+    "food_name_amharic": "Ye'tija tripe, ti're",
+    "normalized_amharic": "ye'tija tripe, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "calf",
+      "meat & poultry",
+      "tripe",
+      "veal",
+      "ye'tija"
+    ],
+    "energy_kcal": 92,
+    "protein_g": 15.5,
+    "fat_g": 2.8,
+    "carbs_g": 1.2,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070098",
+    "food_name": "Camel meat",
+    "food_name_original": "Camel meat, fresh, boiled, drained (without salt) Yetekekele ye'gimel siga",
+    "food_name_amharic": "Yetekekele ye'gimel siga",
+    "normalized_amharic": "yetekekele ye'gimel siga",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "camel",
+      "meat & poultry",
+      "siga",
+      "ye'gimel"
+    ],
+    "energy_kcal": 284,
+    "protein_g": 37.3,
+    "fat_g": 15,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070100",
+    "food_name": "Camel meat",
+    "food_name_original": "Camel meat, fresh, grilled (without salt or fat) Yetetebese ye'gimel siga",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "camel",
+      "meat & poultry"
+    ],
+    "energy_kcal": 212,
+    "protein_g": 31.1,
+    "fat_g": 9.8,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070020",
+    "food_name": "Camel meat",
+    "food_name_original": "Camel meat, fresh, raw Ye'gimel siga, ti're",
+    "food_name_amharic": "Ye'gimel siga, ti're",
+    "normalized_amharic": "ye'gimel siga, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "camel",
+      "meat & poultry",
+      "siga",
+      "ye'gimel"
+    ],
+    "energy_kcal": 171,
+    "protein_g": 22.4,
+    "fat_g": 9,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070029",
+    "food_name": "Chicken",
+    "food_name_original": "Chicken, assorted parts, meat and skin, raw Ye'doro siga, ti're (mulu doro)",
+    "food_name_amharic": "Ye'doro siga, ti're (mulu doro)",
+    "normalized_amharic": "ye'doro siga, ti're (mulu doro)",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "chicken",
+      "meat & poultry",
+      "mulu",
+      "siga",
+      "ye'doro"
+    ],
+    "energy_kcal": 233,
+    "protein_g": 19.7,
+    "fat_g": 17.1,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070036",
+    "food_name": "Goat meat",
+    "food_name_original": "Goat meat, fresh, lean, raw Ye'fiyel siga, keye, ti're",
+    "food_name_amharic": "Ye'fiyel siga, keye, ti're",
+    "normalized_amharic": "ye'fiyel siga, keye, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "meat & poultry",
+      "siga",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 174,
+    "protein_g": 21.4,
+    "fat_g": 9.8,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070118",
+    "food_name": "Goat meat",
+    "food_name_original": "Goat meat, fresh, lean, roasted (without salt or fat) Yetetebese keye ye'fiyel siga",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "meat & poultry"
+    ],
+    "energy_kcal": 200,
+    "protein_g": 26.5,
+    "fat_g": 10.4,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070031",
+    "food_name": "Goat",
+    "food_name_original": "Goat, brain, raw Ye'fiyel, angol, ti're",
+    "food_name_amharic": "Ye'fiyel, angol, ti're",
+    "normalized_amharic": "ye'fiyel, angol, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "angol",
+      "goat",
+      "meat & poultry",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 159,
+    "protein_g": 10,
+    "fat_g": 12,
+    "carbs_g": 2.8,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070107",
+    "food_name": "Goat",
+    "food_name_original": "Goat, heart, boiled, drained (without salt) Yetekekele ye'fiyel libe",
+    "food_name_amharic": "Yetekekele ye'fiyel libe",
+    "normalized_amharic": "yetekekele ye'fiyel libe",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "libe",
+      "meat & poultry",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 166,
+    "protein_g": 23.8,
+    "fat_g": 6.8,
+    "carbs_g": 2.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070032",
+    "food_name": "Goat",
+    "food_name_original": "Goat, heart, raw Ye'fiyel, libe, ti're",
+    "food_name_amharic": "Ye'fiyel, libe, ti're",
+    "normalized_amharic": "ye'fiyel, libe, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "libe",
+      "meat & poultry",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 129,
+    "protein_g": 15.3,
+    "fat_g": 6.9,
+    "carbs_g": 1.5,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070033",
+    "food_name": "Goat",
+    "food_name_original": "Goat, intestine, raw Ye'fiyel, anjet, ti're",
+    "food_name_amharic": "Ye'fiyel, anjet, ti're",
+    "normalized_amharic": "ye'fiyel, anjet, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "anjet",
+      "goat",
+      "meat & poultry",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 73,
+    "protein_g": 11.2,
+    "fat_g": 2.5,
+    "carbs_g": 1.5,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070110",
+    "food_name": "Goat",
+    "food_name_original": "Goat, kidney, boiled, drained (without salt) Yetekekele ye'fiyel kulalit",
+    "food_name_amharic": "Yetekekele ye'fiyel kulalit",
+    "normalized_amharic": "yetekekele ye'fiyel kulalit",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "kulalit",
+      "meat & poultry",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 144,
+    "protein_g": 24.4,
+    "fat_g": 3.4,
+    "carbs_g": 4,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070112",
+    "food_name": "Goat",
+    "food_name_original": "Goat, kidney, grilled (without salt or fat) Yetetebese ye'fiyel kulalit",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "meat & poultry"
+    ],
+    "energy_kcal": 138,
+    "protein_g": 23.2,
+    "fat_g": 3.3,
+    "carbs_g": 3.8,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070034",
+    "food_name": "Goat",
+    "food_name_original": "Goat, kidney, raw Ye'fiyel, kulalit, ti're",
+    "food_name_amharic": "kidney, raw Ye'fiyel, kulalit, ti're",
+    "normalized_amharic": "kidney, raw ye'fiyel, kulalit, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "kidney",
+      "kulalit",
+      "meat & poultry",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 88,
+    "protein_g": 14.9,
+    "fat_g": 2.1,
+    "carbs_g": 2.4,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070113",
+    "food_name": "Goat",
+    "food_name_original": "Goat, liver, boiled, drained (without salt) Yetetekekele ye'fiyel gubet",
+    "food_name_amharic": "Yetetekekele ye'fiyel gubet",
+    "normalized_amharic": "yetetekekele ye'fiyel gubet",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "gubet",
+      "meat & poultry",
+      "ye'fiyel",
+      "yetetekekele"
+    ],
+    "energy_kcal": 195,
+    "protein_g": 29.2,
+    "fat_g": 4.3,
+    "carbs_g": 9.9,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070115",
+    "food_name": "Goat",
+    "food_name_original": "Goat, liver, grilled (without salt or fat) Yetetebese ye'fiyel gubet",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "meat & poultry"
+    ],
+    "energy_kcal": 169,
+    "protein_g": 23.5,
+    "fat_g": 4.8,
+    "carbs_g": 8,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070035",
+    "food_name": "Goat",
+    "food_name_original": "Goat, liver, raw Ye'fiyel, gubet, ti're",
+    "food_name_amharic": "Ye'fiyel, gubet, ti're",
+    "normalized_amharic": "ye'fiyel, gubet, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "gubet",
+      "meat & poultry",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 150,
+    "protein_g": 19.3,
+    "fat_g": 5.2,
+    "carbs_g": 6.6,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070119",
+    "food_name": "Goat",
+    "food_name_original": "Goat, tongue, boiled, drained (without salt) Yetekekele ye'fiyel milas",
+    "food_name_amharic": "Yetekekele ye'fiyel milas",
+    "normalized_amharic": "yetekekele ye'fiyel milas",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "meat & poultry",
+      "milas",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 176,
+    "protein_g": 22.4,
+    "fat_g": 8.7,
+    "carbs_g": 2.2,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070039",
+    "food_name": "Goat",
+    "food_name_original": "Goat, tongue, raw Ye'fiyel, milas, ti're",
+    "food_name_amharic": "tongue, raw Ye'fiyel, milas, ti're",
+    "normalized_amharic": "tongue, raw ye'fiyel, milas, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "meat & poultry",
+      "milas",
+      "tongue",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 152,
+    "protein_g": 17.5,
+    "fat_g": 8.3,
+    "carbs_g": 1.7,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070121",
+    "food_name": "Goat",
+    "food_name_original": "Goat, tripe, boiled, drained (without salt) Yetekekele ye'fiyel tripe",
+    "food_name_amharic": "Yetekekele ye'fiyel tripe",
+    "normalized_amharic": "yetekekele ye'fiyel tripe",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "meat & poultry",
+      "tripe",
+      "ye'fiyel"
+    ],
+    "energy_kcal": 100,
+    "protein_g": 18,
+    "fat_g": 1.8,
+    "carbs_g": 2.9,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070123",
+    "food_name": "Goat",
+    "food_name_original": "Goat, tripe, grilled (without salt or fat) Yetetebese ye'fiyel tripe",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "meat & poultry"
+    ],
+    "energy_kcal": 100,
+    "protein_g": 18,
+    "fat_g": 1.8,
+    "carbs_g": 2.9,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070040",
+    "food_name": "Goat",
+    "food_name_original": "Goat, tripe, raw Ye'fiyele, tripe, ti're",
+    "food_name_amharic": "Ye'fiyele, tripe, ti're",
+    "normalized_amharic": "ye'fiyele, tripe, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "goat",
+      "meat & poultry",
+      "tripe",
+      "ye'fiyele"
+    ],
+    "energy_kcal": 71,
+    "protein_g": 12.8,
+    "fat_g": 1.3,
+    "carbs_g": 2.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070001",
+    "food_name": "Pork",
+    "food_name_original": "Pork, bacon, raw Becon, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "pork"
+    ],
+    "energy_kcal": 540,
+    "protein_g": 12.4,
+    "fat_g": 54.5,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070049",
+    "food_name": "Pork",
+    "food_name_original": "Pork, ham, raw Ham, ti're",
+    "food_name_amharic": "ti're",
+    "normalized_amharic": "ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "pork"
+    ],
+    "energy_kcal": 255,
+    "protein_g": 18.2,
+    "fat_g": 20.2,
+    "carbs_g": 0.2,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070124",
+    "food_name": "Pork",
+    "food_name_original": "Pork, meat, fresh, boiled, drained (without salt) Yetekekele ye'asama siga",
+    "food_name_amharic": "Yetekekele ye'asama siga",
+    "normalized_amharic": "yetekekele ye'asama siga",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "pork",
+      "siga",
+      "ye'asama"
+    ],
+    "energy_kcal": 330,
+    "protein_g": 26.9,
+    "fat_g": 24.7,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070126",
+    "food_name": "Pork",
+    "food_name_original": "Pork, meat, fresh, grilled (without salt) Yetetebese  ye'asama siga",
+    "food_name_amharic": "Yetetebese ye'asama siga",
+    "normalized_amharic": "yetetebese ye'asama siga",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "pork",
+      "siga",
+      "ye'asama"
+    ],
+    "energy_kcal": 315,
+    "protein_g": 25,
+    "fat_g": 23.9,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070045",
+    "food_name": "Pork",
+    "food_name_original": "Pork, meat, fresh, raw Ye'asama siga, ti're",
+    "food_name_amharic": "Ye'asama siga, ti're",
+    "normalized_amharic": "ye'asama siga, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "pork",
+      "siga",
+      "ye'asama"
+    ],
+    "energy_kcal": 255,
+    "protein_g": 17.5,
+    "fat_g": 20.6,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070048",
+    "food_name": "Pork",
+    "food_name_original": "Pork, sausage, raw Ye'asama qwalima, ti're",
+    "food_name_amharic": "Ye'asama qwalima, ti're",
+    "normalized_amharic": "ye'asama qwalima, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "pork",
+      "qwalima",
+      "ye'asama"
+    ],
+    "energy_kcal": 340,
+    "protein_g": 11.5,
+    "fat_g": 32,
+    "carbs_g": 0.9,
+    "fiber_g": 1.3
+  },
+  {
+    "food_code": "070050",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), brain, raw Ye'begi angol, ti're",
+    "food_name_amharic": "Ye'begi angol, ti're",
+    "normalized_amharic": "ye'begi angol, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "angol",
+      "meat & poultry",
+      "mutton",
+      "sheep",
+      "ye'begi"
+    ],
+    "energy_kcal": 106,
+    "protein_g": 9.4,
+    "fat_g": 6.7,
+    "carbs_g": 2,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070133",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), heart, boiled, drained (without salt) Yetekekele ye'begi libe",
+    "food_name_amharic": "Yetekekele ye'begi libe",
+    "normalized_amharic": "yetekekele ye'begi libe",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "libe",
+      "meat & poultry",
+      "mutton",
+      "sheep",
+      "ye'begi"
+    ],
+    "energy_kcal": 154,
+    "protein_g": 25.2,
+    "fat_g": 5.2,
+    "carbs_g": 1.7,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070051",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), heart, raw Ye'begi lib, ti're",
+    "food_name_amharic": "Ye'begi lib, ti're",
+    "normalized_amharic": "ye'begi lib, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "lib",
+      "meat & poultry",
+      "mutton",
+      "sheep",
+      "ye'begi"
+    ],
+    "energy_kcal": 119,
+    "protein_g": 15.4,
+    "fat_g": 5.9,
+    "carbs_g": 1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070138",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), kidney, grilled (without salt or fat) Yetetebese ye'begi kulalit",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "mutton",
+      "sheep"
+    ],
+    "energy_kcal": 137,
+    "protein_g": 22.9,
+    "fat_g": 3.9,
+    "carbs_g": 2.5,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070054",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), kidney, raw Ye'begi kulalit, ti're",
+    "food_name_amharic": "kidney, raw Ye'begi kulalit, ti're",
+    "normalized_amharic": "kidney, raw ye'begi kulalit, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "kidney",
+      "kulalit",
+      "meat & poultry",
+      "mutton",
+      "sheep",
+      "ye'begi"
+    ],
+    "energy_kcal": 88,
+    "protein_g": 14.7,
+    "fat_g": 2.5,
+    "carbs_g": 1.6,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070141",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), liver, grilled (without salt or fat) Yetetebese ye'begi gubet",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "mutton",
+      "sheep"
+    ],
+    "energy_kcal": 160,
+    "protein_g": 26.4,
+    "fat_g": 3.9,
+    "carbs_g": 4.7,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070055",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), liver, raw Ye'begi gubet, ti're",
+    "food_name_amharic": "Ye'begi gubet, ti're",
+    "normalized_amharic": "ye'begi gubet, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "gubet",
+      "meat & poultry",
+      "mutton",
+      "sheep",
+      "ye'begi"
+    ],
+    "energy_kcal": 131,
+    "protein_g": 21.7,
+    "fat_g": 3.2,
+    "carbs_g": 3.8,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070053",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), meat, fresh, raw Ye'begi siga, ti're",
+    "food_name_amharic": "Ye'begi siga, ti're",
+    "normalized_amharic": "ye'begi siga, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "mutton",
+      "sheep",
+      "siga",
+      "ye'begi"
+    ],
+    "energy_kcal": 104,
+    "protein_g": 22.4,
+    "fat_g": 1.6,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070052",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), small intestine, raw Ye'begi anjet, ti're",
+    "food_name_amharic": "Ye'begi anjet, ti're",
+    "normalized_amharic": "ye'begi anjet, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "anjet",
+      "meat & poultry",
+      "mutton",
+      "sheep",
+      "ye'begi"
+    ],
+    "energy_kcal": 96,
+    "protein_g": 19.7,
+    "fat_g": 1.6,
+    "carbs_g": 0.8,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070056",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), tongue, raw Ye'begi milas, ti're",
+    "food_name_amharic": "tongue, raw Ye'begi milas, ti're",
+    "normalized_amharic": "tongue, raw ye'begi milas, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "milas",
+      "mutton",
+      "sheep",
+      "tongue",
+      "ye'begi"
+    ],
+    "energy_kcal": 284,
+    "protein_g": 17.3,
+    "fat_g": 23.2,
+    "carbs_g": 1.6,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070146",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), tripe, grilled (without",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "mutton",
+      "sheep"
+    ],
+    "energy_kcal": 146,
+    "protein_g": 23.6,
+    "fat_g": 5.7,
+    "carbs_g": 0.2,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070057",
+    "food_name": "Sheep (mutton)",
+    "food_name_original": "Sheep (mutton), tripe, raw Ye'begi tripe, ti're",
+    "food_name_amharic": "Ye'begi tripe, ti're",
+    "normalized_amharic": "ye'begi tripe, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "mutton",
+      "sheep",
+      "tripe",
+      "ye'begi"
+    ],
+    "energy_kcal": 104,
+    "protein_g": 16.8,
+    "fat_g": 4.1,
+    "carbs_g": 0.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "070044",
+    "food_name": "Sheep",
+    "food_name_original": "Sheep, sausage, raw Ye'begi qwalima, ti're",
+    "food_name_amharic": "Ye'begi qwalima, ti're",
+    "normalized_amharic": "ye'begi qwalima, ti're",
+    "category": "Meat & Poultry",
+    "keywords": [
+      "meat & poultry",
+      "qwalima",
+      "sheep",
+      "ye'begi"
+    ],
+    "energy_kcal": 109,
+    "protein_g": 19.4,
+    "fat_g": 2.7,
+    "carbs_g": 0.8,
+    "fiber_g": 1.7
+  },
+  {
+    "food_code": "080001",
+    "food_name": "Egg",
+    "food_name_original": "Egg, chicken, whole, raw Ye'doro enqulal, ti're",
+    "food_name_amharic": "Ye'doro enqulal, ti're",
+    "normalized_amharic": "ye'doro enqulal, ti're",
+    "category": "Eggs",
+    "keywords": [
+      "egg",
+      "eggs",
+      "enqulal",
+      "ye'doro"
+    ],
+    "energy_kcal": 118,
+    "protein_g": 11.3,
+    "fat_g": 7.1,
+    "carbs_g": 2.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "080014",
+    "food_name": "Egg",
+    "food_name_original": "Egg, chicken, stew, with oil, onion, spices and salt Enqulal wot",
+    "food_name_amharic": "with oil, onion, spices and salt Enqulal wot",
+    "normalized_amharic": "with oil, onion, spices and salt enqulal wot",
+    "category": "Eggs",
+    "keywords": [
+      "egg",
+      "eggs",
+      "enqulal",
+      "onion",
+      "spices",
+      "wot"
+    ],
+    "energy_kcal": 209,
+    "protein_g": 6.8,
+    "fat_g": 18.4,
+    "carbs_g": 3.3,
+    "fiber_g": 1.1
+  },
+  {
+    "food_code": "080007",
+    "food_name": "Egg",
+    "food_name_original": "Egg, chicken, whole, boiled, drained (without salt) Yetekekele ye'doro enqulal",
+    "food_name_amharic": "Yetekekele ye'doro enqulal",
+    "normalized_amharic": "yetekekele ye'doro enqulal",
+    "category": "Eggs",
+    "keywords": [
+      "egg",
+      "eggs",
+      "enqulal",
+      "ye'doro"
+    ],
+    "energy_kcal": 118,
+    "protein_g": 11.3,
+    "fat_g": 7.1,
+    "carbs_g": 2.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "080003",
+    "food_name": "Egg",
+    "food_name_original": "Egg, chicken, yolk, raw Ye'doro enqulal askwal, ti're",
+    "food_name_amharic": "Ye'doro enqulal askwal, ti're",
+    "normalized_amharic": "ye'doro enqulal askwal, ti're",
+    "category": "Eggs",
+    "keywords": [
+      "askwal",
+      "egg",
+      "eggs",
+      "enqulal",
+      "ye'doro"
+    ],
+    "energy_kcal": 316,
+    "protein_g": 15,
+    "fat_g": 27.8,
+    "carbs_g": 1.4,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090001",
+    "food_name": "Carp",
+    "food_name_original": "Carp, fresh, fillet, raw  Dabe, ti're",
+    "food_name_amharic": "fillet, raw Dabe, ti're",
+    "normalized_amharic": "fillet, raw dabe, ti're",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "carp",
+      "dabe",
+      "fillet",
+      "fish",
+      "fish & seafood"
+    ],
+    "energy_kcal": 89,
+    "protein_g": 20.3,
+    "fat_g": 0.8,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090016",
+    "food_name": "Carp",
+    "food_name_original": "Carp, fresh, fillet, grilled (without salt or fat) Yetetebese ye'dabe feleto",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "carp",
+      "fish",
+      "fish & seafood"
+    ],
+    "energy_kcal": 129,
+    "protein_g": 29.4,
+    "fat_g": 1.2,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090015",
+    "food_name": "Carp",
+    "food_name_original": "Carp, fresh, fillet, steamed (without salt) Yetekekele ye'dabe feleto",
+    "food_name_amharic": "Yetekekele ye'dabe feleto",
+    "normalized_amharic": "yetekekele ye'dabe feleto",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "carp",
+      "feleto",
+      "fish",
+      "fish & seafood",
+      "ye'dabe"
+    ],
+    "energy_kcal": 107,
+    "protein_g": 24.4,
+    "fat_g": 1,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090019",
+    "food_name": "Catfish",
+    "food_name_original": "Catfish, fresh, wild, fillet, grilled (without salt or fat) Yetetebese ye'ambaza feleto",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "catfish",
+      "fish",
+      "fish & seafood"
+    ],
+    "energy_kcal": 146,
+    "protein_g": 27.4,
+    "fat_g": 4,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090002",
+    "food_name": "Catfish",
+    "food_name_original": "Catfish, fresh, wild, fillet, raw Ambaza, ti're",
+    "food_name_amharic": "fillet, raw Ambaza, ti're",
+    "normalized_amharic": "fillet, raw ambaza, ti're",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "ambaza",
+      "catfish",
+      "fillet",
+      "fish",
+      "fish & seafood"
+    ],
+    "energy_kcal": 101,
+    "protein_g": 18.9,
+    "fat_g": 2.8,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090013",
+    "food_name": "Fish",
+    "food_name_original": "Fish, small, whole, dried, raw  Asa, yedereke, ti're",
+    "food_name_amharic": "yedereke, ti're",
+    "normalized_amharic": "yedereke, ti're",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "fish",
+      "fish & seafood"
+    ],
+    "energy_kcal": 333,
+    "protein_g": 59.5,
+    "fat_g": 10.6,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090012",
+    "food_name": "Fish",
+    "food_name_original": "Fish, without bones, salted, dried, raw Asa, yedereke, ti're (atenete yelelew)",
+    "food_name_amharic": "yedereke, ti're (atenete yelelew)",
+    "normalized_amharic": "yedereke, ti're (atenete yelelew)",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "atenete",
+      "fish",
+      "fish & seafood",
+      "yelelew"
+    ],
+    "energy_kcal": 182,
+    "protein_g": 42,
+    "fat_g": 1.5,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090006",
+    "food_name": "Nile perch",
+    "food_name_original": "Nile perch, fresh water, fillet, raw  Nech asa, feleto, ti're",
+    "food_name_amharic": "feleto, ti're",
+    "normalized_amharic": "feleto, ti're",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "feleto",
+      "fish & seafood",
+      "nile",
+      "perch"
+    ],
+    "energy_kcal": 83,
+    "protein_g": 19.9,
+    "fat_g": 0.4,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090022",
+    "food_name": "Nile tilapia",
+    "food_name_original": "Nile tilapia, fresh water, fillet, grilled (without salt) Yetetebese ye'koroso feleto",
+    "food_name_amharic": "Yetetebese ye'koroso feleto",
+    "normalized_amharic": "yetetebese ye'koroso feleto",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "feleto",
+      "fish",
+      "fish & seafood",
+      "nile",
+      "tilapia",
+      "ye'koroso"
+    ],
+    "energy_kcal": 114,
+    "protein_g": 25.2,
+    "fat_g": 1.5,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090004",
+    "food_name": "Nile tilapia",
+    "food_name_original": "Nile tilapia, fresh water, fillet, raw  Koroso, feleto, ti're",
+    "food_name_amharic": "fillet, raw Koroso, feleto, ti're",
+    "normalized_amharic": "fillet, raw koroso, feleto, ti're",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "feleto",
+      "fillet",
+      "fish",
+      "fish & seafood",
+      "koroso",
+      "nile",
+      "tilapia"
+    ],
+    "energy_kcal": 90,
+    "protein_g": 19.9,
+    "fat_g": 1.2,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090021",
+    "food_name": "Nile tilapia",
+    "food_name_original": "Nile tilapia, fresh water, fillet, steamed (without salt) Be'enfalot yetekekele ye'koroso feleto",
+    "food_name_amharic": "yetekekele ye'koroso feleto",
+    "normalized_amharic": "yetekekele ye'koroso feleto",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "feleto",
+      "fish",
+      "fish & seafood",
+      "nile",
+      "tilapia",
+      "ye'koroso"
+    ],
+    "energy_kcal": 104,
+    "protein_g": 22.9,
+    "fat_g": 1.3,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090003",
+    "food_name": "Sardine",
+    "food_name_original": "Sardine, whole, with bones, canned in oil, drained Sardine, yetashege (zeyete yelelew)",
+    "food_name_amharic": "yetashege (zeyete yelelew)",
+    "normalized_amharic": "yetashege (zeyete yelelew)",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "fish & seafood",
+      "sardine",
+      "yelelew",
+      "zeyete"
+    ],
+    "energy_kcal": 239,
+    "protein_g": 24.8,
+    "fat_g": 15.5,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090005",
+    "food_name": "Tuna",
+    "food_name_original": "Tuna, canned in oil, drained  Tuna, yetashege (zeyet yelelew)",
+    "food_name_amharic": "Tuna, yetashege (zeyet yelelew)",
+    "normalized_amharic": "tuna, yetashege (zeyet yelelew)",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "fish & seafood",
+      "tuna",
+      "yelelew",
+      "zeyet"
+    ],
+    "energy_kcal": 174,
+    "protein_g": 26.4,
+    "fat_g": 7.6,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090007",
+    "food_name": "Tuna",
+    "food_name_original": "Tuna, canned in oil, undrained  Tuna, yetashege (zeyet yalew)",
+    "food_name_amharic": "Tuna, yetashege (zeyet yalew)",
+    "normalized_amharic": "tuna, yetashege (zeyet yalew)",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "fish & seafood",
+      "tuna",
+      "yalew",
+      "zeyet"
+    ],
+    "energy_kcal": 271,
+    "protein_g": 19.9,
+    "fat_g": 21.3,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090008",
+    "food_name": "Tuna",
+    "food_name_original": "Tuna, canned in water, salted, drained Tuna, yetashege (wiha yelelew)",
+    "food_name_amharic": "Tuna, yetashege (wiha yelelew)",
+    "normalized_amharic": "tuna, yetashege (wiha yelelew)",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "fish & seafood",
+      "tuna",
+      "wiha",
+      "yelelew"
+    ],
+    "energy_kcal": 116,
+    "protein_g": 26.6,
+    "fat_g": 1,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "090009",
+    "food_name": "Tuna",
+    "food_name_original": "Tuna, canned in water, salted, undrained Tuna, yetashege (weha yalew)",
+    "food_name_amharic": "Tuna, yetashege (weha yalew)",
+    "normalized_amharic": "tuna, yetashege (weha yalew)",
+    "category": "Fish & Seafood",
+    "keywords": [
+      "fish & seafood",
+      "tuna",
+      "weha",
+      "yalew"
+    ],
+    "energy_kcal": 87,
+    "protein_g": 20.1,
+    "fat_g": 0.7,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100001",
+    "food_name": "Butter milk",
+    "food_name_original": "Butter milk, cow, fluid Ye'lame wetet arera",
+    "food_name_amharic": "Ye'lame wetet arera",
+    "normalized_amharic": "ye'lame wetet arera",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "arera",
+      "butter",
+      "dairy & milk",
+      "milk",
+      "wetet",
+      "ye'lame"
+    ],
+    "energy_kcal": 38,
+    "protein_g": 3.1,
+    "fat_g": 0.8,
+    "carbs_g": 4.6,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100029",
+    "food_name": "Cheese",
+    "food_name_original": "Cheese, cottage, with butter, spices and salt Keye ayib",
+    "food_name_amharic": "Keye ayib",
+    "normalized_amharic": "keye ayib",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "ayib",
+      "cheese",
+      "dairy & milk"
+    ],
+    "energy_kcal": 187,
+    "protein_g": 15.4,
+    "fat_g": 11.9,
+    "carbs_g": 4.2,
+    "fiber_g": 0.5
+  },
+  {
+    "food_code": "100003",
+    "food_name": "Cheese",
+    "food_name_original": "Cheese, cottage, from cow's milk, homemade Ye'lame wetet ayib",
+    "food_name_amharic": "Ye'lame wetet ayib",
+    "normalized_amharic": "ye'lame wetet ayib",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "ayib",
+      "cheese",
+      "dairy & milk",
+      "wetet",
+      "ye'lame"
+    ],
+    "energy_kcal": 135,
+    "protein_g": 16.6,
+    "fat_g": 6,
+    "carbs_g": 3.8,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100005",
+    "food_name": "Cheese",
+    "food_name_original": "Cheese, ricotta, from cow's milk Ye'lame wetet ayib (ricotta)",
+    "food_name_amharic": "Ye'lame wetet ayib (ricotta)",
+    "normalized_amharic": "ye'lame wetet ayib (ricotta)",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "ayib",
+      "cheese",
+      "dairy & milk",
+      "ricotta",
+      "wetet",
+      "ye'lame"
+    ],
+    "energy_kcal": 168,
+    "protein_g": 11.3,
+    "fat_g": 11.8,
+    "carbs_g": 4.2,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100006",
+    "food_name": "Milk",
+    "food_name_original": "Milk, camel, whole, fluid, fresh, unfortified Ye'gimel wetet, yaletenate",
+    "food_name_amharic": "Ye'gimel wetet, yaletenate",
+    "normalized_amharic": "ye'gimel wetet, yaletenate",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "dairy & milk",
+      "milk",
+      "wetet",
+      "yaletenate",
+      "ye'gimel"
+    ],
+    "energy_kcal": 66,
+    "protein_g": 2.9,
+    "fat_g": 2.5,
+    "carbs_g": 8.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100012",
+    "food_name": "Milk",
+    "food_name_original": "Milk, cow, powder, whole, unfortified Ye'lame wetet, duket",
+    "food_name_amharic": "Ye'lame wetet, duket",
+    "normalized_amharic": "ye'lame wetet, duket",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "dairy & milk",
+      "duket",
+      "milk",
+      "wetet",
+      "ye'lame"
+    ],
+    "energy_kcal": 498,
+    "protein_g": 24.9,
+    "fat_g": 26.6,
+    "carbs_g": 39.7,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100008",
+    "food_name": "Milk",
+    "food_name_original": "Milk, cow, whole, fluid, pasteurized, unfortified Ye'lame wetet, pasteurized",
+    "food_name_amharic": "Ye'lame wetet, pasteurized",
+    "normalized_amharic": "ye'lame wetet, pasteurized",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "dairy & milk",
+      "milk",
+      "pasteurized",
+      "wetet",
+      "ye'lame"
+    ],
+    "energy_kcal": 64,
+    "protein_g": 0.5,
+    "fat_g": 3.4,
+    "carbs_g": 7.9,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100014",
+    "food_name": "Milk",
+    "food_name_original": "Milk, goat, whole, fluid, fresh, unfortified Ye'fiyele wetet, yaletenate",
+    "food_name_amharic": "Ye'fiyele wetet, yaletenate",
+    "normalized_amharic": "ye'fiyele wetet, yaletenate",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "dairy & milk",
+      "milk",
+      "wetet",
+      "yaletenate",
+      "ye'fiyele"
+    ],
+    "energy_kcal": 119,
+    "protein_g": 6.2,
+    "fat_g": 8.6,
+    "carbs_g": 4.2,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100016",
+    "food_name": "Milk",
+    "food_name_original": "Milk, sheep, fluid, whole, unfortified Ye'begi wetet, yaletenate",
+    "food_name_amharic": "Ye'begi wetet, yaletenate",
+    "normalized_amharic": "ye'begi wetet, yaletenate",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "dairy & milk",
+      "milk",
+      "wetet",
+      "yaletenate",
+      "ye'begi"
+    ],
+    "energy_kcal": 84,
+    "protein_g": 4.5,
+    "fat_g": 6.4,
+    "carbs_g": 2.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100018",
+    "food_name": "Sourmilk",
+    "food_name_original": "Sourmilk, cow, homemade Ye'lame wetet ergo",
+    "food_name_amharic": "Ye'lame wetet ergo",
+    "normalized_amharic": "ye'lame wetet ergo",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "dairy & milk",
+      "ergo",
+      "milk",
+      "sourmilk",
+      "wetet",
+      "ye'lame"
+    ],
+    "energy_kcal": 66,
+    "protein_g": 3.7,
+    "fat_g": 4,
+    "carbs_g": 3.8,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100020",
+    "food_name": "Yoghurt",
+    "food_name_original": "Yoghurt, cow, skimmed, plain Ye'lame wetet ergo, yetenate",
+    "food_name_amharic": "Ye'lame wetet ergo, yetenate",
+    "normalized_amharic": "ye'lame wetet ergo, yetenate",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "dairy & milk",
+      "ergo",
+      "wetet",
+      "ye'lame",
+      "yetenate",
+      "yoghurt"
+    ],
+    "energy_kcal": 58,
+    "protein_g": 3.8,
+    "fat_g": 1.4,
+    "carbs_g": 7.5,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "100019",
+    "food_name": "Yoghurt",
+    "food_name_original": "Yoghurt, cow, whole, plain Ye'lame wetet ergo",
+    "food_name_amharic": "Ye'lame wetet ergo",
+    "normalized_amharic": "ye'lame wetet ergo",
+    "category": "Dairy & Milk",
+    "keywords": [
+      "dairy & milk",
+      "ergo",
+      "wetet",
+      "ye'lame",
+      "yoghurt"
+    ],
+    "energy_kcal": 52,
+    "protein_g": 3,
+    "fat_g": 2.6,
+    "carbs_g": 4.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "110003",
+    "food_name": "Butter",
+    "food_name_original": "Butter, clarified, without spices, unsalted Ye'lame wetet kibe, yetetara",
+    "food_name_amharic": "Ye'lame wetet kibe, yetetara",
+    "normalized_amharic": "ye'lame wetet kibe, yetetara",
+    "category": "Oils & Fats",
+    "keywords": [
+      "butter",
+      "kibe",
+      "oils & fats",
+      "wetet",
+      "ye'lame",
+      "yetetara"
+    ],
+    "energy_kcal": 900,
+    "protein_g": 0.3,
+    "fat_g": 99.9,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "110020",
+    "food_name": "Butter",
+    "food_name_original": "Butter, from cow's milk, without spices, salted Ye'lame wetet kibe, chew yalew",
+    "food_name_amharic": "Ye'lame wetet kibe, chew yalew",
+    "normalized_amharic": "ye'lame wetet kibe, chew yalew",
+    "category": "Oils & Fats",
+    "keywords": [
+      "butter",
+      "chew",
+      "kibe",
+      "oils & fats",
+      "wetet",
+      "yalew",
+      "ye'lame"
+    ],
+    "energy_kcal": 736,
+    "protein_g": 1.3,
+    "fat_g": 81.1,
+    "carbs_g": 0.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "110004",
+    "food_name": "Cream",
+    "food_name_original": "Cream, whipped Cream",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Oils & Fats",
+    "keywords": [
+      "cream",
+      "oils & fats"
+    ],
+    "energy_kcal": 350,
+    "protein_g": 2.7,
+    "fat_g": 33.9,
+    "carbs_g": 8.6,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "110005",
+    "food_name": "Fish oil",
+    "food_name_original": "Fish oil, cod liver Ye'asa zeyet",
+    "food_name_amharic": "Ye'asa zeyet",
+    "normalized_amharic": "ye'asa zeyet",
+    "category": "Oils & Fats",
+    "keywords": [
+      "fish",
+      "oils & fats",
+      "ye'asa",
+      "zeyet"
+    ],
+    "energy_kcal": 900,
+    "protein_g": 0,
+    "fat_g": 100,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "110006",
+    "food_name": "Mayonnaise",
+    "food_name_original": "Mayonnaise, dressing, no cholesterol Mayonnaise",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Oils & Fats",
+    "keywords": [
+      "mayonnaise",
+      "oils & fats"
+    ],
+    "energy_kcal": 701,
+    "protein_g": 0,
+    "fat_g": 77.8,
+    "carbs_g": 0.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "110015",
+    "food_name": "Oil",
+    "food_name_original": "Oil, rapseed Ye'gomenzer zeyet",
+    "food_name_amharic": "Ye'gomenzer zeyet",
+    "normalized_amharic": "ye'gomenzer zeyet",
+    "category": "Oils & Fats",
+    "keywords": [
+      "oils & fats",
+      "ye'gomenzer",
+      "zeyet"
+    ],
+    "energy_kcal": 896,
+    "protein_g": 0,
+    "fat_g": 99.5,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "110016",
+    "food_name": "Oil",
+    "food_name_original": "Oil, safflower Ye'suf zeyet",
+    "food_name_amharic": "Ye'suf zeyet",
+    "normalized_amharic": "ye'suf zeyet",
+    "category": "Oils & Fats",
+    "keywords": [
+      "oils & fats",
+      "ye'suf",
+      "zeyet"
+    ],
+    "energy_kcal": 896,
+    "protein_g": 0,
+    "fat_g": 99.5,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "110017",
+    "food_name": "Oil",
+    "food_name_original": "Oil, sesame Ye'selit zeyet",
+    "food_name_amharic": "Ye'selit zeyet",
+    "normalized_amharic": "ye'selit zeyet",
+    "category": "Oils & Fats",
+    "keywords": [
+      "oils & fats",
+      "ye'selit",
+      "zeyet"
+    ],
+    "energy_kcal": 900,
+    "protein_g": 0,
+    "fat_g": 100,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "110018",
+    "food_name": "Oil",
+    "food_name_original": "Oil, soybean, unfortified Ye'akuriater zeyet",
+    "food_name_amharic": "Ye'akuriater zeyet",
+    "normalized_amharic": "ye'akuriater zeyet",
+    "category": "Oils & Fats",
+    "keywords": [
+      "oils & fats",
+      "ye'akuriater",
+      "zeyet"
+    ],
+    "energy_kcal": 900,
+    "protein_g": 0,
+    "fat_g": 100,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "110019",
+    "food_name": "Oil",
+    "food_name_original": "Oil, sunflower, unfortified Ye'suf zeyet",
+    "food_name_amharic": "Ye'suf zeyet",
+    "normalized_amharic": "ye'suf zeyet",
+    "category": "Oils & Fats",
+    "keywords": [
+      "oils & fats",
+      "ye'suf",
+      "zeyet"
+    ],
+    "energy_kcal": 900,
+    "protein_g": 0,
+    "fat_g": 100,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "120029",
+    "food_name": "Abara",
+    "food_name_original": "Abara, fermented alcoholic beverage, cereal based Abara",
+    "food_name_amharic": "fermented alcoholic beverage, cereal based Abara",
+    "normalized_amharic": "fermented alcoholic beverage, cereal based abara",
+    "category": "Beverages",
+    "keywords": [
+      "abara",
+      "alcoholic",
+      "based",
+      "beverage",
+      "beverages",
+      "cereal"
+    ],
+    "energy_kcal": 37,
+    "protein_g": 1,
+    "fat_g": 0.9,
+    "carbs_g": 3.6,
+    "fiber_g": 1.3
+  },
+  {
+    "food_code": "120003",
+    "food_name": "Borde",
+    "food_name_original": "Borde, fermented alcoholic beverage, maize based Borde, ye'bekolo",
+    "food_name_amharic": "ye'bekolo",
+    "normalized_amharic": "ye'bekolo",
+    "category": "Beverages",
+    "keywords": [
+      "beverages",
+      "borde",
+      "ye'bekolo"
+    ],
+    "energy_kcal": 43,
+    "protein_g": 1.5,
+    "fat_g": 0.7,
+    "carbs_g": 5.3,
+    "fiber_g": 1.9
+  },
+  {
+    "food_code": "120005",
+    "food_name": "Carbonated beverage",
+    "food_name_original": "Carbonated beverage, sugar-sweetened Lesilasa",
+    "food_name_amharic": "beverage, sugar-sweetened Lesilasa",
+    "normalized_amharic": "beverage, sugar-sweetened lesilasa",
+    "category": "Beverages",
+    "keywords": [
+      "beverage",
+      "beverages",
+      "carbonated",
+      "lesilasa",
+      "sugar",
+      "sweetened"
+    ],
+    "energy_kcal": 45,
+    "protein_g": 0,
+    "fat_g": 0.1,
+    "carbs_g": 10.9,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "120006",
+    "food_name": "Cheka",
+    "food_name_original": "Cheka, fermented alcoholic beverage, cereal based Cheka",
+    "food_name_amharic": "fermented alcoholic beverage, cereal based Cheka",
+    "normalized_amharic": "fermented alcoholic beverage, cereal based cheka",
+    "category": "Beverages",
+    "keywords": [
+      "alcoholic",
+      "based",
+      "beverage",
+      "beverages",
+      "cereal",
+      "cheka"
+    ],
+    "energy_kcal": 77,
+    "protein_g": 2.8,
+    "fat_g": 1.1,
+    "carbs_g": 8,
+    "fiber_g": 3
+  },
+  {
+    "food_code": "120041",
+    "food_name": "Coffee with milk and sugar Buna be'wetet",
+    "food_name_original": "Coffee with milk and sugar Buna be'wetet",
+    "food_name_amharic": "with milk and sugar Buna be'wetet",
+    "normalized_amharic": "with milk and sugar buna be'wetet",
+    "category": "Beverages",
+    "keywords": [
+      "be'wetet",
+      "beverages",
+      "buna",
+      "coffee",
+      "milk",
+      "sugar"
+    ],
+    "energy_kcal": 78,
+    "protein_g": 0.6,
+    "fat_g": 1.2,
+    "carbs_g": 16,
+    "fiber_g": 0.3
+  },
+  {
+    "food_code": "120042",
+    "food_name": "Fenugreek",
+    "food_name_original": "Fenugreek, juice with sugar Absh juice",
+    "food_name_amharic": "Fenugreek, juice with sugar Absh",
+    "normalized_amharic": "fenugreek, juice with sugar absh",
+    "category": "Beverages",
+    "keywords": [
+      "absh",
+      "beverages",
+      "fenugreek",
+      "sugar"
+    ],
+    "energy_kcal": 38,
+    "protein_g": 0.8,
+    "fat_g": 0.2,
+    "carbs_g": 7.4,
+    "fiber_g": 1.4
+  },
+  {
+    "food_code": "120038",
+    "food_name": "Juice from honey with water",
+    "food_name_original": "Juice from honey with water Ye'mar wuha",
+    "food_name_amharic": "Ye'mar wuha",
+    "normalized_amharic": "ye'mar wuha",
+    "category": "Beverages",
+    "keywords": [
+      "beverages",
+      "honey",
+      "pea",
+      "water",
+      "wuha",
+      "ye'mar"
+    ],
+    "energy_kcal": 81,
+    "protein_g": 0.2,
+    "fat_g": 0.2,
+    "carbs_g": 19.6,
+    "fiber_g": 0.1
+  },
+  {
+    "food_code": "120018",
+    "food_name": "Shamita",
+    "food_name_original": "Shamita, low-alcoholic beverage, cereal based Shameta",
+    "food_name_amharic": "beverage, cereal based Shameta",
+    "normalized_amharic": "beverage, cereal based shameta",
+    "category": "Beverages",
+    "keywords": [
+      "based",
+      "beverage",
+      "beverages",
+      "cereal",
+      "shameta",
+      "shamita"
+    ],
+    "energy_kcal": 66,
+    "protein_g": 1.8,
+    "fat_g": 0.5,
+    "carbs_g": 11.9,
+    "fiber_g": 2.8
+  },
+  {
+    "food_code": "120032",
+    "food_name": "Soybean milk",
+    "food_name_original": "Soybean milk, fluid, unfortified Ye'akuriater wetet",
+    "food_name_amharic": "Ye'akuriater wetet",
+    "normalized_amharic": "ye'akuriater wetet",
+    "category": "Beverages",
+    "keywords": [
+      "bean",
+      "beverages",
+      "milk",
+      "soybean",
+      "wetet",
+      "ye'akuriater"
+    ],
+    "energy_kcal": 37,
+    "protein_g": 2.7,
+    "fat_g": 1.4,
+    "carbs_g": 3.1,
+    "fiber_g": 0.6
+  },
+  {
+    "food_code": "120037",
+    "food_name": "Tea infusion with sugar Shay",
+    "food_name_original": "Tea infusion with sugar Shay",
+    "food_name_amharic": "Tea infusion with sugar Shay",
+    "normalized_amharic": "tea infusion with sugar shay",
+    "category": "Beverages",
+    "keywords": [
+      "beverages",
+      "infusion",
+      "shay",
+      "sugar",
+      "tea"
+    ],
+    "energy_kcal": 37,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carbs_g": 9.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "120020",
+    "food_name": "Tea",
+    "food_name_original": "Tea, black, infusion with water (without sugar) Shay",
+    "food_name_amharic": "Tea, black, infusion with water  Shay",
+    "normalized_amharic": "tea, black, infusion with water  shay",
+    "category": "Beverages",
+    "keywords": [
+      "beverages",
+      "infusion",
+      "shay",
+      "tea",
+      "water"
+    ],
+    "energy_kcal": 1,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carbs_g": 0.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "120022",
+    "food_name": "Vermouth",
+    "food_name_original": "Vermouth, dry (17.8% v/v alcohol) Vermouth",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Beverages",
+    "keywords": [
+      "beverages",
+      "vermouth"
+    ],
+    "energy_kcal": 123,
+    "protein_g": 0.1,
+    "fat_g": 0,
+    "carbs_g": 6.4,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "120023",
+    "food_name": "Vermouth",
+    "food_name_original": "Vermouth, sweet (13% v/v alcohol) Vermouth",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Beverages",
+    "keywords": [
+      "beverages",
+      "vermouth"
+    ],
+    "energy_kcal": 156,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carbs_g": 16.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "120028",
+    "food_name": "Vodka or whisky (37.1% v/v alcohol) Vodka/whisky",
+    "food_name_original": "Vodka or whisky (37.1% v/v alcohol) Vodka/whisky",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Beverages",
+    "keywords": [
+      "37.1%",
+      "alcohol",
+      "beverages",
+      "vodka",
+      "whisky"
+    ],
+    "energy_kcal": 225,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carbs_g": 2.3,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "120024",
+    "food_name": "Water",
+    "food_name_original": "Water, tap Water",
+    "food_name_amharic": "tap",
+    "normalized_amharic": "tap",
+    "category": "Beverages",
+    "keywords": [
+      "beverages",
+      "pea",
+      "tap",
+      "water"
+    ],
+    "energy_kcal": 0,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "130001",
+    "food_name": "Candies",
+    "food_name_original": "Candies, jellybeans Keremela",
+    "food_name_amharic": "Keremela",
+    "normalized_amharic": "keremela",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "candies",
+      "keremela",
+      "sweets & sugars"
+    ],
+    "energy_kcal": 360,
+    "protein_g": 0.1,
+    "fat_g": 0,
+    "carbs_g": 89.4,
+    "fiber_g": 0.9
+  },
+  {
+    "food_code": "130002",
+    "food_name": "Chewing gum Mastika",
+    "food_name_original": "Chewing gum Mastika",
+    "food_name_amharic": "gum Mastika",
+    "normalized_amharic": "gum mastika",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "chewing",
+      "gum",
+      "mastika",
+      "sweets & sugars"
+    ],
+    "energy_kcal": 390,
+    "protein_g": 0,
+    "fat_g": 0.3,
+    "carbs_g": 96.7,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "130003",
+    "food_name": "Chocolate",
+    "food_name_original": "Chocolate, milk, plain Chocolate",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "chocolate",
+      "sweets & sugars"
+    ],
+    "energy_kcal": 538,
+    "protein_g": 4.4,
+    "fat_g": 30.5,
+    "carbs_g": 60.4,
+    "fiber_g": 2.3
+  },
+  {
+    "food_code": "130017",
+    "food_name": "Cookies from white refined wheat flour (homemade) Cookies",
+    "food_name_original": "Cookies from white refined wheat flour (homemade) Cookies",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "cookies",
+      "homemade",
+      "sweets & sugars",
+      "wheat"
+    ],
+    "energy_kcal": 393,
+    "protein_g": 4.9,
+    "fat_g": 13.9,
+    "carbs_g": 61.2,
+    "fiber_g": 2
+  },
+  {
+    "food_code": "130019",
+    "food_name": "Cream cake",
+    "food_name_original": "Cream cake, vanilla flavoured Cream cake",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "cake",
+      "cream",
+      "sweets & sugars"
+    ],
+    "energy_kcal": 336,
+    "protein_g": 5.7,
+    "fat_g": 16,
+    "carbs_g": 41.9,
+    "fiber_g": 0.7
+  },
+  {
+    "food_code": "130009",
+    "food_name": "Flavoured drink",
+    "food_name_original": "Flavoured drink, powder, added vitamin C Taem yalew metet, duket",
+    "food_name_amharic": "Taem yalew metet, duket",
+    "normalized_amharic": "taem yalew metet, duket",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "drink",
+      "duket",
+      "flavoured",
+      "metet",
+      "sweets & sugars",
+      "taem",
+      "yalew"
+    ],
+    "energy_kcal": 396,
+    "protein_g": 0.1,
+    "fat_g": 0.6,
+    "carbs_g": 97.4,
+    "fiber_g": 0.2
+  },
+  {
+    "food_code": "130004",
+    "food_name": "Honey",
+    "food_name_original": "Honey, natural, unprocessed Mar",
+    "food_name_amharic": "Honey, natural, unprocessed Mar",
+    "normalized_amharic": "honey, natural, unprocessed mar",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "honey",
+      "mar",
+      "natural",
+      "sweets & sugars",
+      "unprocessed"
+    ],
+    "energy_kcal": 335,
+    "protein_g": 0.7,
+    "fat_g": 0.8,
+    "carbs_g": 81,
+    "fiber_g": 0.5
+  },
+  {
+    "food_code": "130006",
+    "food_name": "Ice cream",
+    "food_name_original": "Ice cream, dairy based, low fat Ice cream",
+    "food_name_amharic": "fat Ice cream",
+    "normalized_amharic": "fat ice cream",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "cream",
+      "fat",
+      "ice",
+      "sweets & sugars"
+    ],
+    "energy_kcal": 153,
+    "protein_g": 3.6,
+    "fat_g": 4.3,
+    "carbs_g": 24.8,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "130007",
+    "food_name": "Jam",
+    "food_name_original": "Jam, fruit, with sugar Marmalat",
+    "food_name_amharic": "with sugar Marmalat",
+    "normalized_amharic": "with sugar marmalat",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "jam",
+      "marmalat",
+      "sugar",
+      "sweets & sugars"
+    ],
+    "energy_kcal": 275,
+    "protein_g": 0.2,
+    "fat_g": 0.4,
+    "carbs_g": 67.2,
+    "fiber_g": 0.9
+  },
+  {
+    "food_code": "130008",
+    "food_name": "Marmalade",
+    "food_name_original": "Marmalade, orange Marmalat, yebirtukan",
+    "food_name_amharic": "yebirtukan",
+    "normalized_amharic": "yebirtukan",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "honey",
+      "marmalade",
+      "sweets & sugars",
+      "yebirtukan"
+    ],
+    "energy_kcal": 282,
+    "protein_g": 0.4,
+    "fat_g": 0,
+    "carbs_g": 69.6,
+    "fiber_g": 0.8
+  },
+  {
+    "food_code": "130013",
+    "food_name": "Sugar (cane)",
+    "food_name_original": "Sugar (cane), refined Sikuar",
+    "food_name_amharic": "Sugar , refined Sikuar",
+    "normalized_amharic": "sugar , refined sikuar",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "cane",
+      "sikuar",
+      "sugar",
+      "sweets & sugars"
+    ],
+    "energy_kcal": 398,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carbs_g": 99.5,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "130011",
+    "food_name": "Sugar cane",
+    "food_name_original": "Sugar cane, juice Ye'shenkora chimaki",
+    "food_name_amharic": "Ye'shenkora chimaki",
+    "normalized_amharic": "ye'shenkora chimaki",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "cane",
+      "chimaki",
+      "sugar",
+      "sweets & sugars",
+      "ye'shenkora"
+    ],
+    "energy_kcal": 38,
+    "protein_g": 0.1,
+    "fat_g": 0.2,
+    "carbs_g": 8.5,
+    "fiber_g": 0.6
+  },
+  {
+    "food_code": "130014",
+    "food_name": "Syrup",
+    "food_name_original": "Syrup, blend, corn and sugar Corn syrup",
+    "food_name_amharic": "sugar Corn syrup",
+    "normalized_amharic": "sugar corn syrup",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "corn",
+      "sugar",
+      "sweets & sugars",
+      "syrup"
+    ],
+    "energy_kcal": 336,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carbs_g": 83.9,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "130015",
+    "food_name": "Toffees Toffee",
+    "food_name_original": "Toffees Toffee",
+    "food_name_amharic": "Toffee",
+    "normalized_amharic": "toffee",
+    "category": "Sweets & Sugars",
+    "keywords": [
+      "sweets & sugars",
+      "toffee",
+      "toffees"
+    ],
+    "energy_kcal": 431,
+    "protein_g": 3,
+    "fat_g": 13,
+    "carbs_g": 74.7,
+    "fiber_g": 1.5
+  },
+  {
+    "food_code": "140019",
+    "food_name": "Basil",
+    "food_name_original": "Basil, dried, ground Besobila, yetefech",
+    "food_name_amharic": "yetefech",
+    "normalized_amharic": "yetefech",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "basil",
+      "spices & seasonings",
+      "yetefech"
+    ],
+    "energy_kcal": 256,
+    "protein_g": 14.4,
+    "fat_g": 4,
+    "carbs_g": 20.4,
+    "fiber_g": 40.5
+  },
+  {
+    "food_code": "140018",
+    "food_name": "Basil",
+    "food_name_original": "Basil, leaves, fresh, raw Ye'besobila kitel, ertib",
+    "food_name_amharic": "Ye'besobila kitel, ertib",
+    "normalized_amharic": "ye'besobila kitel, ertib",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "basil",
+      "ertib",
+      "kitel",
+      "spices & seasonings",
+      "ye'besobila"
+    ],
+    "energy_kcal": 27,
+    "protein_g": 2,
+    "fat_g": 0.6,
+    "carbs_g": 1.4,
+    "fiber_g": 4.2
+  },
+  {
+    "food_code": "140001",
+    "food_name": "Bishop's weed",
+    "food_name_original": "Bishop's weed, seeds, dried, raw Nechazmud, yedereke",
+    "food_name_amharic": "yedereke",
+    "normalized_amharic": "yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "bishop's",
+      "spices & seasonings",
+      "weed"
+    ],
+    "energy_kcal": 410,
+    "protein_g": 11.4,
+    "fat_g": 27.9,
+    "carbs_g": 11.8,
+    "fiber_g": 32.9
+  },
+  {
+    "food_code": "140003",
+    "food_name": "Cardamom",
+    "food_name_original": "Cardamom, seed, dried, raw Ye'shay kimem, yedereke",
+    "food_name_amharic": "Ye'shay kimem, yedereke",
+    "normalized_amharic": "ye'shay kimem, yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "cardamom",
+      "kimem",
+      "spices & seasonings",
+      "ye'shay"
+    ],
+    "energy_kcal": 310,
+    "protein_g": 7.4,
+    "fat_g": 2.7,
+    "carbs_g": 52.5,
+    "fiber_g": 23.3
+  },
+  {
+    "food_code": "140005",
+    "food_name": "Chili",
+    "food_name_original": "Chili, dried, powder Mitmita, yetefech",
+    "food_name_amharic": "yetefech",
+    "normalized_amharic": "yetefech",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "chili",
+      "spices & seasonings",
+      "yetefech"
+    ],
+    "energy_kcal": 312,
+    "protein_g": 13.4,
+    "fat_g": 14.3,
+    "carbs_g": 14.9,
+    "fiber_g": 34.8
+  },
+  {
+    "food_code": "140013",
+    "food_name": "Chilli",
+    "food_name_original": "Chilli, without spices, fresh, raw Ye'mitmita kariya, ti're",
+    "food_name_amharic": "Ye'mitmita kariya, ti're",
+    "normalized_amharic": "ye'mitmita kariya, ti're",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "chilli",
+      "spices & seasonings",
+      "ye'mitmita"
+    ],
+    "energy_kcal": 88,
+    "protein_g": 3.1,
+    "fat_g": 2.5,
+    "carbs_g": 11.9,
+    "fiber_g": 2.7
+  },
+  {
+    "food_code": "140028",
+    "food_name": "Chilli",
+    "food_name_original": "Chilli, green, fresh, raw Kariya, arenguade, ti're",
+    "food_name_amharic": "Kariya, arenguade, ti're",
+    "normalized_amharic": "kariya, arenguade, ti're",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "arenguade",
+      "chilli",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 49,
+    "protein_g": 2.8,
+    "fat_g": 0.3,
+    "carbs_g": 2.2,
+    "fiber_g": 12.9
+  },
+  {
+    "food_code": "140027",
+    "food_name": "Chilli",
+    "food_name_original": "Chilli, red, fresh, raw Kariya, keye, ti're",
+    "food_name_amharic": "Kariya, keye, ti're",
+    "normalized_amharic": "kariya, keye, ti're",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "chilli",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 62,
+    "protein_g": 3.1,
+    "fat_g": 0.4,
+    "carbs_g": 6.1,
+    "fiber_g": 10.6
+  },
+  {
+    "food_code": "140008",
+    "food_name": "Cinnamon",
+    "food_name_original": "Cinnamon, dried Kerefa, yedereke",
+    "food_name_amharic": "Kerefa, yedereke",
+    "normalized_amharic": "kerefa, yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "cinnamon",
+      "kerefa",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 247,
+    "protein_g": 2.7,
+    "fat_g": 1.2,
+    "carbs_g": 29.8,
+    "fiber_g": 53.1
+  },
+  {
+    "food_code": "140009",
+    "food_name": "Cloves",
+    "food_name_original": "Cloves, dried, raw Qurunfud, yedereke",
+    "food_name_amharic": "yedereke",
+    "normalized_amharic": "yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "cloves",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 334,
+    "protein_g": 6.3,
+    "fat_g": 13.3,
+    "carbs_g": 30.4,
+    "fiber_g": 33.9
+  },
+  {
+    "food_code": "140010",
+    "food_name": "Coriander",
+    "food_name_original": "Coriander, seed, dried, raw Ye'dinbilal fire, yedereke",
+    "food_name_amharic": "Ye'dinbilal fire, yedereke",
+    "normalized_amharic": "ye'dinbilal fire, yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "coriander",
+      "fire",
+      "spices & seasonings",
+      "ye'dinbilal"
+    ],
+    "energy_kcal": 333,
+    "protein_g": 11.9,
+    "fat_g": 18.8,
+    "carbs_g": 6.7,
+    "fiber_g": 44.8
+  },
+  {
+    "food_code": "140004",
+    "food_name": "False cardamom",
+    "food_name_original": "False cardamom, fresh, dried, raw Korerima, yedereke",
+    "food_name_amharic": "Korerima, yedereke",
+    "normalized_amharic": "korerima, yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "cardamom",
+      "false",
+      "korerima",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 274,
+    "protein_g": 6.4,
+    "fat_g": 0.8,
+    "carbs_g": 40.7,
+    "fiber_g": 39.1
+  },
+  {
+    "food_code": "140031",
+    "food_name": "Fenugreek",
+    "food_name_original": "Fenugreek, whole seed, roasted, flour Abish, yetekeola, duket",
+    "food_name_amharic": "yetekeola, duket",
+    "normalized_amharic": "yetekeola, duket",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "duket",
+      "fenugreek",
+      "spices & seasonings",
+      "yetekeola"
+    ],
+    "energy_kcal": 300,
+    "protein_g": 21.9,
+    "fat_g": 8.3,
+    "carbs_g": 10.9,
+    "fiber_g": 46.8
+  },
+  {
+    "food_code": "140014",
+    "food_name": "Garlic",
+    "food_name_original": "Garlic, with peel, dried Nech shinkurt, yedereke",
+    "food_name_amharic": "yedereke",
+    "normalized_amharic": "yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "garlic",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 216,
+    "protein_g": 15.8,
+    "fat_g": 0.3,
+    "carbs_g": 5.8,
+    "fiber_g": 63.5
+  },
+  {
+    "food_code": "140015",
+    "food_name": "Ginger",
+    "food_name_original": "Ginger, root, dried, ground Zinjibil, yetefech",
+    "food_name_amharic": "yetefech",
+    "normalized_amharic": "yetefech",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "ginger",
+      "spices & seasonings",
+      "yetefech"
+    ],
+    "energy_kcal": 328,
+    "protein_g": 6.9,
+    "fat_g": 4.2,
+    "carbs_g": 58.6,
+    "fiber_g": 14.1
+  },
+  {
+    "food_code": "140016",
+    "food_name": "Nutmeg",
+    "food_name_original": "Nutmeg, dried, ground Gewiz, yetefech",
+    "food_name_amharic": "Gewiz, yetefech",
+    "normalized_amharic": "gewiz, yetefech",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "gewiz",
+      "nut",
+      "nutmeg",
+      "spices & seasonings",
+      "yetefech"
+    ],
+    "energy_kcal": 506,
+    "protein_g": 5.8,
+    "fat_g": 36.3,
+    "carbs_g": 28.6,
+    "fiber_g": 20.8
+  },
+  {
+    "food_code": "140030",
+    "food_name": "Oregano",
+    "food_name_original": "Oregano, dried Koseret, yedereke",
+    "food_name_amharic": "Koseret, yedereke",
+    "normalized_amharic": "koseret, yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "koseret",
+      "oregano",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 265,
+    "protein_g": 9,
+    "fat_g": 4.3,
+    "carbs_g": 26.5,
+    "fiber_g": 42.5
+  },
+  {
+    "food_code": "140002",
+    "food_name": "Pepper",
+    "food_name_original": "Pepper, black, dried, raw Qundoberbere, yedereke",
+    "food_name_amharic": "yedereke",
+    "normalized_amharic": "yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "pepper",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 295,
+    "protein_g": 10.1,
+    "fat_g": 2.7,
+    "carbs_g": 40.9,
+    "fiber_g": 33.2
+  },
+  {
+    "food_code": "140046",
+    "food_name": "Pepper",
+    "food_name_original": "Pepper, long, dry  Timiz",
+    "food_name_amharic": "Timiz",
+    "normalized_amharic": "timiz",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "pepper",
+      "spices & seasonings",
+      "timiz"
+    ],
+    "energy_kcal": 274,
+    "protein_g": 10.5,
+    "fat_g": 2.3,
+    "carbs_g": 35.7,
+    "fiber_g": 34.1
+  },
+  {
+    "food_code": "140052",
+    "food_name": "Red chilli powder with salt and spices Mitmita",
+    "food_name_original": "Red chilli powder with salt and spices Mitmita",
+    "food_name_amharic": "with salt and spices Mitmita",
+    "normalized_amharic": "with salt and spices mitmita",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "chilli",
+      "mitmita",
+      "powder",
+      "spice",
+      "spices",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 277,
+    "protein_g": 10.4,
+    "fat_g": 11.2,
+    "carbs_g": 19.3,
+    "fiber_g": 29.1
+  },
+  {
+    "food_code": "140049",
+    "food_name": "Red pepper spice blend with water and oil Awaze",
+    "food_name_original": "Red pepper spice blend with water and oil Awaze",
+    "food_name_amharic": "with water and oil Awaze",
+    "normalized_amharic": "with water and oil awaze",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "awaze",
+      "blend",
+      "pea",
+      "pepper",
+      "spice",
+      "spices & seasonings",
+      "water"
+    ],
+    "energy_kcal": 315,
+    "protein_g": 2.7,
+    "fat_g": 28.2,
+    "carbs_g": 8.3,
+    "fiber_g": 7.7
+  },
+  {
+    "food_code": "140033",
+    "food_name": "Rosemary",
+    "food_name_original": "Rosemary, dried Rosemary, yedereke",
+    "food_name_amharic": "yedereke",
+    "normalized_amharic": "yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "honey",
+      "rosemary",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 328,
+    "protein_g": 4.9,
+    "fat_g": 15.2,
+    "carbs_g": 21.5,
+    "fiber_g": 42.6
+  },
+  {
+    "food_code": "140032",
+    "food_name": "Rosemary",
+    "food_name_original": "Rosemary, fresh, raw Rosemary",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "honey",
+      "rosemary",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 121,
+    "protein_g": 3.3,
+    "fat_g": 5.9,
+    "carbs_g": 6.6,
+    "fiber_g": 14.1
+  },
+  {
+    "food_code": "140022",
+    "food_name": "Rue",
+    "food_name_original": "Rue, seeds, dried, raw Ye'tenadam fire, yedereke",
+    "food_name_amharic": "Ye'tenadam fire, yedereke",
+    "normalized_amharic": "ye'tenadam fire, yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "fire",
+      "rue",
+      "spices & seasonings",
+      "ye'tenadam"
+    ],
+    "energy_kcal": 264,
+    "protein_g": 10.5,
+    "fat_g": 5.2,
+    "carbs_g": 22.4,
+    "fiber_g": 42.7
+  },
+  {
+    "food_code": "140029",
+    "food_name": "Rue",
+    "food_name_original": "Rue, seeds, fresh, raw Ten'adam, ertib",
+    "food_name_amharic": "Ten'adam, ertib",
+    "normalized_amharic": "ten'adam, ertib",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "ertib",
+      "rue",
+      "spices & seasonings",
+      "ten'adam"
+    ],
+    "energy_kcal": 44,
+    "protein_g": 1.8,
+    "fat_g": 0.9,
+    "carbs_g": 3.8,
+    "fiber_g": 7.2
+  },
+  {
+    "food_code": "140021",
+    "food_name": "Sacred basil",
+    "food_name_original": "Sacred basil, dried, raw Besobila, yedereke",
+    "food_name_amharic": "yedereke",
+    "normalized_amharic": "yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "basil",
+      "sacred",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 232,
+    "protein_g": 12.2,
+    "fat_g": 5.6,
+    "carbs_g": 8.9,
+    "fiber_g": 48.6
+  },
+  {
+    "food_code": "140020",
+    "food_name": "Sacred basil",
+    "food_name_original": "Sacred basil, fresh, raw Besobila, ertib",
+    "food_name_amharic": "Sacred basil, fresh, raw Besobila, ertib",
+    "normalized_amharic": "sacred basil, fresh, raw besobila, ertib",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "basil",
+      "besobila",
+      "ertib",
+      "sacred",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 83,
+    "protein_g": 4.9,
+    "fat_g": 1.9,
+    "carbs_g": 3,
+    "fiber_g": 17.3
+  },
+  {
+    "food_code": "140051",
+    "food_name": "Spice blend from red pepper with salt and spices Berbere",
+    "food_name_original": "Spice blend from red pepper with salt and spices Berbere",
+    "food_name_amharic": "with salt and spices Berbere",
+    "normalized_amharic": "with salt and spices berbere",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "beef",
+      "berbere",
+      "blend",
+      "pepper",
+      "spice",
+      "spices",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 278,
+    "protein_g": 8.5,
+    "fat_g": 10.7,
+    "carbs_g": 25.1,
+    "fiber_g": 24
+  },
+  {
+    "food_code": "140050",
+    "food_name": "Spices",
+    "food_name_original": "Spices, mixed  Mekelesha",
+    "food_name_amharic": null,
+    "normalized_amharic": "",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "spice",
+      "spices",
+      "spices & seasonings"
+    ],
+    "energy_kcal": 332,
+    "protein_g": 8,
+    "fat_g": 8.6,
+    "carbs_g": 42,
+    "fiber_g": 27.7
+  },
+  {
+    "food_code": "140024",
+    "food_name": "Tea",
+    "food_name_original": "Tea, leaves, dried Ye'shay kitel, yedereke",
+    "food_name_amharic": "Ye'shay kitel, yedereke",
+    "normalized_amharic": "ye'shay kitel, yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "kitel",
+      "spices & seasonings",
+      "tea",
+      "ye'shay"
+    ],
+    "energy_kcal": 271,
+    "protein_g": 25.6,
+    "fat_g": 1.2,
+    "carbs_g": 17.1,
+    "fiber_g": 44.7
+  },
+  {
+    "food_code": "140026",
+    "food_name": "Thyme",
+    "food_name_original": "Thyme, dried Tosign, yedereke",
+    "food_name_amharic": "Tosign, yedereke",
+    "normalized_amharic": "tosign, yedereke",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "spices & seasonings",
+      "thyme",
+      "tosign"
+    ],
+    "energy_kcal": 285,
+    "protein_g": 9.1,
+    "fat_g": 7.4,
+    "carbs_g": 26.9,
+    "fiber_g": 37
+  },
+  {
+    "food_code": "140023",
+    "food_name": "Turmeric",
+    "food_name_original": "Turmeric, dried, powder Erid, yetefech",
+    "food_name_amharic": "yetefech",
+    "normalized_amharic": "yetefech",
+    "category": "Spices & Seasonings",
+    "keywords": [
+      "spices & seasonings",
+      "turmeric",
+      "yetefech"
+    ],
+    "energy_kcal": 299,
+    "protein_g": 6.3,
+    "fat_g": 3.3,
+    "carbs_g": 50.4,
+    "fiber_g": 21.4
+  },
+  {
+    "food_code": "150001",
+    "food_name": "Baking powder",
+    "food_name_original": "Baking powder, dry Baking powder",
+    "food_name_amharic": "Baking powder, dry Baking",
+    "normalized_amharic": "baking powder, dry baking",
+    "category": "Condiments",
+    "keywords": [
+      "baking",
+      "condiments",
+      "dry",
+      "powder"
+    ],
+    "energy_kcal": 97,
+    "protein_g": 0.1,
+    "fat_g": 0,
+    "carbs_g": 24.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "150002",
+    "food_name": "Salt",
+    "food_name_original": "Salt, table Chew",
+    "food_name_amharic": "table Chew",
+    "normalized_amharic": "table chew",
+    "category": "Condiments",
+    "keywords": [
+      "chew",
+      "condiments",
+      "table"
+    ],
+    "energy_kcal": 0,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carbs_g": 0,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "150003",
+    "food_name": "Soybean sauce",
+    "food_name_original": "Soybean sauce Ye'akuriater dilih",
+    "food_name_amharic": "Ye'akuriater dilih",
+    "normalized_amharic": "ye'akuriater dilih",
+    "category": "Condiments",
+    "keywords": [
+      "bean",
+      "condiments",
+      "sauce",
+      "soybean",
+      "ye'akuriater"
+    ],
+    "energy_kcal": 69,
+    "protein_g": 7.7,
+    "fat_g": 0,
+    "carbs_g": 9.6,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "150004",
+    "food_name": "Yeast",
+    "food_name_original": "Yeast, dry powder Ye'ersho duket",
+    "food_name_amharic": "Ye'ersho duket",
+    "normalized_amharic": "ye'ersho duket",
+    "category": "Condiments",
+    "keywords": [
+      "condiments",
+      "duket",
+      "ye'ersho",
+      "yeast"
+    ],
+    "energy_kcal": 341,
+    "protein_g": 40.4,
+    "fat_g": 7.6,
+    "carbs_g": 14.3,
+    "fiber_g": 26.9
+  },
+  {
+    "food_code": "160001",
+    "food_name": "Broth",
+    "food_name_original": "Broth, beef, ready-to-eat Ye'bere siga shorba",
+    "food_name_amharic": "Ye'bere siga shorba",
+    "normalized_amharic": "ye'bere siga shorba",
+    "category": "Sauces & Soups",
+    "keywords": [
+      "broth",
+      "sauces & soups",
+      "shorba",
+      "siga",
+      "ye'bere"
+    ],
+    "energy_kcal": 6,
+    "protein_g": 1.1,
+    "fat_g": 0.2,
+    "carbs_g": 0.1,
+    "fiber_g": 0
+  },
+  {
+    "food_code": "160010",
+    "food_name": "Sauce from lentil",
+    "food_name_original": "Sauce from lentil, broad bean, spices and salt Elbet",
+    "food_name_amharic": "Sauce from lentil, broad bean, spices and salt Elbet",
+    "normalized_amharic": "sauce from lentil, broad bean, spices and salt elbet",
+    "category": "Sauces & Soups",
+    "keywords": [
+      "bean",
+      "broad",
+      "elbet",
+      "lentil",
+      "sauce",
+      "sauces & soups",
+      "spices"
+    ],
+    "energy_kcal": 91,
+    "protein_g": 7.6,
+    "fat_g": 0.7,
+    "carbs_g": 11.1,
+    "fiber_g": 4.7
+  },
+  {
+    "food_code": "160002",
+    "food_name": "Sauce from tomato",
+    "food_name_original": "Sauce from tomato, oil, onion, salt, pepper and spices Timatim silis",
+    "food_name_amharic": "Timatim silis",
+    "normalized_amharic": "timatim silis",
+    "category": "Sauces & Soups",
+    "keywords": [
+      "sauce",
+      "sauces & soups",
+      "silis",
+      "tomato"
+    ],
+    "energy_kcal": 119,
+    "protein_g": 1.4,
+    "fat_g": 10.1,
+    "carbs_g": 4.7,
+    "fiber_g": 2
+  },
+  {
+    "food_code": "160005",
+    "food_name": "Soup from fish onion",
+    "food_name_original": "Soup from fish onion, tomato, oil, spices and salt Ye'asa shorba",
+    "food_name_amharic": "Ye'asa shorba",
+    "normalized_amharic": "ye'asa shorba",
+    "category": "Sauces & Soups",
+    "keywords": [
+      "fish",
+      "onion",
+      "sauces & soups",
+      "shorba",
+      "soup",
+      "ye'asa"
+    ],
+    "energy_kcal": 83,
+    "protein_g": 9.4,
+    "fat_g": 4.2,
+    "carbs_g": 1.7,
+    "fiber_g": 0.6
+  },
+  {
+    "food_code": "170001",
+    "food_name": "Cottage cheese with boiled kale",
+    "food_name_original": "Cottage cheese with boiled kale, butter, salt and spices Ayib be'gomen",
+    "food_name_amharic": "with boiled kale, butter, salt and spices Ayib be'gomen",
+    "normalized_amharic": "with boiled kale, butter, salt and spices ayib be'gomen",
+    "category": "Prepared Dishes",
+    "keywords": [
+      "ayib",
+      "be'gomen",
+      "butter",
+      "cheese",
+      "cottage",
+      "kale",
+      "prepared dishes",
+      "spices"
+    ],
+    "energy_kcal": 121,
+    "protein_g": 5.4,
+    "fat_g": 1.1,
+    "carbs_g": 19.1,
+    "fiber_g": 6.4
+  },
+  {
+    "food_code": "170007",
+    "food_name": "Fosesse from white maize cooked with kale",
+    "food_name_original": "Fosesse from white maize cooked with kale, oil and salt Fosesse be'bekolo",
+    "food_name_amharic": "Fosesse be'bekolo",
+    "normalized_amharic": "fosesse be'bekolo",
+    "category": "Prepared Dishes",
+    "keywords": [
+      "be'bekolo",
+      "cooked",
+      "fosesse",
+      "kale",
+      "maize",
+      "prepared dishes"
+    ],
+    "energy_kcal": 181,
+    "protein_g": 7.5,
+    "fat_g": 9.3,
+    "carbs_g": 16.2,
+    "fiber_g": 1.4
+  },
+  {
+    "food_code": "170004",
+    "food_name": "Pasta (boiled)",
+    "food_name_original": "Pasta (boiled)",
+    "food_name_amharic": "furno",
+    "normalized_amharic": "furno",
+    "category": "Prepared Dishes",
+    "keywords": [
+      "furno",
+      "pasta",
+      "prepared dishes"
+    ],
+    "energy_kcal": 190,
+    "protein_g": 3.3,
+    "fat_g": 1.8,
+    "carbs_g": 37.8,
+    "fiber_g": 4.5
+  }
+]
