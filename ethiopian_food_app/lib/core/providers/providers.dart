@@ -1,8 +1,10 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:ethiopian_food_app/core/api/api_client.dart';
 import 'package:ethiopian_food_app/core/api/food_service.dart';
 import 'package:ethiopian_food_app/core/cache/search_cache.dart';
+import 'package:ethiopian_food_app/services/auth_service.dart';
 
 /// Shared Preferences provider
 final sharedPreferencesProvider = Provider<SharedPreferences>((ref) {
@@ -24,4 +26,17 @@ final foodServiceProvider = Provider<FoodService>((ref) {
 final searchCacheProvider = Provider<SearchCache>((ref) {
   final prefs = ref.watch(sharedPreferencesProvider);
   return SearchCache(prefs);
+});
+
+/// Auth service provider
+final authServiceProvider = Provider<AuthService>((ref) {
+  final apiClient = ref.watch(apiClientProvider);
+  final prefs = ref.watch(sharedPreferencesProvider);
+  return AuthService(apiClient: apiClient, sharedPreferences: prefs);
+});
+
+/// Theme mode provider
+final themeModeProvider = StateProvider<ThemeMode>((ref) {
+  final prefs = ref.watch(sharedPreferencesProvider);
+  return (prefs.getBool('isDarkMode') ?? false) ? ThemeMode.dark : ThemeMode.light;
 });

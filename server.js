@@ -7,6 +7,7 @@ const express = require('express');
 const helmet = require('helmet');
 const cors = require('cors');
 const config = require('./config');
+const { connectDatabase } = require('./config/db');
 const { loadAllData } = require('./utils/dataLoader');
 const { LRUCache } = require('./utils/cache');
 const { requestLogger, logPerformanceMetrics } = require('./middleware/logger');
@@ -22,6 +23,10 @@ const searchRoutes = require('./routes/search');
 const foodRoutes = require('./routes/food');
 const suggestRoutes = require('./routes/suggest');
 const categoryRoutes = require('./routes/category');
+const authRoutes = require('./routes/auth');
+const meRoutes = require('./routes/me');
+const profileRoutes = require('./routes/profile');
+const mealRoutes = require('./routes/meals');
 
 // Handle uncaught exceptions and unhandled rejections
 handleUncaughtException();
@@ -29,6 +34,11 @@ handleUnhandledRejection();
 
 // Initialize Express app
 const app = express();
+
+// Initialize MongoDB connection in the background without blocking the public API
+connectDatabase().catch((error) => {
+  console.error('Database init warning:', error.message);
+});
 
 // Trust proxy if configured (needed for rate limiting behind reverse proxy)
 if (config.security.trustProxy) {
@@ -116,6 +126,10 @@ app.use('/search', searchRoutes(dataContext));
 app.use('/food', foodRoutes(dataContext));
 app.use('/suggest', suggestRoutes(dataContext));
 app.use('/category', categoryRoutes(dataContext));
+app.use('/api/v1/auth', authRoutes);
+app.use('/api/v1/me', meRoutes);
+app.use('/api/v1/profile', profileRoutes);
+app.use('/api/v1/meals', mealRoutes);
 
 // Health check endpoint
 app.get('/health', (req, res) => {
@@ -197,48 +211,56 @@ app.use(errorHandler);
 // SERVER STARTUP
 // ======================
 
-const server = app.listen(config.server.port, () => {
-  console.log(`\n${'='.repeat(60)}`);
-  console.log('✨ Ethiopian Food Database API - READY');
-  console.log(`${'='.repeat(60)}`);
-  console.log(`🌐 Server: http://localhost:${config.server.port}`);
-  console.log(`📖 Docs: http://localhost:${config.server.port}/`);
-  console.log(`🏥 Health: http://localhost:${config.server.port}/health`);
-  console.log(`🔒 Environment: ${config.server.env.toUpperCase()}`);
-  console.log(`${'='.repeat(60)}\n`);
-});
+let server;
 
-// Log performance metrics every 5 minutes in production
-if (config.server.isProduction) {
-  setInterval(() => {
-    logPerformanceMetrics();
-    dataContext.searchCache.logStats();
-    dataContext.suggestCache.logStats();
-  }, 5 * 60 * 1000);
+if (require.main === module) {
+  server = app.listen(config.server.port, () => {
+    console.log(`\n${'='.repeat(60)}`);
+    console.log('✨ Ethiopian Food Database API - READY');
+    console.log(`${'='.repeat(60)}`);
+    console.log(`🌐 Server: http://localhost:${config.server.port}`);
+    console.log(`📖 Docs: http://localhost:${config.server.port}/`);
+    console.log(`🏥 Health: http://localhost:${config.server.port}/health`);
+    console.log(`🔒 Environment: ${config.server.env.toUpperCase()}`);
+    console.log(`${'='.repeat(60)}\n`);
+  });
+
+  // Log performance metrics every 5 minutes in production
+  if (config.server.isProduction) {
+    setInterval(() => {
+      logPerformanceMetrics();
+      dataContext.searchCache.logStats();
+      dataContext.suggestCache.logStats();
+    }, 5 * 60 * 1000);
+  }
 }
 
 // Graceful shutdown
 function gracefulShutdown(signal) {
   console.log(`\n📴 ${signal} received. Shutting down gracefully...`);
-  
-  server.close(() => {
-    console.log('✓ HTTP server closed');
-    
-    // Log final statistics
-    console.log('\n📊 Final Statistics:');
-    dataContext.searchCache.logStats();
-    dataContext.suggestCache.logStats();
-    logPerformanceMetrics();
-    
-    console.log('\n👋 Goodbye!\n');
-    process.exit(0);
-  });
 
-  // Force shutdown after 10 seconds
-  setTimeout(() => {
-    console.error('⚠️  Forced shutdown after timeout');
-    process.exit(1);
-  }, 10000);
+  if (server) {
+    server.close(() => {
+      console.log('✓ HTTP server closed');
+
+      // Log final statistics
+      console.log('\n📊 Final Statistics:');
+      dataContext.searchCache.logStats();
+      dataContext.suggestCache.logStats();
+      logPerformanceMetrics();
+
+      console.log('\n👋 Goodbye!\n');
+      process.exit(0);
+    });
+
+    // Force shutdown after 10 seconds
+    setTimeout(() => {
+      console.error('⚠️  Forced shutdown after timeout');
+      process.exit(1);
+    }, 10000);
+  } else {
+    process.exit(0);
+  }
 }
 
 process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));

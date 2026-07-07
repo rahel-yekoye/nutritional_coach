@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:ethiopian_food_app/features/dashboard/dashboard_screen.dart';
 import 'package:ethiopian_food_app/features/onboarding/onboarding_screen.dart';
+import 'package:ethiopian_food_app/features/auth/auth_screen.dart';
 import 'package:ethiopian_food_app/features/categories/categories_screen.dart';
 import 'package:ethiopian_food_app/features/categories/category_foods_screen.dart';
 import 'package:ethiopian_food_app/features/compare/compare_screen.dart';
@@ -9,13 +10,14 @@ import 'package:ethiopian_food_app/features/search/search_screen.dart';
 import 'package:ethiopian_food_app/features/tracking/tracking_screen.dart';
 import 'package:ethiopian_food_app/features/meal_planner/meal_planner_screen.dart';
 import 'package:ethiopian_food_app/features/dashboard/blood_group_details_screen.dart';
+import 'package:ethiopian_food_app/features/profile/profile_screen.dart';
 
 final appRouter = GoRouter(
   initialLocation: '/',
   routes: [
     GoRoute(
       path: '/',
-      builder: (context, state) => const DashboardScreen(),
+      builder: (context, state) => const AuthScreen(),
     ),
     GoRoute(
       path: '/blood-group-details',
@@ -64,7 +66,7 @@ final appRouter = GoRouter(
     ),
     GoRoute(
       path: '/profile',
-      builder: (context, state) => const OnboardingScreen(),
+      builder: (context, state) => const ProfileScreen(),
     ),
     GoRoute(
       path: '/tracking',

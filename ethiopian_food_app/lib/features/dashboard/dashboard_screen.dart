@@ -22,17 +22,17 @@ class DashboardScreen extends ConsumerWidget {
     final nutrientFocus = ref.watch(nutrientFocusProvider);
 
     return Scaffold(
-      backgroundColor: Colors.grey[50],
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
         elevation: 0,
-        title: const Text(
+        title: Text(
           'Nutrition Coach',
-          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black),
+          style: TextStyle(fontWeight: FontWeight.bold, color: Theme.of(context).textTheme.bodyLarge?.color ?? Colors.black),
         ),
         actions: [
           IconButton(
-            icon: const Icon(Icons.account_circle_outlined, color: Colors.black),
+            icon: Icon(Icons.account_circle_outlined, color: Theme.of(context).iconTheme.color),
             onPressed: () => context.push('/profile'),
           ),
         ],
@@ -130,7 +130,7 @@ class DashboardScreen extends ConsumerWidget {
             Text(
               'Create a profile to get personalized Ethiopian food recommendations and track your nutrition.',
               textAlign: TextAlign.center,
-              style: TextStyle(color: Colors.grey[600]),
+              style: TextStyle(color: Theme.of(context).textTheme.bodyMedium?.color ?? Colors.grey[600]),
             ),
             const SizedBox(height: 32),
             ElevatedButton(

@@ -14,6 +14,22 @@ module.exports = {
     isProduction: process.env.NODE_ENV === 'production',
   },
 
+  // Database Configuration
+  db: {
+    uri: process.env.MONGODB_URI || '',
+    options: {
+      serverSelectionTimeoutMS: parseInt(process.env.MONGODB_SERVER_SELECTION_TIMEOUT_MS, 10) || 5000,
+      maxPoolSize: parseInt(process.env.MONGODB_MAX_POOL_SIZE, 10) || 10,
+    },
+  },
+
+  // Authentication Configuration
+  auth: {
+    jwtSecret: process.env.JWT_SECRET || 'dev-secret-change-me',
+    jwtExpiresIn: process.env.JWT_EXPIRES_IN || '7d',
+    bcryptRounds: parseInt(process.env.BCRYPT_ROUNDS, 10) || 12,
+  },
+
   // Cache Configuration
   cache: {
     maxSize: parseInt(process.env.CACHE_MAX_SIZE, 10) || 1000,

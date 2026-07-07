@@ -23,6 +23,7 @@ class ApiClient {
   Future<Map<String, dynamic>> get(
     String endpoint, {
     Map<String, String>? queryParameters,
+    Map<String, String>? headers,
   }) async {
     try {
       final uri = Uri.parse('$baseUrl$endpoint').replace(
@@ -32,7 +33,37 @@ class ApiClient {
       final response = await _client
           .get(
             uri,
-            headers: {'Content-Type': 'application/json'},
+            headers: {
+              'Content-Type': 'application/json',
+              ...?headers,
+            },
+          )
+          .timeout(timeout);
+
+      return _handleResponse(response);
+    } on TimeoutException {
+      throw ApiException('Request timeout. Please check your connection.');
+    } on http.ClientException catch (e) {
+      throw ApiException('Network error: ${e.message}');
+    } catch (e) {
+      throw ApiException('Unexpected error: $e');
+    }
+  }
+
+  Future<Map<String, dynamic>> post(
+    String endpoint, {
+    required Map<String, dynamic> body,
+    Map<String, String>? headers,
+  }) async {
+    try {
+      final response = await _client
+          .post(
+            Uri.parse('$baseUrl$endpoint'),
+            headers: {
+              'Content-Type': 'application/json',
+              ...?headers,
+            },
+            body: jsonEncode(body),
           )
           .timeout(timeout);
 
