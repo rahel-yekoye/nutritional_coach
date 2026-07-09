@@ -4,29 +4,34 @@ import 'package:ethiopian_food_app/core/models/food_model.dart';
 import 'package:ethiopian_food_app/core/models/unified_nutrition_state.dart';
 import 'package:ethiopian_food_app/core/models/user_profile.dart';
 import 'package:ethiopian_food_app/services/nutrition_service.dart';
+import 'package:ethiopian_food_app/services/auth_service.dart';
 import 'package:ethiopian_food_app/core/providers/profile_provider.dart';
-
-final nutritionServiceProvider = Provider<NutritionService>((ref) {
-  return NutritionService();
-});
+import 'package:ethiopian_food_app/core/providers/providers.dart';
 
 final nutritionLogsProvider =
     StateNotifierProvider<NutritionLogsNotifier, AsyncValue<List<NutritionLog>>>(
         (ref) {
-  return NutritionLogsNotifier(ref.watch(nutritionServiceProvider));
+  return NutritionLogsNotifier(ref.watch(nutritionServiceProvider), ref.watch(authServiceProvider));
 });
 
 class NutritionLogsNotifier
     extends StateNotifier<AsyncValue<List<NutritionLog>>> {
   final NutritionService _service;
+  final AuthService _authService;
 
-  NutritionLogsNotifier(this._service) : super(const AsyncValue.loading()) {
+  NutritionLogsNotifier(this._service, this._authService) : super(const AsyncValue.loading()) {
     _init();
   }
 
   Future<void> _init() async {
     try {
-      await _service.init();
+      final user = _authService.currentUser;
+      if (user == null) {
+        state = const AsyncValue.data([]);
+        return;
+      }
+      
+      await _service.init(user.id);
       _loadTodayLogs();
     } catch (e, stack) {
       state = AsyncValue.error(e, stack);
@@ -47,6 +52,12 @@ class NutritionLogsNotifier
     required double servings,
   }) async {
     try {
+      final user = _authService.currentUser;
+      if (user == null) {
+        throw StateError('No authenticated user');
+      }
+      
+      await _service.init(user.id);
       await _service.logFood(food: food, servings: servings);
       _loadTodayLogs();
     } catch (e, stack) {
@@ -66,6 +77,15 @@ class NutritionLogsNotifier
   Future<void> clearTodayLogs() async {
     try {
       await _service.clearTodayLogs();
+      _loadTodayLogs();
+    } catch (e, stack) {
+      state = AsyncValue.error(e, stack);
+    }
+  }
+
+  Future<void> clearAllData() async {
+    try {
+      await _service.clearAllLogs();
       _loadTodayLogs();
     } catch (e, stack) {
       state = AsyncValue.error(e, stack);

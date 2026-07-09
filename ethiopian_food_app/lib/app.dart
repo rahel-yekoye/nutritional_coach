@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ethiopian_food_app/core/providers/providers.dart';
+import 'package:ethiopian_food_app/core/providers/auth_provider.dart';
 import 'package:ethiopian_food_app/core/router/app_router.dart';
 
 class EthiopianFoodApp extends ConsumerWidget {
@@ -9,9 +10,13 @@ class EthiopianFoodApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final themeMode = ref.watch(themeModeProvider);
+    final router = ref.watch(appRouterProvider);
+    
+    // Initialize authentication state on app start
+    ref.watch(authStateProvider);
 
     return MaterialApp.router(
-      title: 'Ethiopian Food Database',
+      title: 'Ethiopian Food Coach',
       debugShowCheckedModeBanner: false,
       themeMode: themeMode,
       theme: ThemeData(
@@ -59,7 +64,7 @@ class EthiopianFoodApp extends ConsumerWidget {
           foregroundColor: Colors.white,
         ),
       ),
-      routerConfig: appRouter,
+      routerConfig: router,
     );
   }
 }

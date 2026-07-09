@@ -1,67 +1,67 @@
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:ethiopian_food_app/core/models/nutrition_log.dart';
-import 'package:ethiopian_food_app/core/models/food_model.dart';
+import '../core/models/nutrition_log.dart';
+import '../core/models/food_model.dart';
+import '../core/hive_setup.dart';
 
 class NutritionService {
-  static const String _boxName = 'nutritionLogs';
+  static const String _boxPrefix = 'nutritionLogs';
 
   Box<NutritionLog>? _box;
+  String? _currentUserId;
 
-  Future<void> init() async {
-    if (!Hive.isBoxOpen(_boxName)) {
-      _box = await Hive.openBox<NutritionLog>(_boxName);
-    } else {
-      _box = Hive.box<NutritionLog>(_boxName);
+  Future<void> init(String userId) async {
+    if (_currentUserId == userId && _box != null && _box!.isOpen) {
+      return; // Already initialized for this user
     }
+    
+    // Close previous box if open
+    await close();
+    
+    _currentUserId = userId;
+    _box = await HiveSetup.openUserBox<NutritionLog>(_boxPrefix, userId);
   }
 
   Future<void> logFood({
     required FoodModel food,
     required double servings,
   }) async {
+    if (_box == null) {
+      throw StateError('NutritionService not initialized. Call init() first.');
+    }
+    
     final log = NutritionLog.fromFood(
       food: food,
       servings: servings,
       timestamp: DateTime.now(),
     );
-    await _box?.put(log.id, log);
+    await _box!.put(log.id, log);
   }
 
   List<NutritionLog> getTodayLogs() {
+    if (_box == null) return [];
+    
     final today = DateTime.now();
     final startOfDay = DateTime(today.year, today.month, today.day);
     final endOfDay = startOfDay.add(const Duration(days: 1));
 
-    try {
-      return _box?.values
-              .whereType<NutritionLog>()
-              .where((log) =>
-                  log.timestamp.isAfter(startOfDay) &&
-                  log.timestamp.isBefore(endOfDay))
-              .toList() ??
-          [];
-    } catch (e) {
-      print('Error reading logs from Hive: $e');
-      return [];
-    }
+    return _box!.values
+        .where((log) =>
+            log.timestamp.isAfter(startOfDay) &&
+            log.timestamp.isBefore(endOfDay))
+        .toList();
   }
 
   List<NutritionLog> getLogsForDate(DateTime date) {
+    if (_box == null) return [];
+    
     final startOfDay = DateTime(date.year, date.month, date.day);
     final endOfDay = startOfDay.add(const Duration(days: 1));
 
-    try {
-      return _box?.values
-              .whereType<NutritionLog>()
-              .where((log) =>
-                  log.timestamp.isAfter(startOfDay) &&
-                  log.timestamp.isBefore(endOfDay))
-              .toList() ??
-          [];
-    } catch (e) {
-      print('Error reading logs for date: $e');
-      return [];
-    }
+    return _box!.values
+        .where((log) =>
+            log.timestamp.isAfter(startOfDay) &&
+            log.timestamp.isBefore(endOfDay))
+        .toList();
   }
 
   DailyNutritionSummary getTodaySummary() {
@@ -75,10 +75,12 @@ class NutritionService {
   }
 
   Future<void> deleteLog(String id) async {
-    await _box?.delete(id);
+    if (_box == null) return;
+    await _box!.delete(id);
   }
 
   Future<void> clearTodayLogs() async {
+    if (_box == null) return;
     final logs = getTodayLogs();
     for (final log in logs) {
       await deleteLog(log.id);
@@ -86,11 +88,13 @@ class NutritionService {
   }
 
   Future<void> clearAllLogs() async {
-    await _box?.clear();
+    if (_box == null) return;
+    await _box!.clear();
   }
 
   Stream<BoxEvent> watchLogs() {
-    return _box?.watch() ?? const Stream.empty();
+    if (_box == null) return const Stream.empty();
+    return _box!.watch();
   }
 
   Map<String, int> getTopCategories({int limit = 5}) {
@@ -105,5 +109,13 @@ class NutritionService {
       ..sort((a, b) => b.value.compareTo(a.value));
 
     return Map.fromEntries(sorted.take(limit));
+  }
+
+  Future<void> close() async {
+    if (_box != null && _box!.isOpen) {
+      await _box!.close();
+      _box = null;
+      _currentUserId = null;
+    }
   }
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:ethiopian_food_app/core/models/user_profile.dart';
+import 'package:ethiopian_food_app/core/providers/auth_provider.dart';
 import 'package:ethiopian_food_app/core/providers/profile_provider.dart';
 import 'package:ethiopian_food_app/core/providers/providers.dart';
 import 'package:ethiopian_food_app/services/auth_service.dart';
@@ -23,7 +24,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
     super.initState();
     final authService = ref.read(authServiceProvider);
     _nameController = TextEditingController(text: authService.currentUser?.fullName ?? '');
-    _avatarController = TextEditingController(text: authService.avatar);
+    _avatarController = TextEditingController(text: '🙂'); // Default avatar
   }
 
   @override
@@ -34,11 +35,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
   }
 
   Future<void> _saveProfileChanges(AuthService authService, UserProfile? profile) async {
-    await authService.updateCurrentUserProfile(
-      fullName: _nameController.text.trim(),
-      avatar: _avatarController.text.trim().isEmpty ? null : _avatarController.text.trim(),
-    );
-
+    // For now, we just update the local profile since the backend doesn't have these methods yet
     if (profile != null) {
       final updated = profile.copyWith(updatedAt: DateTime.now());
       await ref.read(profileProvider.notifier).updateProfile(updated);
@@ -70,7 +67,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
           IconButton(
             tooltip: 'Sign out',
             onPressed: () async {
-              await authService.logout();
+              await ref.read(authStateProvider.notifier).logout();
               if (context.mounted) {
                 context.go('/');
               }
@@ -117,7 +114,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                 CircleAvatar(
                   radius: 30,
                   backgroundColor: Theme.of(context).primaryColor.withOpacity(0.15),
-                  child: Text(authService.avatar, style: const TextStyle(fontSize: 24)),
+                  child: Text(_avatarController.text.isNotEmpty ? _avatarController.text : '🙂', style: const TextStyle(fontSize: 24)),
                 ),
                 const SizedBox(width: 14),
                 Expanded(
@@ -288,7 +285,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
             contentPadding: EdgeInsets.zero,
             leading: const Icon(Icons.verified_user_outlined),
             title: const Text('Profile status'),
-            subtitle: Text(authService.currentUser?.profileCompleted == true ? 'Completed' : 'In progress'),
+            subtitle: Text(authService.currentUser?.hasCompletedSetup == true ? 'Completed' : 'In progress'),
           ),
         ]),
       ),

@@ -2,7 +2,7 @@ import 'package:ethiopian_food_app/core/api/api_client.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:ethiopian_food_app/core/providers/providers.dart';
+import 'package:ethiopian_food_app/core/providers/auth_provider.dart';
 import 'package:ethiopian_food_app/features/auth/widgets/auth_shell.dart';
 
 class AuthScreen extends ConsumerStatefulWidget {
@@ -24,24 +24,54 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
     if (!(_formKey.currentState?.validate() ?? false)) return;
 
     setState(() => _isSubmitting = true);
-    final authService = ref.read(authServiceProvider);
 
     try {
       if (_isLogin) {
-        await authService.login(_emailController.text.trim(), _passwordController.text);
+        await ref.read(authStateProvider.notifier).login(
+          _emailController.text.trim(),
+          _passwordController.text,
+        );
       } else {
-        await authService.register(
+        await ref.read(authStateProvider.notifier).register(
           _fullNameController.text.trim(),
           _emailController.text.trim(),
           _passwordController.text,
         );
       }
+      
+      // Navigate based on auth state
       if (!mounted) return;
-      context.go('/dashboard');
+      
+      final authState = ref.read(authStateProvider);
+      authState.whenOrNull(
+        data: (user) {
+          if (user != null) {
+            if (user.needsSetup) {
+              print('User needs setup, navigating to onboarding');
+              context.go('/onboarding');
+            } else {
+              print('User setup complete, navigating to dashboard');
+              context.go('/dashboard');
+            }
+          }
+        },
+      );
+      
     } on ApiException catch (error) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(error.message)),
+        SnackBar(
+          content: Text(error.message),
+          backgroundColor: Colors.red,
+        ),
+      );
+    } catch (error) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('${_isLogin ? 'Login' : 'Registration'} failed: $error'),
+          backgroundColor: Colors.red,
+        ),
       );
     } finally {
       if (mounted) setState(() => _isSubmitting = false);
@@ -79,7 +109,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
                     ? 'Please enter your name'
                     : null,
               ),
-            const SizedBox(height: 16),
+            if (!_isLogin) const SizedBox(height: 16),
             TextFormField(
               controller: _emailController,
               keyboardType: TextInputType.emailAddress,
@@ -116,21 +146,19 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
                       height: 16,
                       child: CircularProgressIndicator(strokeWidth: 2),
                     )
-                  : const Icon(Icons.login_rounded),
+                  : Icon(_isLogin ? Icons.login_rounded : Icons.person_add_rounded),
               label: Text(_isLogin ? 'Sign in' : 'Create account'),
             ),
             const SizedBox(height: 12),
             TextButton(
-              onPressed: () => setState(() => _isLogin = !_isLogin),
+              onPressed: _isSubmitting ? null : () => setState(() => _isLogin = !_isLogin),
               child: Text(_isLogin ? 'Need an account? Sign up' : 'Already have an account? Sign in'),
             ),
           ],
         ),
       ),
-      footer: TextButton(
-        onPressed: () => context.go('/dashboard'),
-        child: const Text('Continue without signing in'),
-      ),
+      // Remove the "Continue without signing in" option for production app
+      footer: null,
     );
   }
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:ethiopian_food_app/core/models/user_profile.dart';
+import 'package:ethiopian_food_app/core/providers/auth_provider.dart';
 import 'package:ethiopian_food_app/core/providers/profile_provider.dart';
 
 class OnboardingScreen extends ConsumerStatefulWidget {
@@ -24,9 +25,10 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
   NutritionGoal _goal = NutritionGoal.maintain;
   BloodGroup _bloodGroup = BloodGroup.oPositive;
   bool _fastingMode = false;
+  bool _isSubmitting = false;
 
   void _nextPage() {
-    if (_currentPage < 4) {
+    if (_currentPage < 4) { // Changed from 3 to 4 for 5 pages total
       _pageController.nextPage(
         duration: const Duration(milliseconds: 300),
         curve: Curves.easeInOut,
@@ -43,8 +45,24 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
     );
   }
 
-  void _completeOnboarding() {
-    if (_formKey.currentState?.validate() ?? false) {
+  void _completeOnboarding() async {
+    if (!(_formKey.currentState?.validate() ?? false)) return;
+
+    setState(() => _isSubmitting = true);
+
+    try {
+      // Complete setup using the API
+      await ref.read(authStateProvider.notifier).completeSetup(
+        age: _age,
+        sex: _gender.name,
+        height: _height,
+        weight: _weight,
+        activityLevel: _activityLevel.name.replaceAll('_', '-'),
+        goal: _goal.name.replaceAll('_', '-'),
+        fastingMode: _fastingMode,
+      );
+      
+      // Also create the local profile for the dashboard
       final profile = UserProfile(
         age: _age,
         gender: _gender,
@@ -52,14 +70,29 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
         weight: _weight,
         activityLevel: _activityLevel,
         goal: _goal,
-        bloodGroup: _bloodGroup,
+        bloodGroup: _bloodGroup, // Use selected blood group
         fastingMode: _fastingMode,
         createdAt: DateTime.now(),
         updatedAt: DateTime.now(),
       );
-
-      ref.read(profileProvider.notifier).saveProfile(profile);
+      
+      await ref.read(profileProvider.notifier).saveProfile(profile);
+      
+      // Navigate to dashboard after successful setup
+      if (!mounted) return;
+      
+      print('Setup completed, navigating to dashboard');
       context.go('/dashboard');
+      
+    } catch (error) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('Setup failed: $error'),
+          backgroundColor: Colors.red,
+        ),
+      );
+      setState(() => _isSubmitting = false);
     }
   }
 
@@ -73,7 +106,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: LinearProgressIndicator(
-                value: (_currentPage + 1) / 5,
+                value: (_currentPage + 1) / 5, // Changed from 4 to 5
                 backgroundColor: Colors.grey[200],
                 valueColor: AlwaysStoppedAnimation<Color>(
                   Theme.of(context).primaryColor,
@@ -97,7 +130,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                     _buildBasicInfoPage(),
                     _buildBodyMetricsPage(),
                     _buildActivityGoalPage(),
-                    _buildBloodGroupPage(),
+                    _buildBloodGroupPage(), // New page
                     _buildFastingPage(),
                   ],
                 ),
@@ -112,20 +145,26 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                 children: [
                   if (_currentPage > 0)
                     TextButton(
-                      onPressed: _previousPage,
+                      onPressed: _isSubmitting ? null : _previousPage,
                       child: const Text('Back'),
                     )
                   else
                     const SizedBox(width: 80),
                   ElevatedButton(
-                    onPressed: _nextPage,
+                    onPressed: _isSubmitting ? null : _nextPage,
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.symmetric(
                         horizontal: 40,
                         vertical: 16,
                       ),
                     ),
-                    child: Text(_currentPage < 4 ? 'Next' : 'Get Started'),
+                    child: _isSubmitting
+                        ? const SizedBox(
+                            width: 20,
+                            height: 20,
+                            child: CircularProgressIndicator(strokeWidth: 2),
+                          )
+                        : Text(_currentPage < 4 ? 'Next' : 'Complete Setup'),
                   ),
                 ],
               ),
@@ -327,77 +366,69 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
           const Icon(Icons.bloodtype, size: 64, color: Colors.red),
           const SizedBox(height: 24),
           Text(
-            'What is your blood group?',
+            'Blood Group',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                   fontWeight: FontWeight.bold,
                 ),
           ),
           const SizedBox(height: 8),
           Text(
-            'This allows us to provide preference-based dietary suggestions',
+            'This helps us recommend foods that work best with your blood type',
             style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                   color: Colors.grey[600],
                 ),
           ),
           const SizedBox(height: 32),
+
+          // Blood Group Selection
+          Text('Select your blood group', style: Theme.of(context).textTheme.titleMedium),
+          const SizedBox(height: 16),
+          
           Wrap(
             spacing: 12,
             runSpacing: 12,
-            children: BloodGroup.values.map((group) {
-              final isSelected = _bloodGroup == group;
-              return InkWell(
+            children: BloodGroup.values.map((bloodGroup) {
+              final isSelected = _bloodGroup == bloodGroup;
+              return GestureDetector(
                 onTap: () {
                   setState(() {
-                    _bloodGroup = group;
+                    _bloodGroup = bloodGroup;
                   });
                 },
                 child: Container(
-                  width: (MediaQuery.of(context).size.width - 72) / 2,
-                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  width: 80,
+                  height: 80,
                   decoration: BoxDecoration(
-                    color: isSelected
-                        ? Colors.red.withOpacity(0.1)
-                        : Colors.grey[100],
+                    color: isSelected ? Theme.of(context).primaryColor : Colors.grey[100],
                     borderRadius: BorderRadius.circular(12),
                     border: Border.all(
-                      color: isSelected ? Colors.red : Colors.transparent,
+                      color: isSelected ? Theme.of(context).primaryColor : Colors.grey[300]!,
                       width: 2,
                     ),
                   ),
-                  child: Center(
-                    child: Text(
-                      group.displayName,
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight:
-                            isSelected ? FontWeight.bold : FontWeight.normal,
-                        color: isSelected ? Colors.red : Colors.black87,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        bloodGroup.displayName,
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          color: isSelected ? Colors.white : Colors.black87,
+                        ),
                       ),
-                    ),
+                      Text(
+                        bloodGroup.type,
+                        style: TextStyle(
+                          fontSize: 12,
+                          color: isSelected ? Colors.white70 : Colors.grey[600],
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               );
             }).toList(),
-          ),
-          const SizedBox(height: 24),
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: Colors.blue[50],
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Row(
-              children: [
-                Icon(Icons.info_outline, color: Colors.blue[700]),
-                const SizedBox(width: 12),
-                const Expanded(
-                  child: Text(
-                    'Preference-Based Recommendation: These suggestions are based on nutritional trends and are not medically proven requirements.',
-                    style: TextStyle(fontSize: 12),
-                  ),
-                ),
-              ],
-            ),
           ),
         ],
       ),

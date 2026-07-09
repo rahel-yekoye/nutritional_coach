@@ -1,34 +1,38 @@
-import 'package:flutter/foundation.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:ethiopian_food_app/core/models/user_profile.dart';
+import '../core/models/user_profile.dart';
+import '../core/hive_setup.dart';
 
 class ProfileService {
-  static const String _boxName = 'userProfile';
+  static const String _boxPrefix = 'userProfile';
   static const String _profileKey = 'currentProfile';
 
   Box<UserProfile>? _box;
+  String? _currentUserId;
 
-  Future<void> init() async {
-    if (!Hive.isBoxOpen(_boxName)) {
-      _box = await Hive.openBox<UserProfile>(_boxName);
-    } else {
-      _box = Hive.box<UserProfile>(_boxName);
+  Future<void> init(String userId) async {
+    if (_currentUserId == userId && _box != null && _box!.isOpen) {
+      return; // Already initialized for this user
     }
+    
+    // Close previous box if open
+    await close();
+    
+    _currentUserId = userId;
+    _box = await HiveSetup.openUserBox<UserProfile>(_boxPrefix, userId);
   }
 
   Future<void> saveProfile(UserProfile profile) async {
-    await _box?.put(_profileKey, profile);
+    if (_box == null) {
+      throw StateError('ProfileService not initialized. Call init() first.');
+    }
+    await _box!.put(_profileKey, profile);
   }
 
   UserProfile? getProfile() {
-    try {
-      final data = _box?.get(_profileKey);
-      if (data == null) return null;
-      return data;
-    } catch (e) {
-      debugPrint('Error reading profile from Hive: $e');
-      return null;
+    if (_box == null) {
+      throw StateError('ProfileService not initialized. Call init() first.');
     }
+    return _box!.get(_profileKey);
   }
 
   Future<void> updateProfile(UserProfile profile) async {
@@ -37,14 +41,30 @@ class ProfileService {
   }
 
   bool hasProfile() {
-    return _box?.containsKey(_profileKey) ?? false;
+    if (_box == null) return false;
+    return _box!.containsKey(_profileKey);
   }
 
   Future<void> deleteProfile() async {
-    await _box?.delete(_profileKey);
+    if (_box == null) return;
+    await _box!.delete(_profileKey);
+  }
+
+  Future<void> clearAllData() async {
+    if (_box == null) return;
+    await _box!.clear();
   }
 
   Stream<BoxEvent> watchProfile() {
-    return _box?.watch(key: _profileKey) ?? const Stream.empty();
+    if (_box == null) return const Stream.empty();
+    return _box!.watch(key: _profileKey);
+  }
+
+  Future<void> close() async {
+    if (_box != null && _box!.isOpen) {
+      await _box!.close();
+      _box = null;
+      _currentUserId = null;
+    }
   }
 }

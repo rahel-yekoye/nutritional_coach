@@ -6,6 +6,7 @@ const activityLevelValues = ['sedentary', 'light', 'moderate', 'active', 'very-a
 const goalValues = ['lose-weight', 'maintain', 'gain-weight', 'build-muscle', 'improve-health'];
 
 const userSchema = new mongoose.Schema({
+  // Basic Auth Info
   fullName: {
     type: String,
     trim: true,
@@ -26,6 +27,18 @@ const userSchema = new mongoose.Schema({
     required: [true, 'password is required'],
     minlength: [8, 'password must be at least 8 characters'],
   },
+
+  // Setup Completion Tracking
+  hasCompletedSetup: {
+    type: Boolean,
+    default: false,
+    index: true, // Index for quick queries
+  },
+  setupCompletedAt: {
+    type: Date,
+  },
+
+  // Profile Data (only set during setup)
   age: {
     type: Number,
     min: [1, 'age must be at least 1'],
@@ -53,35 +66,23 @@ const userSchema = new mongoose.Schema({
     type: String,
     enum: goalValues,
   },
+  fastingMode: {
+    type: Boolean,
+    default: false,
+  },
+  
+  // Optional Profile Data
   bloodType: {
     type: String,
     enum: bloodTypeValues,
-  },
-  dailyCalories: {
-    type: Number,
-    min: [0, 'dailyCalories must be non-negative'],
-  },
-  dailyProtein: {
-    type: Number,
-    min: [0, 'dailyProtein must be non-negative'],
-  },
-  dailyFat: {
-    type: Number,
-    min: [0, 'dailyFat must be non-negative'],
-  },
-  dailyCarbs: {
-    type: Number,
-    min: [0, 'dailyCarbs must be non-negative'],
   },
   profilePicture: {
     type: String,
     trim: true,
   },
+
+  // System Fields
   emailVerified: {
-    type: Boolean,
-    default: false,
-  },
-  profileCompleted: {
     type: Boolean,
     default: false,
   },
@@ -92,10 +93,13 @@ const userSchema = new mongoose.Schema({
     type: String,
     trim: true,
   },
-  device: {
-    type: String,
-    trim: true,
-  },
+  deviceInfo: [{
+    deviceId: String,
+    platform: String, // 'ios', 'android', 'web'
+    lastUsed: Date,
+  }],
+
+  // User Preferences (stored server-side)
   settings: {
     theme: {
       type: String,
@@ -120,7 +124,42 @@ const userSchema = new mongoose.Schema({
   timestamps: true,
 });
 
-userSchema.index({ fullName: 'text', email: 'text' });
-userSchema.index({ profileCompleted: 1, bloodType: 1 });
+// Indexes for performance
+userSchema.index({ email: 1 });
+userSchema.index({ hasCompletedSetup: 1 });
+userSchema.index({ lastLogin: -1 });
+
+// Instance method to check if setup is required
+userSchema.methods.needsSetup = function() {
+  return !this.hasCompletedSetup;
+};
+
+// Instance method to mark setup as complete
+userSchema.methods.completeSetup = function() {
+  this.hasCompletedSetup = true;
+  this.setupCompletedAt = new Date();
+  return this.save();
+};
+
+// Instance method to get public profile (safe to send to frontend)
+userSchema.methods.getPublicProfile = function() {
+  return {
+    id: this._id,
+    fullName: this.fullName,
+    email: this.email,
+    hasCompletedSetup: this.hasCompletedSetup,
+    age: this.age,
+    sex: this.sex,
+    height: this.height,
+    weight: this.weight,
+    activityLevel: this.activityLevel,
+    goal: this.goal,
+    fastingMode: this.fastingMode,
+    profilePicture: this.profilePicture,
+    settings: this.settings,
+    createdAt: this.createdAt,
+    updatedAt: this.updatedAt,
+  };
+};
 
 module.exports = mongoose.model('User', userSchema);

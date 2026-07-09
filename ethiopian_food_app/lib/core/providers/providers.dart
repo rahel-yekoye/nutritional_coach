@@ -5,6 +5,8 @@ import 'package:ethiopian_food_app/core/api/api_client.dart';
 import 'package:ethiopian_food_app/core/api/food_service.dart';
 import 'package:ethiopian_food_app/core/cache/search_cache.dart';
 import 'package:ethiopian_food_app/services/auth_service.dart';
+import 'package:ethiopian_food_app/services/profile_service.dart';
+import 'package:ethiopian_food_app/services/nutrition_service.dart';
 
 /// Shared Preferences provider
 final sharedPreferencesProvider = Provider<SharedPreferences>((ref) {
@@ -33,6 +35,15 @@ final authServiceProvider = Provider<AuthService>((ref) {
   final apiClient = ref.watch(apiClientProvider);
   final prefs = ref.watch(sharedPreferencesProvider);
   return AuthService(apiClient: apiClient, sharedPreferences: prefs);
+});
+
+/// Shared user-scoped storage services (single instance app-wide)
+final profileServiceProvider = Provider<ProfileService>((ref) {
+  return ProfileService();
+});
+
+final nutritionServiceProvider = Provider<NutritionService>((ref) {
+  return NutritionService();
 });
 
 /// Theme mode provider

@@ -12,11 +12,10 @@ class HiveSetup {
 
     // Register adapters
     _registerAdapters();
-
-    // Open and validate boxes
-    await _openAndValidateBox<UserProfile>('userProfile');
-    await _openAndValidateBox<NutritionLog>('nutritionLogs');
-    await _openAndValidateBox<MealPlan>('mealPlans');
+    
+    // NOTE: We no longer open global boxes here
+    // User-specific boxes are opened in their respective services
+    debugPrint('✅ Hive initialized with user-scoped storage');
   }
 
   static void _registerAdapters() {
@@ -24,7 +23,7 @@ class HiveSetup {
     _safeRegister(GenderAdapter());
     _safeRegister(ActivityLevelAdapter());
     _safeRegister(NutritionGoalAdapter());
-    _safeRegister(BloodGroupAdapter());
+    _safeRegister(BloodGroupAdapter()); // Add this line
     _safeRegister(NutritionLogAdapter());
     _safeRegister(FoodModelAdapter());
     _safeRegister(NutritionModelAdapter());
@@ -39,40 +38,107 @@ class HiveSetup {
     }
   }
 
-  static Future<void> _openAndValidateBox<T>(String boxName) async {
+  /// Opens a user-specific box safely
+  static Future<Box<T>> openUserBox<T>(String boxPrefix, String userId) async {
+    final boxName = '${boxPrefix}_$userId';
+    
     try {
       if (Hive.isBoxOpen(boxName)) {
-        Hive.box<T>(boxName);
-      } else {
-        final box = await Hive.openBox(boxName);
-        for (final value in box.values) {
-          if (value is! T) {
-            throw HiveError(
-              'Type mismatch in $boxName: expected $T but found ${value.runtimeType}',
-            );
-          }
-        }
-
-        await box.close();
-        await Hive.openBox<T>(boxName);
+        return Hive.box<T>(boxName);
       }
+      
+      return await Hive.openBox<T>(boxName);
     } catch (e) {
-      debugPrint('Hive Error opening $boxName: $e. Recreating box...');
+      debugPrint('⚠️ Error opening user box $boxName: $e. Recreating...');
+      
+      // Close and delete corrupted box
       if (Hive.isBoxOpen(boxName)) {
         await Hive.box(boxName).close();
       }
       await Hive.deleteBoxFromDisk(boxName);
-      await Hive.openBox<T>(boxName);
+      
+      // Create fresh box
+      return await Hive.openBox<T>(boxName);
     }
   }
 
-  static Future<void> clearAllData() async {
-    if (Hive.isBoxOpen('userProfile')) await Hive.box('userProfile').close();
-    if (Hive.isBoxOpen('nutritionLogs')) await Hive.box('nutritionLogs').close();
-    if (Hive.isBoxOpen('mealPlans')) await Hive.box('mealPlans').close();
+  /// Clears all data for a specific user
+  static Future<void> clearUserData(String userId) async {
+    final userBoxNames = [
+      'userProfile_$userId',
+      'nutritionLogs_$userId',
+      'mealPlans_$userId',
+    ];
 
-    await Hive.deleteBoxFromDisk('userProfile');
-    await Hive.deleteBoxFromDisk('nutritionLogs');
-    await Hive.deleteBoxFromDisk('mealPlans');
+    for (final boxName in userBoxNames) {
+      try {
+        if (Hive.isBoxOpen(boxName)) {
+          final box = Hive.box(boxName);
+          await box.clear();
+          await box.close();
+        }
+        await Hive.deleteBoxFromDisk(boxName);
+        debugPrint('🗑️ Cleared user data box: $boxName');
+      } catch (e) {
+        debugPrint('⚠️ Error clearing box $boxName: $e');
+      }
+    }
+  }
+
+  /// Emergency function to clear ALL data (use only for debugging)
+  static Future<void> clearAllData() async {
+    try {
+      // Get all box names that are currently open
+      final openBoxes = <String>[];
+      
+      // First, collect names of open boxes
+      try {
+        // This is a workaround since getOpenBoxNames() doesn't exist in this Hive version
+        if (Hive.isBoxOpen('userProfile')) openBoxes.add('userProfile');
+        if (Hive.isBoxOpen('nutritionLogs')) openBoxes.add('nutritionLogs');
+        if (Hive.isBoxOpen('mealPlans')) openBoxes.add('mealPlans');
+        
+        // Add user-specific box patterns that might exist
+        for (int i = 0; i < 1000; i++) {
+          final userId = 'user$i';
+          final profileBox = 'userProfile_$userId';
+          final nutritionBox = 'nutritionLogs_$userId';
+          final mealBox = 'mealPlans_$userId';
+          
+          if (Hive.isBoxOpen(profileBox)) openBoxes.add(profileBox);
+          if (Hive.isBoxOpen(nutritionBox)) openBoxes.add(nutritionBox);
+          if (Hive.isBoxOpen(mealBox)) openBoxes.add(mealBox);
+        }
+      } catch (e) {
+        debugPrint('Warning: Could not enumerate all boxes: $e');
+      }
+      
+      // Close all open boxes first
+      for (final boxName in openBoxes) {
+        try {
+          if (Hive.isBoxOpen(boxName)) {
+            await Hive.box(boxName).close();
+          }
+        } catch (e) {
+          debugPrint('Warning: Could not close box $boxName: $e');
+        }
+      }
+      
+      // Delete all box files
+      await Hive.deleteFromDisk();
+      
+      debugPrint('🧹 Cleared ALL Hive data');
+    } catch (e) {
+      debugPrint('❌ Error clearing all data: $e');
+    }
+  }
+
+  /// Gets all box names for a specific user
+  static List<String> getUserBoxNames(String userId) {
+    return [
+      'userProfile_$userId',
+      'nutritionLogs_$userId',
+      'mealPlans_$userId',
+    ];
   }
 }

@@ -13,7 +13,7 @@ class ApiException implements Exception {
 }
 
 class ApiClient {
-  static const String baseUrl = 'http://localhost:3000'; // Change to your deployed API
+  static const String baseUrl = 'http://localhost:3000'; // Local development API
   static const Duration timeout = Duration(seconds: 10);
 
   final http.Client _client;

@@ -24,15 +24,20 @@ async function protect(req, res, next) {
     const user = await User.findById(decoded.id).select('-password');
 
     if (!user) {
+      console.log(`[AUTH] Protected route access denied - user not found for ID: ${decoded.id}`);
       return res.status(401).json({
         success: false,
         message: 'User not found',
       });
     }
 
+    // DEBUG: Log which user is accessing protected routes
+    console.log(`[AUTH] Protected route accessed by user ID: ${user._id}, email: ${user.email}`);
+
     req.user = user;
     next();
   } catch (error) {
+    console.error(`[AUTH] Token verification error:`, error);
     return res.status(401).json({
       success: false,
       message: 'Invalid or expired token',

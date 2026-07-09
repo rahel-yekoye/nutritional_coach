@@ -2,10 +2,15 @@ const MealLog = require('../models/MealLog');
 
 async function createMealLog(req, res, next) {
   try {
+    // DEBUG: Log meal creation for specific user
+    console.log(`[MEAL] Creating meal log for user ID: ${req.user._id}`);
+    
     const meal = await MealLog.create({
       userId: req.user._id,
       ...req.body,
     });
+
+    console.log(`[MEAL] Meal log created with ID: ${meal._id} for user: ${req.user._id}`);
 
     res.status(201).json({
       success: true,
@@ -15,6 +20,7 @@ async function createMealLog(req, res, next) {
       },
     });
   } catch (error) {
+    console.error(`[MEAL] Error creating meal log for user ${req.user._id}:`, error);
     next(error);
   }
 }
@@ -24,10 +30,15 @@ async function listMealLogs(req, res, next) {
     const limit = Math.min(parseInt(req.query.limit, 10) || 20, 100);
     const skip = parseInt(req.query.skip, 10) || 0;
 
+    // DEBUG: Log meal retrieval for specific user
+    console.log(`[MEAL] Fetching meal logs for user ID: ${req.user._id}`);
+
     const meals = await MealLog.find({ userId: req.user._id })
       .sort({ consumedAt: -1 })
       .skip(skip)
       .limit(limit);
+
+    console.log(`[MEAL] Found ${meals.length} meal logs for user: ${req.user._id}`);
 
     res.json({
       success: true,
@@ -37,6 +48,7 @@ async function listMealLogs(req, res, next) {
       },
     });
   } catch (error) {
+    console.error(`[MEAL] Error fetching meal logs for user ${req.user._id}:`, error);
     next(error);
   }
 }
