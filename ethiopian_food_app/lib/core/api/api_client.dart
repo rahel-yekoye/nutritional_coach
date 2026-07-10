@@ -13,7 +13,7 @@ class ApiException implements Exception {
 }
 
 class ApiClient {
-  static const String baseUrl = 'https://nutritional-coach.onrender.com'; // Local development API
+  static const String baseUrl = 'https://nutritional-coach.onrender.com';
   static const Duration timeout = Duration(seconds: 10);
 
   final http.Client _client;
@@ -42,9 +42,11 @@ class ApiClient {
 
       return _handleResponse(response);
     } on TimeoutException {
-      throw ApiException('Request timeout. Please check your connection.');
+      throw ApiException('Request timed out.');
     } on http.ClientException catch (e) {
       throw ApiException('Network error: ${e.message}');
+    } on ApiException {
+      rethrow;
     } catch (e) {
       throw ApiException('Unexpected error: $e');
     }
@@ -69,9 +71,11 @@ class ApiClient {
 
       return _handleResponse(response);
     } on TimeoutException {
-      throw ApiException('Request timeout. Please check your connection.');
+      throw ApiException('Request timed out.');
     } on http.ClientException catch (e) {
       throw ApiException('Network error: ${e.message}');
+    } on ApiException {
+      rethrow;
     } catch (e) {
       throw ApiException('Unexpected error: $e');
     }
@@ -84,20 +88,26 @@ class ApiClient {
       } catch (e) {
         throw ApiException('Invalid response format');
       }
-    } else if (response.statusCode == 404) {
+    }
+
+    if (response.statusCode == 404) {
       throw ApiException('Resource not found', 404);
-    } else if (response.statusCode == 429) {
+    }
+    if (response.statusCode == 429) {
       throw ApiException('Too many requests. Please try again later.', 429);
-    } else if (response.statusCode >= 500) {
+    }
+    if (response.statusCode >= 500) {
       throw ApiException('Server error. Please try again later.', response.statusCode);
-    } else {
-      try {
-        final errorData = json.decode(response.body) as Map<String, dynamic>;
-        final message = errorData['message'] ?? errorData['error'] ?? 'Request failed';
-        throw ApiException(message, response.statusCode);
-      } catch (e) {
-        throw ApiException('Request failed', response.statusCode);
-      }
+    }
+
+    try {
+      final errorData = json.decode(response.body) as Map<String, dynamic>;
+      final message = errorData['message'] ?? errorData['error'] ?? 'Request failed';
+      throw ApiException(message.toString(), response.statusCode);
+    } on ApiException {
+      rethrow;
+    } catch (e) {
+      throw ApiException('Request failed', response.statusCode);
     }
   }
 

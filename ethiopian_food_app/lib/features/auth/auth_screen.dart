@@ -1,9 +1,10 @@
-import 'package:ethiopian_food_app/core/api/api_client.dart';
+import 'package:ethiopian_food_app/core/auth/auth_error_messages.dart';
+import 'package:ethiopian_food_app/core/providers/auth_provider.dart';
+import 'package:ethiopian_food_app/features/auth/widgets/auth_message_banner.dart';
+import 'package:ethiopian_food_app/features/auth/widgets/auth_shell.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:ethiopian_food_app/core/providers/auth_provider.dart';
-import 'package:ethiopian_food_app/features/auth/widgets/auth_shell.dart';
 
 class AuthScreen extends ConsumerStatefulWidget {
   const AuthScreen({super.key});
@@ -16,6 +17,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
   final _formKey = GlobalKey<FormState>();
   bool _isLogin = true;
   bool _isSubmitting = false;
+  String? _errorMessage;
   final _fullNameController = TextEditingController();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
@@ -23,7 +25,10 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
   Future<void> _submit() async {
     if (!(_formKey.currentState?.validate() ?? false)) return;
 
-    setState(() => _isSubmitting = true);
+    setState(() {
+      _isSubmitting = true;
+      _errorMessage = null;
+    });
 
     try {
       if (_isLogin) {
@@ -38,44 +43,40 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
           _passwordController.text,
         );
       }
-      
-      // Navigate based on auth state
+
       if (!mounted) return;
-      
+
       final authState = ref.read(authStateProvider);
       authState.whenOrNull(
         data: (user) {
           if (user != null) {
             if (user.needsSetup) {
-              print('User needs setup, navigating to onboarding');
               context.go('/onboarding');
             } else {
-              print('User setup complete, navigating to dashboard');
               context.go('/dashboard');
             }
           }
         },
       );
-      
-    } on ApiException catch (error) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(error.message),
-          backgroundColor: Colors.red,
-        ),
-      );
     } catch (error) {
       if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('${_isLogin ? 'Login' : 'Registration'} failed: $error'),
-          backgroundColor: Colors.red,
-        ),
-      );
+      setState(() {
+        _errorMessage = mapAuthErrorMessage(error, isLogin: _isLogin);
+      });
     } finally {
       if (mounted) setState(() => _isSubmitting = false);
     }
+  }
+
+  void _toggleAuthMode() {
+    setState(() {
+      _isLogin = !_isLogin;
+      _errorMessage = null;
+    });
+  }
+
+  bool _isValidEmail(String value) {
+    return RegExp(r'^[^\s@]+@[^\s@]+\.[^\s@]+$').hasMatch(value);
   }
 
   @override
@@ -93,6 +94,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
       subtitle: _isLogin
           ? 'Sign in to continue tracking your nutrition.'
           : 'Join the app to save meals and get personalized guidance.',
+      footer: null,
       child: Form(
         key: _formKey,
         child: Column(
@@ -106,7 +108,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
                   prefixIcon: Icon(Icons.person_outline),
                 ),
                 validator: (value) => (value == null || value.trim().isEmpty)
-                    ? 'Please enter your name'
+                    ? 'Please enter your full name.'
                     : null,
               ),
             if (!_isLogin) const SizedBox(height: 16),
@@ -118,8 +120,12 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
                 prefixIcon: Icon(Icons.email_outlined),
               ),
               validator: (value) {
-                if (value == null || value.trim().isEmpty) return 'Enter your email';
-                if (!value.contains('@')) return 'Enter a valid email';
+                if (value == null || value.trim().isEmpty) {
+                  return 'Please enter your email address.';
+                }
+                if (!_isValidEmail(value.trim())) {
+                  return 'Please enter a valid email address.';
+                }
                 return null;
               },
             ),
@@ -132,33 +138,42 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
                 prefixIcon: Icon(Icons.lock_outline),
               ),
               validator: (value) {
-                if (value == null || value.isEmpty) return 'Enter your password';
-                if (!_isLogin && value.length < 8) return 'Password must be at least 8 characters';
+                if (value == null || value.isEmpty) {
+                  return 'Please enter your password.';
+                }
+                if (!_isLogin && value.length < 8) {
+                  return kPasswordRequirementsMessage;
+                }
                 return null;
               },
             ),
+            if (_errorMessage != null) ...[
+              const SizedBox(height: 16),
+              AuthMessageBanner(message: _errorMessage!),
+            ],
             const SizedBox(height: 24),
             FilledButton.icon(
               onPressed: _isSubmitting ? null : _submit,
               icon: _isSubmitting
-                  ? const SizedBox(
+                  ? SizedBox(
                       width: 16,
                       height: 16,
-                      child: CircularProgressIndicator(strokeWidth: 2),
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        color: Theme.of(context).colorScheme.onPrimary,
+                      ),
                     )
                   : Icon(_isLogin ? Icons.login_rounded : Icons.person_add_rounded),
               label: Text(_isLogin ? 'Sign in' : 'Create account'),
             ),
             const SizedBox(height: 12),
             TextButton(
-              onPressed: _isSubmitting ? null : () => setState(() => _isLogin = !_isLogin),
+              onPressed: _isSubmitting ? null : _toggleAuthMode,
               child: Text(_isLogin ? 'Need an account? Sign up' : 'Already have an account? Sign in'),
             ),
           ],
         ),
       ),
-      // Remove the "Continue without signing in" option for production app
-      footer: null,
     );
   }
 }

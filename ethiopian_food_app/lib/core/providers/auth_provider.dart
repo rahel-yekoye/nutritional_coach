@@ -1,5 +1,4 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../services/auth_service.dart';
 import '../../services/profile_service.dart';
@@ -168,6 +167,7 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthUser?>> {
       _refreshUserScopedProviders();
     } catch (e, stack) {
       state = AsyncValue.error(e, stack);
+      rethrow;
     }
   }
 
@@ -180,6 +180,7 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthUser?>> {
       _refreshUserScopedProviders();
     } catch (e, stack) {
       state = AsyncValue.error(e, stack);
+      rethrow;
     }
   }
 
