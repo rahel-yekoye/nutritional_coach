@@ -320,7 +320,7 @@ npm start
 node test-api.js
 
 # Check health
-curl http://localhost:3000/health
+curl https://nutritional-coach.onrender.com/health
 ```
 
 ### Deploy to Render

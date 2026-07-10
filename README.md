@@ -27,7 +27,7 @@ cp .env.example .env
 npm start
 ```
 
-The API will start on `http://localhost:3000`
+The API will start on `https://nutritional-coach.onrender.com`
 
 ### Development Mode
 
@@ -56,7 +56,7 @@ Search for foods by name, keywords, or category with intelligent ranking.
 
 **Example:**
 ```bash
-curl "http://localhost:3000/search?q=barley&limit=10"
+curl "https://nutritional-coach.onrender.com/search?q=barley&limit=10"
 ```
 
 **Response:**
@@ -101,7 +101,7 @@ Get complete nutritional information for a specific food.
 
 **Example:**
 ```bash
-curl "http://localhost:3000/food/010007"
+curl "https://nutritional-coach.onrender.com/food/010007"
 ```
 
 ### 💡 Autocomplete Suggestions
@@ -113,7 +113,7 @@ Get autocomplete suggestions for food names and keywords.
 
 **Example:**
 ```bash
-curl "http://localhost:3000/suggest?q=wh"
+curl "https://nutritional-coach.onrender.com/suggest?q=wh"
 ```
 
 **Response:**
@@ -144,7 +144,7 @@ Check API status, cache statistics, and memory usage.
 
 **Example:**
 ```bash
-curl "http://localhost:3000/health"
+curl "https://nutritional-coach.onrender.com/health"
 ```
 
 ## Configuration

@@ -121,7 +121,7 @@ lib/
    ```dart
    static const String baseUrl = 'http://10.0.2.2:3000'; // Android emulator
    // OR
-   static const String baseUrl = 'http://localhost:3000'; // iOS simulator
+   static const String baseUrl = 'https://nutritional-coach.onrender.com'; // iOS simulator
    ```
 
 4. **Run the app**
@@ -142,7 +142,7 @@ The app connects to the Ethiopian Food Database API. You need to:
 2. **Update API URL** based on your setup:
    - **Local Development**:
      - Android Emulator: `http://10.0.2.2:3000`
-     - iOS Simulator: `http://localhost:3000`
+     - iOS Simulator: `https://nutritional-coach.onrender.com`
      - Physical Device: `http://your-computer-ip:3000`
    
    - **Production**:
@@ -378,7 +378,7 @@ This project is part of the Ethiopian Food Composition Table initiative.
 ## Support
 
 For issues or questions:
-- Check API is running: `http://localhost:3000/health`
+- Check API is running: `https://nutritional-coach.onrender.com/health`
 - Review API logs
 - Check network connectivity
 - Verify API URL configuration

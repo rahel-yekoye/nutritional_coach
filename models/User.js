@@ -155,6 +155,7 @@ userSchema.methods.getPublicProfile = function() {
     activityLevel: this.activityLevel,
     goal: this.goal,
     fastingMode: this.fastingMode,
+    bloodType: this.bloodType,
     profilePicture: this.profilePicture,
     settings: this.settings,
     createdAt: this.createdAt,

@@ -14,35 +14,35 @@ npm install
 npm start
 ```
 
-That's it! Your API is now running at `http://localhost:3000`
+That's it! Your API is now running at `https://nutritional-coach.onrender.com`
 
 ## 🧪 Test It
 
 ### Health Check
 ```bash
-curl http://localhost:3000/health
+curl https://nutritional-coach.onrender.com/health
 ```
 
 ### Search for Food
 ```bash
-curl "http://localhost:3000/search?q=barley"
+curl "https://nutritional-coach.onrender.com/search?q=barley"
 ```
 
 ### Get Food Details
 ```bash
-curl "http://localhost:3000/food/010007"
+curl "https://nutritional-coach.onrender.com/food/010007"
 ```
 
 ### Autocomplete
 ```bash
-curl "http://localhost:3000/suggest?q=wh"
+curl "https://nutritional-coach.onrender.com/suggest?q=wh"
 ```
 
 ## 📱 Use in Your App
 
 ### JavaScript
 ```javascript
-const response = await fetch('http://localhost:3000/search?q=barley');
+const response = await fetch('https://nutritional-coach.onrender.com/search?q=barley');
 const data = await response.json();
 console.log(data.results);
 ```
@@ -50,7 +50,7 @@ console.log(data.results);
 ### Python
 ```python
 import requests
-response = requests.get('http://localhost:3000/search?q=barley')
+response = requests.get('https://nutritional-coach.onrender.com/search?q=barley')
 data = response.json()
 print(data['results'])
 ```

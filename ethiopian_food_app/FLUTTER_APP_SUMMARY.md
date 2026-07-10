@@ -191,7 +191,7 @@ flutter_lints: ^5.0.0           # Linting ✅
 
 ### ✅ Base URL Configuration
 ```dart
-static const String baseUrl = 'http://localhost:3000';
+static const String baseUrl = 'https://nutritional-coach.onrender.com';
 // Configurable for:
 // - Android emulator: 10.0.2.2
 // - iOS simulator: localhost

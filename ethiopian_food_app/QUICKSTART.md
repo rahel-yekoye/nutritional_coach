@@ -18,7 +18,7 @@ cd ../
 npm start
 ```
 
-Verify API is running at `http://localhost:3000/health`
+Verify API is running at `https://nutritional-coach.onrender.com/health`
 
 ## Step 2: Install Dependencies
 
@@ -105,4 +105,4 @@ flutter run
 
 ---
 
-Need help? Check the API health endpoint: `http://localhost:3000/health`
+Need help? Check the API health endpoint: `https://nutritional-coach.onrender.com/health`

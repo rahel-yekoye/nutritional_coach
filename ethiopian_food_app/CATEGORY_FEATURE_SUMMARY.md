@@ -212,10 +212,10 @@ GoRoute(
 
 ```bash
 # Test category endpoint
-curl "http://localhost:3000/category/Fruits"
+curl "https://nutritional-coach.onrender.com/category/Fruits"
 
 # Test with spaces (URL encoded)
-curl "http://localhost:3000/category/Cereals%20%26%20Grains"
+curl "https://nutritional-coach.onrender.com/category/Cereals%20%26%20Grains"
 ```
 
 ---

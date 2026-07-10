@@ -3,7 +3,7 @@
 ## Base URL
 ```
 Production: https://your-domain.com
-Development: http://localhost:3000
+Development: https://nutritional-coach.onrender.com
 ```
 
 ## Authentication
