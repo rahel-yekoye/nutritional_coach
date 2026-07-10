@@ -60,6 +60,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
         activityLevel: _activityLevel.name.replaceAll('_', '-'),
         goal: _goal.name.replaceAll('_', '-'),
         fastingMode: _fastingMode,
+        bloodType: _bloodGroup.displayName,
       );
       
       // Also create the local profile for the dashboard

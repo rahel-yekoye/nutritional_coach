@@ -16,6 +16,8 @@ class AuthUser {
   final String? activityLevel;
   final String? goal;
   final bool? fastingMode;
+  final String? bloodType;
+  final String? profilePicture;
   final Map<String, dynamic>? settings;
   final DateTime? createdAt;
   final DateTime? updatedAt;
@@ -32,12 +34,16 @@ class AuthUser {
     this.activityLevel,
     this.goal,
     this.fastingMode,
+    this.bloodType,
+    this.profilePicture,
     this.settings,
     this.createdAt,
     this.updatedAt,
   });
 
   factory AuthUser.fromJson(Map<String, dynamic> json) {
+    final bloodType = json['bloodType']?.toString();
+    debugPrint('[bloodType] AuthUser.fromJson: $bloodType');
     return AuthUser(
       id: json['id']?.toString() ?? '',
       fullName: json['fullName']?.toString() ?? '',
@@ -50,6 +56,8 @@ class AuthUser {
       activityLevel: json['activityLevel']?.toString(),
       goal: json['goal']?.toString(),
       fastingMode: json['fastingMode'] == true,
+      bloodType: bloodType,
+      profilePicture: json['profilePicture']?.toString(),
       settings: json['settings'] as Map<String, dynamic>?,
       createdAt: json['createdAt'] != null 
           ? DateTime.parse(json['createdAt'])
@@ -130,6 +138,7 @@ class AuthService {
     required String activityLevel,
     required String goal,
     bool fastingMode = false,
+    String? bloodType,
   }) async {
     final token = currentToken;
     if (token == null) {
@@ -137,6 +146,8 @@ class AuthService {
     }
 
     debugPrint('🔧 Completing user setup');
+
+    debugPrint('[bloodType] completeSetup sending: $bloodType');
 
     final response = await apiClient.post(
       '/api/v1/auth/complete-setup',
@@ -149,6 +160,7 @@ class AuthService {
         'activityLevel': activityLevel,
         'goal': goal,
         'fastingMode': fastingMode,
+        if (bloodType != null) 'bloodType': bloodType,
       },
     );
 
@@ -174,6 +186,7 @@ class AuthService {
       // Update local cache
       await sharedPreferences.setString(_userKey, jsonEncode(userMap));
       
+      debugPrint('[bloodType] fetchCurrentUser: ${user.bloodType}');
       debugPrint('✅ User data fetched: Setup=${user.hasCompletedSetup}');
       return user;
       
@@ -229,6 +242,7 @@ class AuthService {
     // Store auth data
     _storeAuthData(token, userMap);
 
+    debugPrint('[bloodType] $operation response: ${user.bloodType}');
     debugPrint('✅ $operation successful: ${user.email} (Setup: ${user.hasCompletedSetup})');
 
     return AuthSession(user: user, token: token, needsSetup: needsSetup);

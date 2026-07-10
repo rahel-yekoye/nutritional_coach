@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ethiopian_food_app/core/models/user_profile.dart';
 import 'package:ethiopian_food_app/core/models/nutrition_targets.dart';
@@ -28,6 +29,7 @@ class ProfileNotifier extends StateNotifier<AsyncValue<UserProfile?>> {
       
       await _service.init(user.id);
       final profile = _service.getProfile();
+      debugPrint('[bloodType] profileProvider Hive load: ${profile?.bloodGroup.displayName}');
       state = AsyncValue.data(profile);
     } catch (e, stack) {
       state = AsyncValue.error(e, stack);

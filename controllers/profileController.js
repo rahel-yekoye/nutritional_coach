@@ -38,6 +38,7 @@ async function updateProfile(req, res, next) {
       'activityLevel',
       'goal',
       'fastingMode',
+      'bloodType',
       'profilePicture',
       'settings',
     ];

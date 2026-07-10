@@ -132,6 +132,7 @@ async function completeSetup(req, res, next) {
       activityLevel,
       goal,
       fastingMode = false,
+      bloodType,
     } = req.body;
 
     console.log(`[AUTH] Setup completion for user: ${userId}`);
@@ -155,6 +156,7 @@ async function completeSetup(req, res, next) {
         activityLevel,
         goal,
         fastingMode,
+        ...(bloodType !== undefined && { bloodType }),
         hasCompletedSetup: true,
         setupCompletedAt: new Date(),
       },

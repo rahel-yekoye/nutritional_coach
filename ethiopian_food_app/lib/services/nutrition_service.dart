@@ -21,7 +21,7 @@ class NutritionService {
     _box = await HiveSetup.openUserBox<NutritionLog>(_boxPrefix, userId);
   }
 
-  Future<void> logFood({
+  Future<NutritionLog> logFood({
     required FoodModel food,
     required double servings,
   }) async {
@@ -35,6 +35,17 @@ class NutritionService {
       timestamp: DateTime.now(),
     );
     await _box!.put(log.id, log);
+    return log;
+  }
+
+  Future<void> importServerLogs(List<NutritionLog> logs) async {
+    if (_box == null) {
+      throw StateError('NutritionService not initialized. Call init() first.');
+    }
+
+    for (final log in logs) {
+      await _box!.put(log.id, log);
+    }
   }
 
   List<NutritionLog> getTodayLogs() {

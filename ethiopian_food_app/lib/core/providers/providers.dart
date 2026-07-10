@@ -7,6 +7,7 @@ import 'package:ethiopian_food_app/core/cache/search_cache.dart';
 import 'package:ethiopian_food_app/services/auth_service.dart';
 import 'package:ethiopian_food_app/services/profile_service.dart';
 import 'package:ethiopian_food_app/services/nutrition_service.dart';
+import 'package:ethiopian_food_app/services/meal_service.dart';
 
 /// Shared Preferences provider
 final sharedPreferencesProvider = Provider<SharedPreferences>((ref) {
@@ -44,6 +45,13 @@ final profileServiceProvider = Provider<ProfileService>((ref) {
 
 final nutritionServiceProvider = Provider<NutritionService>((ref) {
   return NutritionService();
+});
+
+final mealServiceProvider = Provider<MealService>((ref) {
+  return MealService(
+    apiClient: ref.watch(apiClientProvider),
+    authService: ref.watch(authServiceProvider),
+  );
 });
 
 /// Theme mode provider

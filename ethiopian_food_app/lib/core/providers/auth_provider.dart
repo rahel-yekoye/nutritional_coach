@@ -1,3 +1,5 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../services/auth_service.dart';
 import '../../services/profile_service.dart';
@@ -60,6 +62,7 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthUser?>> {
 
   Future<void> _createLocalProfileFromUser(AuthUser user) async {
     try {
+      debugPrint('[bloodType] _createLocalProfileFromUser input: ${user.bloodType}');
       if (!_profileService.hasProfile()) {
         final profile = UserProfile(
           age: user.age ?? 25,
@@ -68,17 +71,42 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthUser?>> {
           weight: user.weight ?? 70,
           activityLevel: _parseActivityLevel(user.activityLevel ?? 'moderate'),
           goal: _parseGoal(user.goal ?? 'maintain'),
-          bloodGroup: BloodGroup.oPositive,
+          bloodGroup: _parseBloodGroup(user.bloodType),
           fastingMode: user.fastingMode ?? false,
           createdAt: user.createdAt ?? DateTime.now(),
           updatedAt: user.updatedAt ?? DateTime.now(),
         );
 
         await _profileService.saveProfile(profile);
-        print('✅ Created local profile from backend data');
+        debugPrint('[bloodType] Hive save: ${profile.bloodGroup.displayName}');
       }
     } catch (e) {
       print('❌ Error creating local profile: $e');
+    }
+  }
+
+  BloodGroup _parseBloodGroup(String? bloodType) {
+    if (bloodType == null) return BloodGroup.oPositive; // Keep existing default
+    
+    switch (bloodType.toUpperCase()) {
+      case 'A+':
+        return BloodGroup.aPositive;
+      case 'A-':
+        return BloodGroup.aNegative;
+      case 'B+':
+        return BloodGroup.bPositive;
+      case 'B-':
+        return BloodGroup.bNegative;
+      case 'AB+':
+        return BloodGroup.abPositive;
+      case 'AB-':
+        return BloodGroup.abNegative;
+      case 'O+':
+        return BloodGroup.oPositive;
+      case 'O-':
+        return BloodGroup.oNegative;
+      default:
+        return BloodGroup.oPositive; // Default fallback
     }
   }
 
@@ -191,6 +219,7 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthUser?>> {
     required String activityLevel,
     required String goal,
     bool fastingMode = false,
+    String? bloodType,
   }) async {
     try {
       state = const AsyncValue.loading();
@@ -202,6 +231,7 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthUser?>> {
         activityLevel: activityLevel,
         goal: goal,
         fastingMode: fastingMode,
+        bloodType: bloodType,
       );
       await _initUserServices(session.user.id);
       state = AsyncValue.data(session.user);
